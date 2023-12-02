@@ -14,6 +14,8 @@
 		#include "map_files\Pahrump-Sunset\Warren.dmm"
 		#include "map_files\Pahrump-Sunset\Warren-Upper.dmm"
 		#include "map_files\Pahrump-Sunset\Mountain-Range.dmm"
+
+		#include "map_files\Zion-Road\Zion-Road-New.dmm"
 		#ifdef TRAVISBUILDING
 			#include "templates.dm"
 		#endif
