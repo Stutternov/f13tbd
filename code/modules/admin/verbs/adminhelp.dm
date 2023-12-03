@@ -222,7 +222,7 @@ GLOBAL_DATUM_INIT(ahelp_tickets, /datum/admin_help_tickets, new)
 /datum/admin_help/proc/AddInteraction(formatted_message)
 	if(heard_by_no_admins && usr && usr.ckey != initiator_ckey)
 		heard_by_no_admins = FALSE
-		send2irc(initiator_ckey, "Ticket #[id]: Answered by [key_name(usr)]")
+		SSdiscord.send_to_admin_channel("Ticket #[id]: Answered by [key_name(usr)]")
 	_interactions += "[TIME_STAMP("hh:mm:ss", FALSE)]: [formatted_message]"
 
 //Removes the ahelp verb and returns it after 2 minutes
@@ -510,10 +510,15 @@ GLOBAL_DATUM_INIT(ahelp_tickets, /datum/admin_help_tickets, new)
 
 // Used for methods where input via arg doesn't work
 /client/proc/get_adminhelp()
-	message_admins("X-----A user is making an ahelp shortly, hold onto your butts.-----X")
+
+	if(src == null)
+		to_chat(usr, "<span class='danger'>You have returned a null or invalid CKey.</span>")
+		return
+
+	message_admins("X----- [src.ckey] is making an ahelp shortly.-----X")
 	for(var/client/X in GLOB.admins)
 		if(X.prefs.toggles & SOUND_ADMINHELP)
-			SEND_SOUND(X, sound('sound/effects/adminhelp.ogg'))
+			SEND_SOUND(X, sound('sound/effects/adminnotification.ogg'))
 	var/msg = input(src, "Please describe your problem concisely and an admin will help as soon as they're able.", "Adminhelp contents") as text
 	adminhelp(msg)
 
@@ -605,9 +610,8 @@ GLOBAL_DATUM_INIT(ahelp_tickets, /datum/admin_help_tickets, new)
 			final = "[msg] - No admins online"
 		else
 			final = "[msg] - All admins stealthed\[[english_list(stealthmins)]\], AFK\[[english_list(afkmins)]\], or lacks +BAN\[[english_list(powerlessmins)]\]! Total: [allmins.len] "
-		send2irc(source,final)
+		SSdiscord.send_to_admin_channel("[source] | [final]")
 		send2otherserver(source,final)
-
 
 /proc/send2tgs_adminless_only(source, msg, requiredflags = R_BAN)
 	var/list/adm = get_admin_counts(requiredflags)
@@ -626,11 +630,6 @@ GLOBAL_DATUM_INIT(ahelp_tickets, /datum/admin_help_tickets, new)
 		send2adminchat(source,final)
 		send2otherserver(source,final)
 
-/proc/send2irc(msg,msg2)
-	msg = replacetext(replacetext(msg, "\proper", ""), "\improper", "")
-	msg2 = replacetext(replacetext(msg2, "\proper", ""), "\improper", "")
-	world.TgsTargetedChatBroadcast("[msg] | [msg2]", TRUE)
-
 /proc/send2otherserver(source,msg,type = "Ahelp")
 	var/comms_key = CONFIG_GET(string/comms_key)
 	if(!comms_key)
@@ -645,7 +644,6 @@ GLOBAL_DATUM_INIT(ahelp_tickets, /datum/admin_help_tickets, new)
 	var/list/servers = CONFIG_GET(keyed_list/cross_server)
 	for(var/I in servers)
 		world.Export("[servers[I]]?[list2params(message)]")
-
 
 /proc/ircadminwho()
 	var/list/message = list("Admins: ")
@@ -752,7 +750,7 @@ GLOBAL_DATUM_INIT(ahelp_tickets, /datum/admin_help_tickets, new)
 	message_admins(msg)
 	log_admin_private(msg)
 	AddInteraction("Approved by [key_name].")
-	Close(silent = FALSE)
+	Resolve(silent = FALSE)
 
 //Quick negative to yes or no questions
 /datum/admin_help/proc/Denied(key_name = key_name_admin(usr))
@@ -773,4 +771,4 @@ GLOBAL_DATUM_INIT(ahelp_tickets, /datum/admin_help_tickets, new)
 	message_admins(msg)
 	log_admin_private(msg)
 	AddInteraction("Denied by [key_name].")
-	Close(silent = FALSE)
+	Resolve(silent = FALSE)

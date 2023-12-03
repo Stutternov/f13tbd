@@ -348,6 +348,14 @@
 	key_third_person = "sniffs"
 	message = "sniffs."
 	emote_type = EMOTE_AUDIBLE
+	sound_volume = 30
+
+/datum/emote/living/sniff/get_sound(mob/living/user)
+	if(iscarbon(user))
+		if(user.gender == MALE)
+			return 'sound/emotes/male_sniff.ogg'
+		return 'sound/emotes/female_sniff.ogg'
+	return
 
 /datum/emote/living/snore
 	key = "snore"
@@ -355,6 +363,8 @@
 	message = "snores."
 	emote_type = EMOTE_AUDIBLE
 	stat_allowed = UNCONSCIOUS
+	sound_volume = 30
+	sound = 'sound/emotes/snore.ogg'
 
 /datum/emote/living/stare
 	key = "stare"
@@ -391,6 +401,9 @@
 		var/mob/living/L = user
 		L.Knockdown(200)
 		L.Paralyze(200)
+
+		var/mutable_appearance/overlay = mutable_appearance('icons/mob/talk.dmi', "surrender", ABOVE_MOB_LAYER)
+		user.flick_overlay_static(overlay, 200)
 
 /datum/emote/living/sway
 	key = "sway"
@@ -431,6 +444,8 @@
 	key_third_person = "yawns"
 	message = "yawns."
 	emote_type = EMOTE_AUDIBLE
+	sound = list("sound/emotes/yawn_m1.ogg",
+				"sound/emotes/yawn_m2.ogg")
 
 /datum/emote/living/custom
 	key = "me"
