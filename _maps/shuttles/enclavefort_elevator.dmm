@@ -1,0 +1,12 @@
+"a" = (/obj/machinery/computer/shuttle/enclavefortelevator,/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/shuttle/enclavefort_elevator)
+"c" = (/obj/structure/chair/comfy/shuttle{dir = 4},/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/shuttle/enclavefort_elevator)
+"C" = (/obj/docking_port/mobile/elevator{dheight = 0; dir = 8; dwidth = 1; height = 3; id = "enclavefort"; name = "enclave fort elevator"; width = 4},/turf/open/floor/f13{icon_state = "darkdirtydir"; dir = 5},/area/shuttle/enclavefort_elevator)
+"K" = (/turf/open/floor/f13{icon_state = "darkdirtydir"; dir = 5},/area/shuttle/enclavefort_elevator)
+"R" = (/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/shuttle/enclavefort_elevator)
+
+(1,1,1) = {"
+cRa
+cRK
+cRC
+cRR
+"}
