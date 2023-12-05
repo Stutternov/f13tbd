@@ -320,6 +320,14 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/wasteland)
+"anl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4;
+	light_color = "#f4e3b0"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/white,
+/area/f13/wasteland)
 "ans" = (
 /obj/structure/chalkboard{
 	pixel_x = 16
@@ -1871,6 +1879,13 @@
 /obj/item/blanket,
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/wasteland)
+"byD" = (
+/obj/structure/railing/wood/post{
+	pixel_x = -15;
+	pixel_y = -2
+	},
+/turf/closed/wall/f13/sunset/brick_small_dark,
+/area/f13/wasteland)
 "byN" = (
 /obj/structure/chair/sofa/right{
 	dir = 1;
@@ -2083,6 +2098,18 @@
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
+/area/f13/wasteland)
+"bGt" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/pill/patch/bitterdrink,
+/obj/item/reagent_containers/pill/patch/bitterdrink,
+/obj/item/reagent_containers/pill/patch/bitterdrink,
+/obj/item/reagent_containers/pill/patch/bitterdrink,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8;
+	light_color = "#f4e3b0"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/white,
 /area/f13/wasteland)
 "bGw" = (
 /obj/structure/table,
@@ -2855,6 +2882,18 @@
 "cke" = (
 /turf/closed/wall/f13/sunset/brick_small_dark,
 /area/f13/city)
+"ckf" = (
+/obj/item/flag/legion{
+	pixel_y = 15
+	},
+/obj/structure/bonfire/prelit,
+/obj/structure/railing/wood{
+	density = 0;
+	dir = 1;
+	pixel_y = -6
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/f13/wasteland)
 "ckw" = (
 /obj/machinery/light/small{
 	brightness = 3;
@@ -3188,6 +3227,17 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/city)
+"czw" = (
+/obj/structure/barricade/wooden,
+/obj/structure/curtain{
+	color = "#363636"
+	},
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/obj/structure/decoration/rag,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/wasteland)
 "czE" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -3209,6 +3259,18 @@
 	color = "000000"
 	},
 /turf/open/floor/carpet,
+/area/f13/wasteland)
+"cAi" = (
+/obj/structure/bonfire/prelit,
+/obj/item/flag/legion{
+	pixel_y = 15
+	},
+/obj/structure/railing/wood{
+	density = 0;
+	dir = 1;
+	pixel_y = -6
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/wasteland)
 "cBN" = (
 /obj/structure/rack,
@@ -3424,6 +3486,19 @@
 	icon_state = "common-broken2"
 	},
 /area/f13/village)
+"cJQ" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/stack/medical/poultice/ten,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4;
+	light_color = "#f4e3b0"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/white,
+/area/f13/wasteland)
 "cKe" = (
 /obj/structure/junk/micro,
 /turf/open/floor/f13{
@@ -4613,8 +4688,13 @@
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
 "dHJ" = (
-/obj/effect/landmark/start/f13/auxilia,
-/turf/open/floor/plasteel/f13/vault_floor/red/white,
+/obj/structure/barricade/wooden,
+/obj/structure/curtain{
+	color = "#363636"
+	},
+/obj/structure/barricade/wooden/planks/pregame,
+/obj/structure/decoration/rag,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/wasteland)
 "dIt" = (
 /obj/structure/fence/corner{
@@ -5287,6 +5367,10 @@
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontaltopborderbottomright"
 	},
+/area/f13/wasteland)
+"edY" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/outside/dirt/harsh,
 /area/f13/wasteland)
 "edZ" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -7291,6 +7375,18 @@
 /obj/structure/chair/stool/retro/black,
 /turf/open/floor/carpet/black,
 /area/f13/wasteland)
+"fLO" = (
+/obj/structure/table/wood,
+/obj/item/lock_construct,
+/obj/item/lock_construct,
+/obj/item/lock_construct,
+/obj/item/lock_construct,
+/obj/item/key,
+/obj/item/key,
+/obj/item/key,
+/obj/item/key,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/f13/wasteland)
 "fLQ" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plasteel/f13/vault_floor/floor{
@@ -8929,12 +9025,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/wasteland)
 "gOA" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8;
-	light_color = "#f4e3b0"
+/obj/structure/simple_door/repaired{
+	name = "Penalty Chamber"
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/red/white,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/wasteland)
 "gOB" = (
 /obj/structure/obstacle/barbedwire/end{
@@ -9044,6 +9138,10 @@
 	dir = 8;
 	icon_state = "dirt"
 	},
+/area/f13/wasteland)
+"gRD" = (
+/obj/structure/closet/crate/miningcar,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/wasteland)
 "gRQ" = (
 /turf/open/indestructible/ground/outside/savannah{
@@ -9387,6 +9485,12 @@
 "hel" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/wood/wood_common,
+/area/f13/wasteland)
+"heJ" = (
+/obj/structure/curtain{
+	color = "#845f58"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/white,
 /area/f13/wasteland)
 "heR" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -10189,13 +10293,10 @@
 /turf/open/floor/wood/wood_common,
 /area/f13/wasteland)
 "hLd" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/pill/patch/healingpowder,
-/obj/item/reagent_containers/pill/patch/healingpowder,
-/obj/item/reagent_containers/pill/patch/healingpowder,
-/obj/item/reagent_containers/pill/patch/healingpowder,
-/obj/item/stack/medical/poultice/ten,
-/turf/open/floor/plasteel/f13/vault_floor/red/white,
+/obj/item/kirbyplants{
+	icon_state = "plant-18"
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/wasteland)
 "hLT" = (
 /obj/structure/wreck/bus/rusted,
@@ -10372,6 +10473,12 @@
 	icon_state = "storewindowbottom"
 	},
 /turf/open/floor/plasteel/dark,
+/area/f13/wasteland)
+"hTk" = (
+/obj/structure/closet/cabinet,
+/obj/effect/spawner/lootdrop/f13/cash_legion_low,
+/obj/effect/spawner/lootdrop/f13/cash_legion_low,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/wasteland)
 "hTZ" = (
 /obj/structure/flora/grass/wasteland{
@@ -11837,6 +11944,10 @@
 	icon_state = "neutralrusty"
 	},
 /area/f13/wasteland)
+"iXR" = (
+/obj/machinery/smartfridge/bottlerack/alchemy_rack,
+/turf/open/floor/plasteel/f13/vault_floor/red/white,
+/area/f13/wasteland)
 "iYg" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/plasteel/f13/vault_floor/floor{
@@ -12506,6 +12617,22 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
 	icon_state = "darkrustysolid"
 	},
+/area/f13/wasteland)
+"jAb" = (
+/obj/structure/rack,
+/obj/item/clothing/under/f13/legslave,
+/obj/item/clothing/under/f13/legslave,
+/obj/item/clothing/under/f13/legslave,
+/obj/item/clothing/under/f13/legslave,
+/obj/item/clothing/under/f13/legslavef,
+/obj/item/clothing/under/f13/legslavef,
+/obj/item/clothing/under/f13/legslavef,
+/obj/item/clothing/under/f13/legslavef,
+/obj/item/clothing/suit/armor/f13/slavelabor,
+/obj/item/clothing/suit/armor/f13/slavelabor,
+/obj/item/clothing/suit/armor/f13/slavelabor,
+/obj/item/clothing/suit/armor/f13/slavelabor,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/wasteland)
 "jAk" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -15365,6 +15492,12 @@
 	icon_state = "common-broken1"
 	},
 /area/f13/village)
+"lFL" = (
+/obj/structure/closet/crate/freezer/blood{
+	pixel_y = -5
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/white,
+/area/f13/wasteland)
 "lGj" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_4";
@@ -17174,6 +17307,24 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/wasteland)
+"mSL" = (
+/obj/structure/rack,
+/obj/item/electropack/shockcollar,
+/obj/item/electropack/shockcollar,
+/obj/item/electropack/shockcollar,
+/obj/item/electropack/shockcollar/explosive,
+/obj/item/key/collar,
+/obj/item/key/collar,
+/obj/item/key/collar,
+/obj/item/key/bcollar,
+/obj/item/assembly/signaler/advanced,
+/obj/item/assembly/signaler/advanced,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4;
+	light_color = "#f4e3b0"
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/f13/wasteland)
 "mSZ" = (
 /obj/item/flag/ncr{
 	density = 0
@@ -17201,6 +17352,13 @@
 /area/f13/wasteland)
 "mTs" = (
 /turf/open/transparent/openspace,
+/area/f13/wasteland)
+"mTA" = (
+/obj/structure/railing/wood/post{
+	pixel_x = -15;
+	pixel_y = -1
+	},
+/turf/closed/wall/f13/sunset/brick_small_dark,
 /area/f13/wasteland)
 "mTS" = (
 /obj/structure/filingcabinet/chestdrawer,
@@ -17641,6 +17799,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustychess"
 	},
+/area/f13/wasteland)
+"njP" = (
+/obj/structure/railing/wood/post{
+	pixel_x = 15;
+	pixel_y = -2
+	},
+/turf/closed/wall/f13/sunset/brick_small_dark,
 /area/f13/wasteland)
 "njR" = (
 /obj/effect/decal/marking{
@@ -18755,12 +18920,8 @@
 	},
 /area/f13/wasteland)
 "ocy" = (
-/obj/machinery/smartfridge/bottlerack/alchemy_rack,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4;
-	light_color = "#f4e3b0"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red/white,
+/obj/structure/cross,
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/f13/wasteland)
 "ocW" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -19612,12 +19773,10 @@
 /turf/open/indestructible/ground/outside/graveldirt,
 /area/f13/wasteland)
 "oFY" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/pill/patch/bitterdrink,
-/obj/item/reagent_containers/pill/patch/bitterdrink,
-/obj/item/reagent_containers/pill/patch/bitterdrink,
-/obj/item/reagent_containers/pill/patch/bitterdrink,
-/turf/open/floor/plasteel/f13/vault_floor/red/white,
+/obj/structure/simple_door/metal/barred{
+	name = "Slave Keep"
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/wasteland)
 "oGb" = (
 /obj/structure/rack,
@@ -24127,6 +24286,41 @@
 	icon_state = "bluedirtychess"
 	},
 /area/f13/wasteland)
+"sfV" = (
+/obj/structure/closet/crate/freezer{
+	storage_capacity = 30
+	},
+/obj/item/organ/heart,
+/obj/item/organ/heart,
+/obj/item/organ/heart,
+/obj/item/organ/heart,
+/obj/item/organ/lungs,
+/obj/item/organ/lungs,
+/obj/item/organ/lungs,
+/obj/item/organ/lungs,
+/obj/item/organ/stomach,
+/obj/item/organ/stomach,
+/obj/item/organ/stomach,
+/obj/item/organ/stomach,
+/obj/item/organ/liver,
+/obj/item/organ/liver,
+/obj/item/organ/liver,
+/obj/item/organ/liver,
+/obj/item/organ/eyes,
+/obj/item/organ/eyes,
+/obj/item/organ/eyes,
+/obj/item/organ/eyes,
+/obj/item/organ/eyes,
+/obj/item/organ/ears,
+/obj/item/organ/ears,
+/obj/item/organ/ears,
+/obj/item/organ/ears,
+/obj/item/organ/tongue,
+/obj/item/organ/tongue,
+/obj/item/organ/tongue,
+/obj/item/organ/tongue,
+/turf/open/floor/plasteel/f13/vault_floor/red/white,
+/area/f13/wasteland)
 "sgD" = (
 /obj/structure/table/wood,
 /obj/machinery/processor/chopping_block{
@@ -25564,6 +25758,12 @@
 	},
 /turf/open/floor/wood/wood_common,
 /area/f13/village)
+"tgK" = (
+/obj/item/roller,
+/obj/item/tank/internals/anesthetic,
+/obj/item/clothing/mask/breath/medical,
+/turf/open/floor/plasteel/f13/vault_floor/red/white,
+/area/f13/wasteland)
 "tgU" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/effect/decal/cleanable/dirt{
@@ -26140,6 +26340,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess{
 	icon_state = "bluerustychess2"
 	},
+/area/f13/wasteland)
+"tEX" = (
+/obj/structure/table/wood,
+/obj/item/melee/unarmed/brass,
+/obj/item/melee/onehanded/slavewhip,
+/obj/item/clothing/mask/muzzle,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/wasteland)
 "tFj" = (
 /obj/effect/decal/cleanable/dirt{
@@ -27150,6 +27357,12 @@
 	icon_state = "tall_grass_5"
 	},
 /turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
+"utU" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/wasteland)
 "uuh" = (
 /obj/structure/barricade/bars,
@@ -29639,6 +29852,10 @@
 /area/f13/wasteland)
 "wnY" = (
 /turf/open/floor/wood/wood_fancy/wood_fancy_light,
+/area/f13/wasteland)
+"wol" = (
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/wasteland)
 "wom" = (
 /obj/structure/rack,
@@ -90426,11 +90643,11 @@ ulA
 ulA
 ulA
 ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -90927,10 +91144,10 @@ ulA
 ulA
 ulA
 ulA
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -91428,8 +91645,8 @@ ulA
 ulA
 ulA
 ulA
-ulA
-ulA
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -91928,8 +92145,8 @@ ulA
 ulA
 ulA
 ulA
-ulA
-ulA
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -92429,9 +92646,9 @@ ulA
 ulA
 ulA
 ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -92931,8 +93148,8 @@ ulA
 ulA
 ulA
 ulA
-ulA
-ulA
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -97444,7 +97661,7 @@ ulA
 ulA
 ulA
 ulA
-ulA
+ufM
 ufM
 ufM
 ufM
@@ -97945,7 +98162,7 @@ ulA
 ulA
 ulA
 ulA
-ulA
+ufM
 ufM
 ufM
 ufM
@@ -98446,7 +98663,7 @@ ulA
 ulA
 ulA
 ulA
-ulA
+ufM
 ufM
 ufM
 ufM
@@ -98947,7 +99164,7 @@ ulA
 ulA
 ulA
 ulA
-ulA
+ufM
 ufM
 ufM
 ufM
@@ -99475,10 +99692,10 @@ ufM
 ufM
 ufM
 ufM
-ufM
-ufM
-ufM
-ufM
+oKk
+oKk
+oKk
+oKk
 ufM
 ufM
 ufM
@@ -99975,20 +100192,20 @@ ufM
 ufM
 ufM
 ufM
+oKk
+oKk
+oKk
 ufM
 ufM
-ufM
-ufM
-ufM
-ufM
-ufM
-ufM
-ufM
-ufM
-ufM
-ufM
-ufM
-ufM
+oKk
+oKk
+oKk
+oKk
+oKk
+oKk
+oKk
+oKk
+oKk
 ufM
 ufM
 ufM
@@ -100477,21 +100694,21 @@ ufM
 ufM
 ufM
 ufM
-ufM
-ufM
-rKb
-ufM
-ufM
-ufM
-ufM
-ufM
-ufM
-ufM
-ufM
+oKk
 ufM
 rKb
 ufM
 ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+oKk
+rKb
+oKk
+oKk
 ufM
 ufM
 ufM
@@ -100978,8 +101195,8 @@ ufM
 ufM
 ufM
 ufM
-ufM
-ufM
+oKk
+oKk
 rKb
 rKb
 rKb
@@ -100993,7 +101210,7 @@ rKb
 rKb
 rKb
 rKb
-ufM
+oKk
 ufM
 ufM
 ufM
@@ -102486,7 +102703,7 @@ ufM
 ufM
 ufM
 ufM
-hav
+ufM
 rKb
 szd
 hav
@@ -102502,17 +102719,17 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -102976,19 +103193,19 @@ ufM
 ufM
 ufM
 ufM
-ufM
-ufM
 oKk
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+oKk
+oKk
+ufM
+ufM
+ufM
+ufM
+uZV
+ufM
+ufM
+ufM
+ufM
+tpR
 egN
 hav
 hav
@@ -103004,17 +103221,17 @@ hav
 hav
 hav
 hav
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -103478,9 +103695,9 @@ oKk
 oKk
 oKk
 oKk
-oKk
-oKk
-oKk
+rKb
+ufM
+ufM
 rKb
 rKb
 rKb
@@ -103506,20 +103723,20 @@ ekT
 hav
 hav
 hav
-hav
-rKb
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-rKb
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -103979,11 +104196,11 @@ ufM
 ufM
 ufM
 ufM
-ufM
-ufM
-ufM
-ufM
 rKb
+rKb
+rKb
+rKb
+xyz
 smf
 smf
 smf
@@ -104005,23 +104222,23 @@ hav
 jsV
 rKb
 hav
-ekT
-hav
-hav
-ufM
-rKb
+vcf
+lZr
+lZr
 ufM
 ufM
-ufM
-rKb
 ufM
 ufM
 ufM
 rKb
 ufM
-ulA
-ulA
+ufM
+ufM
 rKb
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -104481,11 +104698,11 @@ ufM
 ufM
 ufM
 ufM
-rKb
-ufM
-ufM
 ufM
 rKb
+rpd
+hav
+qwj
 hav
 hav
 hav
@@ -104510,21 +104727,21 @@ hav
 ekT
 ekT
 ekT
+ufM
+rKb
+ufM
+ufM
+ufM
 rKb
 rKb
 rKb
 rKb
 rKb
 rKb
-rKb
-rKb
-rKb
-rKb
-rKb
-rKb
-rKb
-rKb
-rKb
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -104982,17 +105199,17 @@ ufM
 ufM
 ufM
 ufM
+ufM
+ufM
 rKb
-rKb
-rKb
-rKb
-xyz
-rKb
+hav
+bBc
+mqE
 hav
 hav
 hav
 rKb
-rKb
+njP
 ekT
 hav
 hav
@@ -105012,28 +105229,28 @@ rKb
 ekT
 ekT
 hav
-hav
 rKb
-wlt
-wlt
-wlt
 rKb
-slh
-gOA
-hBU
+rKb
+rKb
+rKb
 rKb
 hBU
 xEo
 slh
 rKb
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -105485,57 +105702,57 @@ ufM
 ufM
 ufM
 ufM
+ufM
 rKb
-rpd
+mJy
+isd
+fmj
 hav
-qwj
-ulA
-ulA
 hav
 hav
 rKb
-hav
+ckf
 ekT
 hav
 hav
 hav
 rKb
+cWi
+wol
+wol
+utU
 hav
 hav
 hav
 hav
-hav
-hav
-hav
-hav
-hav
+hLd
 rKb
 hav
 hav
 ekT
 hav
 hav
-hav
-wlt
-wlt
-wlt
 rKb
-dbl
-bvv
-ydR
+ryB
+bGt
+aJQ
 rKb
-wlt
 bvv
+wlt
 dbl
 rKb
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -105972,10 +106189,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -105988,56 +106205,56 @@ ufM
 ufM
 ufM
 rKb
+rKb
+dHJ
+czw
+ptf
 hav
-bBc
-mqE
-ulA
-ulA
-ulA
-ulA
+hav
+hav
 rKb
-rKb
+mTA
 ekT
 ekT
 hav
 hav
+aQn
+hav
+vqa
+vqa
 hav
 hav
 hav
 hav
 hav
 hav
-hav
-hav
-hav
-hav
-hav
+aQn
 hav
 hav
 ekT
 hav
 hav
-rKb
-wlt
-wlt
-wlt
-wlt
-wlt
-wlt
-wlt
-wlt
-wlt
+rsd
+ryB
 wlt
 wlt
 rKb
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+heJ
+heJ
+rKb
+rKb
+rKb
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -106474,10 +106691,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -106489,20 +106706,21 @@ ufM
 ufM
 ufM
 ufM
+ufM
 rKb
-mJy
-isd
-fmj
-ulA
-ulA
-ulA
-ulA
+gVB
+jXM
+gox
+hav
+hav
+hav
 rKb
 hav
 hav
 ekT
 hav
 hav
+rKb
 hav
 hav
 hav
@@ -106512,34 +106730,33 @@ hav
 hav
 hav
 hav
-hav
-hav
+rKb
 hav
 hav
 ekT
 hav
 hav
-hav
-wlt
-ydR
-ydR
-wlt
-wlt
-wlt
-ydR
-wlt
-wlt
-ydR
-wlt
 rKb
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+jjH
+ydR
+ydR
+wlt
+wlt
+wlt
+sfV
+rKb
+ufM
+bxF
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -106976,10 +107193,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -106990,58 +107207,58 @@ ufM
 ufM
 ufM
 ufM
+ufM
+ufM
 rKb
-rKb
-rKb
-rKb
-ptf
-ulA
-ulA
-ulA
-ulA
-ulA
+kMV
+fEr
+mqE
+hav
+hav
+hav
+oFY
+hav
+hav
+ekT
+hav
+hav
+cBR
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+cBR
 hav
 hav
 ekT
 hav
 hav
 hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-ekT
-hav
-hav
-hav
 wlt
 ydR
 ydR
 wlt
 wlt
 wlt
-ydR
-ydR
-wlt
-wlt
-ydR
+tgK
 rKb
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+bxF
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -107478,10 +107695,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -107493,20 +107710,21 @@ ufM
 ufM
 ufM
 ufM
+ufM
 rKb
-gVB
-jXM
-gox
-ulA
-ulA
-ulA
-ulA
+byq
+lXH
+fmj
+hav
+hav
+hav
 rKb
 hav
 hav
 ekT
 hav
 hav
+rKb
 hav
 hav
 hav
@@ -107516,34 +107734,33 @@ hav
 hav
 hav
 hav
-hav
-hav
+rKb
 hav
 hav
 ekT
 ekT
 hav
-hav
-wlt
-wlt
-wlt
-wlt
-wlt
-wlt
-wlt
-wlt
-wlt
-wlt
+rKb
+jjH
 ydR
+ydR
+ydR
+dfX
+wlt
+lFL
 rKb
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -107980,10 +108197,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -107996,56 +108213,56 @@ ufM
 ufM
 ufM
 rKb
-kMV
-fEr
-mqE
-ulA
-ulA
-ulA
-ulA
 rKb
 rKb
+rKb
+xyz
+rKb
+gOA
+rKb
+rKb
+njP
 hav
 ekT
 hav
 hav
+aQn
+hav
+rbs
 hav
 hav
 hav
 hav
 hav
+rbs
 hav
-hav
-hav
-hav
-hav
-hav
+aQn
 hav
 hav
 hav
 ekT
 hav
+rsd
+mRO
+ydR
+ydR
+kdk
+heJ
+heJ
 rKb
-wlt
-ydR
-ydR
-ydR
-dfX
-wlt
-wlt
-dHJ
-wlt
-wlt
-wlt
 rKb
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+rKb
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -108482,10 +108699,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -108497,57 +108714,57 @@ ufM
 ufM
 ufM
 ufM
+ufM
 rKb
-byq
-lXH
-fmj
-ulA
-ulA
-ulA
-ulA
+ufM
 rKb
+rKb
+tEX
 hav
+hav
+rKb
+cAi
 hav
 ekT
 hav
 ekT
 rKb
+cWi
+wol
+utU
 hav
 hav
 hav
-hav
-hav
-hav
-hav
-hav
-hav
+cWi
+wol
+utU
 rKb
 hav
 hav
 hav
 ekT
 hav
-hav
-mRO
-ydR
-ydR
-ydR
-ydR
-wlt
-ydR
-wlt
-wlt
-wlt
-ydR
 rKb
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+oZw
+cJQ
+iXR
+rKb
+bvv
+wlt
+dbl
+rKb
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -108984,10 +109201,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -108998,57 +109215,57 @@ ufM
 ufM
 ufM
 ufM
+ufM
+ufM
+ufM
+ufM
 rKb
+jAb
+hav
+hav
+rbs
 rKb
-rKb
-rKb
-xyz
-rKb
-rKb
-rKb
-rKb
-rKb
-rKb
+byD
 hav
 hav
 hav
 kdk
 rKb
 rKb
-hav
+aQn
 rKb
 rKb
+cBR
 rKb
 rKb
-rKb
-hav
+aQn
 rKb
 rKb
 rKb
 hav
 ekT
 ekT
-hav
-rKb
-oZw
-ryB
-hLd
-ocy
-oFY
-aJQ
-jjH
-wlt
-ydR
-ydR
-ydR
 rKb
 rKb
 rKb
 rKb
 rKb
 rKb
+hBU
+anl
+slh
+rKb
+ufM
+ufM
+ufM
+ufM
+ufM
 rKb
 rKb
+rKb
+rKb
+rKb
+ufM
 ufM
 ufM
 ufM
@@ -109486,10 +109703,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -109501,14 +109718,14 @@ ufM
 ufM
 ufM
 ufM
-rKb
 ufM
-bxF
-bxF
-rKb
-bxF
-bxF
-tpR
+ufM
+ufM
+kdk
+hTk
+hav
+ekT
+wol
 rKb
 hav
 hav
@@ -109530,21 +109747,21 @@ hav
 hav
 ekT
 ekT
+hav
+rKb
+hav
+hav
+hav
 rKb
 rKb
 rKb
 rKb
 rKb
 rKb
-rKb
-rKb
-rKb
-rKb
-rKb
-rKb
-rKb
-rKb
-rKb
+ufM
+ufM
+ufM
+ufM
 rKb
 uxn
 vXB
@@ -109988,10 +110205,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -110004,48 +110221,48 @@ ufM
 ufM
 ufM
 ufM
+ufM
 bxF
-bxF
-bxF
-bxF
-bxF
-uZV
+kdk
+mSL
 ekT
 hav
-ekT
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
-hav
+vqa
+rKb
 ekT
 hav
 hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+ekT
+hav
+hav
+hav
+hav
+hav
+hav
 rKb
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+gRD
+hav
+hav
 rKb
-ulA
-ulA
-ulA
-rKb
+ufM
+ufM
+ufM
+ufM
 ufM
 rKb
 gNH
@@ -110490,10 +110707,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -110506,48 +110723,48 @@ ufM
 ufM
 ufM
 ufM
-bxF
 ufM
 bxF
-bxF
-bxF
+rKb
+rKb
+fLO
+hav
+hav
+rKb
+ekT
 ekT
 ekT
 hav
 ekT
-ekT
-ekT
 hav
 ekT
-hav
-ekT
-ekT
-ekT
-ekT
-hav
-hav
 ekT
 ekT
 ekT
 hav
 hav
+ekT
+ekT
+ekT
+hav
+hav
 hav
 ekT
 hav
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+ufM
+ufM
+ufM
+ufM
 ufM
 rKb
 qlt
@@ -110992,10 +111209,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -111008,15 +111225,15 @@ ufM
 ufM
 ufM
 ufM
-bxF
-bxF
-bxF
 ufM
-hav
-hav
-hav
-hav
-hav
+bxF
+kdk
+kdk
+rKb
+rKb
+rKb
+rKb
+rKb
 hav
 hav
 hav
@@ -111036,17 +111253,17 @@ hav
 hav
 hav
 hav
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
-ulA
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+hav
+ufM
 ufM
 ufM
 ufM
@@ -111494,10 +111711,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -111513,11 +111730,11 @@ ufM
 ptf
 qtn
 qtn
-qtn
+rKb
 ptf
 qtn
 qtn
-qtn
+rKb
 ptf
 hav
 ekT
@@ -111547,10 +111764,10 @@ qtn
 qtn
 qtn
 ptf
-rKb
-ufM
-ufM
-ufM
+qtn
+qtn
+qtn
+ptf
 ufM
 ufM
 rKb
@@ -111558,7 +111775,7 @@ qlt
 qlt
 tOw
 rKb
-pJe
+edY
 pJe
 pJe
 ufM
@@ -111996,10 +112213,10 @@ ufM
 ufM
 ufM
 ufM
-ulA
-ulA
-ulA
-ulA
+ufM
+ufM
+ufM
+ufM
 ufM
 ufM
 ufM
@@ -112048,13 +112265,13 @@ ufM
 ufM
 ufM
 ufM
+ufM
+ufM
+ufM
+ufM
 dbh
 ufM
 ufM
-ufM
-ufM
-ufM
-ufM
 rKb
 haT
 haT
@@ -112064,7 +112281,7 @@ pJe
 pJe
 pJe
 pJe
-pJe
+edY
 ufM
 ufM
 ufM
@@ -112550,11 +112767,11 @@ ufM
 ufM
 ufM
 ufM
+ufM
+ufM
+ufM
+ufM
 dbh
-ufM
-ufM
-ufM
-ufM
 ufM
 ufM
 rKb
@@ -113006,7 +113223,7 @@ ufM
 ufM
 ufM
 ufM
-ufM
+oKk
 oKk
 ufM
 ssn
@@ -113052,13 +113269,13 @@ ufM
 ufM
 ufM
 ufM
+ufM
+ufM
+ufM
+ufM
 dbh
 ufM
-ufM
-ufM
-ufM
-ufM
-ufM
+dbh
 pJe
 pJe
 pJe
@@ -113508,7 +113725,7 @@ ufM
 ufM
 ufM
 ufM
-ufM
+oKk
 vIZ
 lTz
 knJ
@@ -113555,10 +113772,10 @@ qtn
 qtn
 qtn
 ptf
-ufM
-ufM
-ufM
-ufM
+qtn
+qtn
+qtn
+ptf
 ufM
 pJe
 pJe
@@ -114010,7 +114227,7 @@ ufM
 ufM
 ufM
 ufM
-ufM
+oKk
 vIZ
 buF
 mwM
@@ -117014,7 +117231,7 @@ ufM
 ufM
 ufM
 ufM
-oKk
+ufM
 ufM
 ufM
 ufM
@@ -117516,7 +117733,7 @@ ufM
 ufM
 ufM
 ufM
-oKk
+ufM
 ufM
 ufM
 ufM
@@ -118018,7 +118235,7 @@ ufM
 ufM
 ufM
 ufM
-oKk
+ufM
 ufM
 ufM
 ufM
@@ -118520,7 +118737,7 @@ ufM
 ufM
 ufM
 ufM
-oKk
+ufM
 ufM
 ufM
 ufM
@@ -119022,7 +119239,7 @@ ufM
 ufM
 ufM
 ufM
-oKk
+ufM
 ufM
 ufM
 ufM
@@ -119524,7 +119741,6 @@ ulA
 ufM
 ufM
 ufM
-oKk
 ufM
 ufM
 ufM
@@ -119535,6 +119751,7 @@ ufM
 ufM
 ufM
 ufM
+smf
 smf
 smf
 smf
@@ -120035,7 +120252,7 @@ ufM
 ufM
 ufM
 ufM
-ufM
+smf
 smf
 smf
 smf
@@ -121540,11 +121757,11 @@ lZr
 lZr
 lyE
 lXT
-smf
+ocy
 kNo
 smf
 smf
-smf
+ocy
 smf
 leo
 rKb
@@ -125556,23 +125773,23 @@ lZr
 lZr
 xDC
 lXT
-smf
+ocy
 coD
 smf
 smf
+ocy
 smf
 smf
 smf
+ocy
 smf
 smf
 smf
-smf
-smf
-smf
+ocy
 smf
 smf
 kNo
-smf
+ocy
 hYN
 ozf
 lZr
@@ -127060,7 +127277,7 @@ qtn
 qtn
 ufM
 ufM
-ufM
+pJe
 nBg
 laR
 hON
@@ -127556,7 +127773,7 @@ ulA
 ulA
 ufM
 ufM
-oKk
+ufM
 ufM
 ufM
 ufM
@@ -128058,7 +128275,7 @@ ulA
 ulA
 ufM
 ufM
-oKk
+ufM
 ufM
 ufM
 ufM
@@ -128560,7 +128777,7 @@ ufM
 ufM
 ufM
 ufM
-oKk
+ufM
 ufM
 ufM
 ufM
@@ -129062,7 +129279,7 @@ ufM
 ufM
 ufM
 ufM
-oKk
+ufM
 ufM
 ufM
 ufM
@@ -129564,7 +129781,7 @@ ufM
 ufM
 ufM
 ufM
-oKk
+ufM
 ufM
 ufM
 ufM
@@ -130066,7 +130283,7 @@ ufM
 ufM
 ufM
 ufM
-oKk
+ufM
 ufM
 ufM
 ufM
@@ -137544,7 +137761,7 @@ ulA
 ulA
 ulA
 ulA
-ulA
+ufM
 ufM
 ufM
 ufM
@@ -139048,7 +139265,7 @@ ulA
 ulA
 ulA
 ulA
-ulA
+ufM
 ufM
 ufM
 ufM
@@ -139622,7 +139839,7 @@ ufM
 ufM
 ufM
 ufM
-smf
+ufM
 smf
 smf
 smf
@@ -142058,7 +142275,7 @@ ulA
 ulA
 ulA
 ulA
-ulA
+ufM
 ufM
 ufM
 ufM
@@ -145067,7 +145284,7 @@ ulA
 ulA
 ulA
 ulA
-ulA
+ufM
 ufM
 ufM
 ufM
