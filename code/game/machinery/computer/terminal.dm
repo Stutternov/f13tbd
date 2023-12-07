@@ -185,3 +185,24 @@
 
 	return
 */
+
+
+/obj/machinery/computer/terminal/stored_password
+	var/door_id = ""
+	var/obj/machinery/door/password/our_door = null
+	var/first_time = TRUE
+
+/obj/machinery/computer/terminal/stored_password/ui_interact(mob/user)
+	. = ..()
+	if (first_time)
+		doc_content_2 = "Hi " + pick(GLOB.first_names_male + GLOB.first_names_female) + ", \n" + "Just wanted to give you a heads up about the password change on the door controller. \n New password is: " + our_door.password + " \n remember to delete this when you have it memorized. \n " + pick(GLOB.first_names_male + GLOB.first_names_female)
+		first_time = FALSE
+
+
+/obj/machinery/computer/terminal/stored_password/Initialize()
+	. = ..()
+	for (var/obj/machinery/door/password/pass_door in orange(10, src))
+		if (pass_door.door_id == door_id)
+			our_door = pass_door
+	doc_title_2 = "Password updated"
+	doc_content_2 = "Hi " + pick(GLOB.first_names_male + GLOB.first_names_female) + ", \n" + "Just wanted to give you a heads up about the password change on the door controller. \n New password is: " + our_door.password + " \n remember to delete this when you have it memorized. \n " + pick(GLOB.first_names_male + GLOB.first_names_female)

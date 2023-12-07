@@ -9,6 +9,7 @@
 	armor = list("melee" = 100, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100)
 	resistance_flags = INDESTRUCTIBLE | FIRE_PROOF | ACID_PROOF | LAVA_PROOF
 	damage_deflection = 70
+	var/door_id = ""
 	var/password = "Swordfish"
 	var/interaction_activated = TRUE //use the door to enter the password
 	var/voice_activated = FALSE //Say the password nearby to open the door.
