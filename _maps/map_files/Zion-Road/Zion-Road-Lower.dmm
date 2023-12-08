@@ -579,6 +579,19 @@
 /obj/machinery/light,
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/brotherhood/leisure)
+"ch" = (
+/obj/structure/fans/tiny,
+/obj/docking_port/stationary{
+	area_type = /area/f13;
+	dwidth = 1;
+	height = 4;
+	id = "bos_entryway";
+	name = "Level 0: Entryway";
+	roundstart_template = /datum/map_template/shuttle/entrance_elevator;
+	width = 4
+	},
+/turf/closed/wall/r_wall,
+/area/f13/brotherhood/armory)
 "ck" = (
 /obj/structure/simple_door/house{
 	icon_state = "room"
@@ -1689,6 +1702,11 @@
 /obj/machinery/vending/wardrobe/chem_wardrobe,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/medical)
+"gl" = (
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/brotherhood/operations)
 "gn" = (
 /obj/machinery/chem_dispenser/drinks/beer{
 	dir = 1;
@@ -1782,6 +1800,14 @@
 /obj/structure/bookcase,
 /turf/open/floor/carpet/black,
 /area/f13/brotherhood/offices1st)
+"gA" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 6
+	},
+/area/f13/enclave)
 "gC" = (
 /obj/docking_port/stationary/bosaway/three,
 /turf/closed/wall/f13/tunnel,
@@ -2789,8 +2815,8 @@
 /area/f13/brotherhood/medical)
 "jU" = (
 /obj/structure/railing,
-/turf/open/floor/f13{
-	icon_state = "bluerustyfull"
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
 	},
 /area/f13/enclave)
 "jV" = (
@@ -3975,11 +4001,13 @@
 /area/f13/brotherhood/operations)
 "oy" = (
 /obj/docking_port/stationary{
+	area_type = /area/f13;
 	dwidth = 1;
-	height = 3;
+	height = 4;
 	id = "enclavefort_elevator_down";
 	name = "Enclave Lower";
-	width = 4
+	roundstart_template = /datum/map_template/shuttle/enclavefort/elevator;
+	width = 6
 	},
 /turf/open/floor/plasteel/elevatorshaft,
 /area/f13/enclave)
@@ -4282,11 +4310,6 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/machinery/power/apc{
-	dir = 1;
-	pixel_x = -32;
-	start_charge = 500
-	},
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
@@ -4414,28 +4437,16 @@
 /turf/closed/wall/mineral/wood,
 /area/f13/brotherhood/leisure)
 "pY" = (
-/obj/structure/table/wood/fancy/black{
-	desc = "A set of thin pipes that no longer function.";
-	icon_state = "latticefull";
-	layer = 2.4;
-	name = "pipes"
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
 	},
-/obj/item/statuebust,
-/obj/structure/table{
-	icon_state = "1-f"
+/obj/structure/railing{
+	dir = 1
 	},
-/obj/structure/table{
-	icon_state = "2-f"
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
 	},
-/obj/structure/table{
-	icon_state = "3-f"
-	},
-/obj/structure/table{
-	icon_state = "4-f"
-	},
-/obj/structure/window/reinforced/clockwork/fulltile,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/brotherhood/rnd)
+/area/f13/brotherhood/operations)
 "pZ" = (
 /turf/open/floor/carpet/royalblack,
 /area/f13/brotherhood/leisure)
@@ -4689,6 +4700,14 @@
 	},
 /turf/open/floor/plating/tunnel{
 	icon_state = "tunnelrusty"
+	},
+/area/f13/enclave)
+"qO" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
 	},
 /area/f13/enclave)
 "qP" = (
@@ -5431,6 +5450,18 @@
 /obj/item/gun/ballistic/revolver/police,
 /turf/open/floor/carpet/black,
 /area/f13/enclave)
+"tF" = (
+/obj/item/flag/bos,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/brotherhood/operations)
 "tG" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 6
@@ -5633,6 +5664,12 @@
 	},
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/brotherhood/leisure)
+"uq" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/f13/enclave)
 "us" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_4";
@@ -6399,12 +6436,10 @@
 	},
 /area/f13/brotherhood/dorms)
 "xl" = (
-/obj/structure/railing/corner{
+/obj/structure/railing{
 	dir = 8
 	},
-/turf/open/floor/f13{
-	icon_state = "bluerustyfull"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/enclave)
 "xm" = (
 /obj/machinery/door/airlock/grunge{
@@ -6753,11 +6788,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/operating)
 "ym" = (
-/obj/structure/railing/corner{
+/obj/structure/railing{
 	dir = 1
 	},
-/turf/open/floor/f13{
-	icon_state = "bluerustyfull"
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 10
 	},
 /area/f13/enclave)
 "yn" = (
@@ -6925,7 +6960,6 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/item/flag/bos,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -7810,6 +7844,12 @@
 	icon_state = "yellowrustysolid"
 	},
 /area/f13/brotherhood/rnd)
+"BW" = (
+/obj/structure/railing/corner,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
+	},
+/area/f13/enclave)
 "BX" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Security Checkpoint";
@@ -7869,17 +7909,12 @@
 /turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "Cl" = (
-/obj/docking_port/stationary{
-	area_type = /area/f13;
-	dwidth = 1;
-	height = 4;
-	id = "bos_level_0";
-	name = "Level 0: Entryway";
-	roundstart_template = /datum/map_template/shuttle/entrance_elevator;
-	width = 4
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/floor,
+/turf/open/floor/f13{
+	icon_state = "bluerustyfull"
 	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/brotherhood/operations)
+/area/f13/enclave)
 "Cm" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/structure/lattice{
@@ -7891,8 +7926,11 @@
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/rnd)
 "Cn" = (
-/turf/closed/wall/r_wall,
-/area/f13/wasteland)
+/obj/structure/railing,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 5
+	},
+/area/f13/enclave)
 "Co" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
@@ -8609,13 +8647,17 @@
 	},
 /area/f13/brotherhood/mining)
 "Fe" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
+/obj/docking_port/stationary{
+	area_type = /area/f13;
+	dwidth = 1;
+	height = 4;
+	id = "bos_entryway";
+	name = "Level 0: Entryway";
+	roundstart_template = /datum/map_template/shuttle/entrance_elevator;
+	width = 5
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/brotherhood/rnd)
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/brotherhood/operations)
 "Ff" = (
 /obj/machinery/power/smes/engineering{
 	charge = 0
@@ -8948,15 +8990,11 @@
 	},
 /area/f13/brotherhood/armory)
 "GN" = (
-/obj/machinery/light/fo13colored/Aqua{
-	brightness = 3;
-	critical_machine = 1;
-	flicker_chance = 0;
-	icon_state = "bulb";
-	name = "Light Bulb"
+/obj/structure/railing,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 9
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/brotherhood/rnd)
+/area/f13/enclave)
 "GO" = (
 /turf/closed/wall/f13/ruins,
 /area/f13/wasteland)
@@ -9056,6 +9094,14 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/brotherhood/operations)
+"Hh" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	pixel_x = -32;
+	start_charge = 500
+	},
+/turf/closed/wall/r_wall,
+/area/f13/brotherhood/rnd)
 "Hi" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -9063,12 +9109,7 @@
 /turf/closed/wall/r_wall,
 /area/f13/enclave)
 "Hk" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/floor/f13{
-	icon_state = "bluerustyfull"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/enclave)
 "Hn" = (
 /obj/structure/table{
@@ -11473,13 +11514,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/brotherhood/reactor)
 "Qd" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/f13{
-	icon_state = "bluerustyfull"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/enclave)
 "Qf" = (
 /obj/effect/decal/cleanable/dirt,
@@ -11613,17 +11651,11 @@
 	},
 /area/f13/enclave)
 "QE" = (
-/obj/structure/bookcase/random,
-/obj/machinery/light/fo13colored/Aqua{
-	brightness = 3;
-	critical_machine = 1;
-	dir = 1;
-	flicker_chance = 0;
-	icon_state = "bulb";
-	name = "Light Bulb"
+/obj/structure/railing/corner{
+	dir = 1
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/brotherhood/rnd)
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/f13/enclave)
 "QF" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -11891,7 +11923,7 @@
 	},
 /area/f13/enclave)
 "Rx" = (
-/obj/structure/railing/corner,
+/obj/machinery/light/floor,
 /turf/open/floor/f13{
 	icon_state = "bluerustyfull"
 	},
@@ -11990,6 +12022,14 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/brotherhood/leisure)
+"RM" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
+	},
+/area/f13/enclave)
 "RO" = (
 /obj/structure/table,
 /obj/item/kitchen/fork,
@@ -12216,15 +12256,17 @@
 	},
 /area/f13/wasteland)
 "Sz" = (
-/obj/structure/railing,
-/obj/machinery/light{
-	dir = 1;
-	pixel_x = 16
+/obj/docking_port/stationary{
+	area_type = /area/f13;
+	dwidth = 1;
+	height = 4;
+	id = "bos_entryway";
+	name = "Level 0: Entryway";
+	roundstart_template = /datum/map_template/shuttle/entrance_elevator;
+	width = 4
 	},
-/turf/open/floor/f13{
-	icon_state = "bluerustyfull"
-	},
-/area/f13/enclave)
+/turf/closed/wall/r_wall,
+/area/f13/brotherhood/operations)
 "SA" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -12522,9 +12564,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/armory)
 "TO" = (
-/obj/machinery/light{
-	dir = 4;
-	pixel_y = -16
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small{
+	brightness = 3;
+	dir = 8
 	},
 /turf/open/floor/f13{
 	icon_state = "bluerustyfull"
@@ -12564,11 +12607,9 @@
 /area/f13/enclave)
 "TX" = (
 /obj/structure/railing{
-	dir = 8
+	dir = 1
 	},
-/turf/open/floor/f13{
-	icon_state = "bluerustyfull"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
 /area/f13/enclave)
 "TY" = (
 /obj/item/crowbar{
@@ -13169,6 +13210,14 @@
 	id = "enc_crem"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/enclave)
+"VO" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
+	},
 /area/f13/enclave)
 "VQ" = (
 /obj/machinery/light{
@@ -19897,8 +19946,8 @@ cR
 "}
 (12,1,1) = {"
 cR
-Cn
-Cn
+lB
+lB
 SE
 YD
 OS
@@ -20399,8 +20448,8 @@ cR
 "}
 (13,1,1) = {"
 cR
-Cn
-Cn
+lB
+lB
 SE
 KM
 OS
@@ -20901,8 +20950,8 @@ cR
 "}
 (14,1,1) = {"
 cR
-Cn
-Cn
+lB
+lB
 SE
 Am
 eG
@@ -21386,7 +21435,7 @@ Na
 fz
 Vu
 Vu
-Vu
+TO
 Vu
 Vu
 sT
@@ -21403,8 +21452,8 @@ cR
 "}
 (15,1,1) = {"
 cR
-Cn
-Cn
+lB
+lB
 SE
 ZO
 OS
@@ -21905,8 +21954,8 @@ cR
 "}
 (16,1,1) = {"
 cR
-Cn
-Cn
+lB
+lB
 da
 ay
 OS
@@ -22407,8 +22456,8 @@ cR
 "}
 (17,1,1) = {"
 cR
-Cn
-Cn
+lB
+lB
 SE
 cc
 OS
@@ -22909,8 +22958,8 @@ cR
 "}
 (18,1,1) = {"
 cR
-Cn
-Cn
+lB
+lB
 SE
 qw
 aE
@@ -23411,8 +23460,8 @@ cR
 "}
 (19,1,1) = {"
 cR
-Cn
-Cn
+lB
+lB
 SE
 wd
 OS
@@ -23913,8 +23962,8 @@ cR
 "}
 (20,1,1) = {"
 cR
-Cn
-Cn
+lB
+lB
 qV
 ep
 cc
@@ -24415,8 +24464,8 @@ cR
 "}
 (21,1,1) = {"
 cR
-Cn
-Cn
+lB
+lB
 SE
 px
 Nw
@@ -24900,7 +24949,7 @@ Vu
 Vu
 IJ
 IJ
-IJ
+Rx
 IJ
 IJ
 Qv
@@ -24917,19 +24966,19 @@ cR
 "}
 (22,1,1) = {"
 cR
-Cn
-Cn
+lB
+lB
 SE
-QE
+px
+Xy
+OS
 cc
-Xy
-Xy
 OS
+cc
+cc
+Us
 OS
-Xy
-Fe
-GN
-pY
+gQ
 zU
 oW
 OS
@@ -25419,19 +25468,19 @@ cR
 "}
 (23,1,1) = {"
 cR
-Cn
-Cn
+lB
+lB
 SE
+cc
+OS
+cc
 px
-Xy
-OS
 cc
-OS
-cc
-cc
-Us
-OS
-gQ
+bn
+KM
+sW
+dW
+SE
 qJ
 OS
 OS
@@ -25924,15 +25973,15 @@ cR
 lB
 lB
 SE
-cc
-OS
-cc
-px
-cc
-bn
-KM
-sW
-dW
+SE
+SE
+Ms
+SE
+Ta
+SE
+SE
+Yz
+SE
 SE
 ZO
 OS
@@ -26401,7 +26450,7 @@ WY
 wF
 vk
 QU
-Vu
+Cl
 nw
 KW
 KW
@@ -26424,16 +26473,16 @@ cR
 (25,1,1) = {"
 cR
 lB
-lB
+Uk
+oS
+oS
+oS
+oS
+vv
+gl
+Hh
 SE
 SE
-SE
-Ms
-SE
-Ta
-SE
-SE
-Yz
 SE
 SE
 dz
@@ -26926,12 +26975,12 @@ cR
 (26,1,1) = {"
 cR
 lB
-Uk
-oS
-oS
-oS
-oS
-vv
+lB
+KZ
+KZ
+KZ
+KZ
+tF
 py
 yC
 Sf
@@ -27432,7 +27481,7 @@ lB
 KZ
 KZ
 KZ
-KZ
+Fe
 yP
 HU
 wk
@@ -27934,7 +27983,7 @@ lB
 KZ
 KZ
 KZ
-Cl
+KZ
 vC
 kP
 cr
@@ -28437,7 +28486,7 @@ KZ
 KZ
 KZ
 KZ
-vC
+pY
 zS
 wk
 dX
@@ -29942,7 +29991,7 @@ lB
 lB
 Gl
 lB
-lB
+Sz
 Gl
 lB
 lB
@@ -30444,7 +30493,7 @@ Ka
 qv
 Ka
 Ka
-jd
+ch
 Ka
 Ka
 jd
@@ -33410,12 +33459,12 @@ cb
 cb
 BE
 TF
-wT
-Rx
+BW
 Qd
-IJ
-IJ
-IJ
+Qd
+Qd
+RM
+uq
 wT
 pj
 mq
@@ -33912,12 +33961,12 @@ cb
 cb
 BE
 TF
-wT
 jU
 Eh
 Eh
 Eh
-IJ
+Eh
+TX
 wT
 DI
 mq
@@ -34414,12 +34463,12 @@ cb
 cb
 BE
 TF
-wT
-Sz
+jU
+Eh
 Eh
 Eh
 oy
-IJ
+gA
 wT
 lr
 Pk
@@ -34916,8 +34965,8 @@ cb
 cb
 BE
 TF
-wT
-jU
+Cn
+Eh
 Eh
 Eh
 Eh
@@ -35418,8 +35467,8 @@ cb
 cb
 BE
 TF
-wT
-jU
+GN
+Eh
 Eh
 Eh
 Eh
@@ -35920,11 +35969,11 @@ cb
 cb
 BE
 TF
-wT
-xl
-TX
-TX
-TX
+jU
+Eh
+Eh
+Eh
+Eh
 ym
 wT
 uW
@@ -36422,12 +36471,12 @@ cb
 cb
 BE
 TF
-wT
-IJ
-TO
-IJ
-IJ
-IJ
+jU
+Eh
+Eh
+Eh
+Eh
+TX
 wT
 sf
 Oz
@@ -36924,12 +36973,12 @@ cb
 cb
 BE
 TF
-wT
-wT
-wT
-wT
-wT
-wT
+qO
+xl
+xl
+xl
+VO
+QE
 wT
 wT
 wT

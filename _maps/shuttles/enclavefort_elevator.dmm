@@ -1,12 +1,15 @@
-"a" = (/obj/machinery/computer/shuttle/enclavefortelevator,/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/shuttle/enclavefort_elevator)
-"c" = (/obj/structure/chair/comfy/shuttle{dir = 4},/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/shuttle/enclavefort_elevator)
-"C" = (/obj/docking_port/mobile/elevator{dheight = 0; dir = 8; dwidth = 1; height = 3; id = "enclavefort"; name = "enclave fort elevator"; width = 4},/turf/open/floor/f13{icon_state = "darkdirtydir"; dir = 5},/area/shuttle/enclavefort_elevator)
-"K" = (/turf/open/floor/f13{icon_state = "darkdirtydir"; dir = 5},/area/shuttle/enclavefort_elevator)
+"a" = (/obj/structure/chair/comfy/shuttle,/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/shuttle/enclavefort_elevator)
+"c" = (/obj/structure/chair/comfy/shuttle,/obj/machinery/light/floor,/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/shuttle/enclavefort_elevator)
+"C" = (/turf/open/floor/f13{icon_state = "darkdirtydir"},/area/shuttle/enclavefort_elevator)
+"E" = (/obj/docking_port/mobile/elevator{dheight = 0; dwidth = 1; height = 3; id = "enclavefort"; name = "enclave fort elevator"; width = 4},/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/shuttle/enclavefort_elevator)
+"J" = (/obj/machinery/light/floor,/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/shuttle/enclavefort_elevator)
+"K" = (/obj/structure/chair/comfy/shuttle,/obj/structure/chair/comfy/shuttle,/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/shuttle/enclavefort_elevator)
 "R" = (/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/shuttle/enclavefort_elevator)
+"T" = (/obj/machinery/computer/shuttle/enclavefortelevator{dir = 4; pixel_x = -4},/obj/machinery/light/floor,/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/shuttle/enclavefort_elevator)
 
 (1,1,1) = {"
-cRa
-cRK
-cRC
-cRR
+caaaKc
+RRRRRR
+RRRRRR
+TECCRJ
 "}
