@@ -1201,11 +1201,6 @@
 	icon_state = "bluerustyfull"
 	},
 /area/f13/enclave)
-"aYs" = (
-/obj/structure/flora/rock/jungle,
-/obj/structure/flora/rock/pile/largejungle,
-/turf/closed/indestructible/rock,
-/area/f13/wasteland)
 "aYy" = (
 /turf/closed/mineral/ash_rock{
 	color = "#edf2fc";
@@ -3217,6 +3212,10 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/wasteland)
+"cmk" = (
+/obj/structure/nest/ant,
+/turf/closed/mineral/random/low_chance,
+/area/f13/wasteland)
 "cml" = (
 /obj/structure/nest/supermutant,
 /obj/effect/decal/cleanable/dirt,
@@ -4256,8 +4255,8 @@
 	},
 /area/f13/wasteland)
 "cUh" = (
-/obj/effect/decal/cleanable/blood/gibs/core,
-/turf/open/indestructible/ground/inside/mountain,
+/obj/structure/nest/cazador,
+/turf/closed/mineral/random/low_chance,
 /area/f13/wasteland)
 "cUk" = (
 /obj/structure/chair/f13chair2{
@@ -5635,7 +5634,7 @@
 /turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "ebP" = (
-/obj/structure/nest/ant,
+/obj/structure/nest/deathclaw,
 /turf/closed/mineral/random/low_chance,
 /area/f13/wasteland)
 "ece" = (
@@ -6358,6 +6357,10 @@
 	icon_state = "tunnelchess2"
 	},
 /area/f13/wasteland)
+"eBi" = (
+/obj/structure/simple_door/metal,
+/turf/open/floor/plasteel/dark,
+/area/f13/wasteland)
 "eBy" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 32
@@ -6557,12 +6560,6 @@
 	icon_state = "darkrusty";
 	name = "dirty floor"
 	},
-/area/f13/wasteland)
-"eJO" = (
-/obj/structure/chair/f13chair1{
-	dir = 1
-	},
-/turf/open/floor/plasteel/floorgrime,
 /area/f13/wasteland)
 "eJV" = (
 /obj/structure/chair/sofa/corner{
@@ -7372,8 +7369,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/brotherhood/leisure)
 "fhH" = (
-/obj/structure/nest/cazador,
-/turf/closed/mineral/random/low_chance,
+/obj/structure/chair/f13chair1{
+	dir = 1
+	},
+/turf/open/floor/plasteel/floorgrime,
 /area/f13/wasteland)
 "fic" = (
 /mob/living/simple_animal/hostile/renegade,
@@ -7472,6 +7471,10 @@
 	pixel_y = -5
 	},
 /turf/open/water,
+/area/f13/wasteland)
+"fkJ" = (
+/obj/effect/decal/cleanable/blood/gibs/core,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/wasteland)
 "fkP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -9414,8 +9417,8 @@
 /turf/open/floor/plasteel/dark,
 /area/f13/wasteland)
 "gFx" = (
-/obj/structure/stairs/south,
-/turf/open/floor/plasteel/dark,
+/obj/structure/lattice/catwalk,
+/turf/closed/indestructible/rock,
 /area/f13/wasteland)
 "gFR" = (
 /obj/structure/chair/office/dark{
@@ -11135,11 +11138,6 @@
 /obj/structure/decoration/rag,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/wasteland)
-"hMK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/mineral/random/low_chance,
-/area/f13/wasteland)
 "hNl" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -11983,7 +11981,7 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/wasteland)
 "inE" = (
-/obj/structure/nest/gecko,
+/obj/structure/nest/fireant,
 /turf/closed/mineral/random/low_chance,
 /area/f13/wasteland)
 "inI" = (
@@ -12478,13 +12476,8 @@
 /turf/open/water,
 /area/f13/wasteland)
 "iKI" = (
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	dir = 1;
-	pixel_y = 3
-	},
-/obj/machinery/light,
-/turf/open/floor/plasteel/floorgrime,
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/mineral/random/low_chance,
 /area/f13/wasteland)
 "iKT" = (
 /obj/structure/closet/fridge/standard,
@@ -23511,6 +23504,10 @@
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/armory)
+"qCo" = (
+/obj/structure/nest/gecko,
+/turf/closed/mineral/random/high_chance,
+/area/f13/wasteland)
 "qCX" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 9
@@ -24853,10 +24850,6 @@
 	icon_state = "bluerustyfull"
 	},
 /area/f13/enclave)
-"rzK" = (
-/mob/living/simple_animal/hostile/bear/yaoguai,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/wasteland)
 "rAv" = (
 /obj/structure/chair/booth{
 	icon_state = "booth_west_north"
@@ -24962,6 +24955,15 @@
 "rFP" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/rnd)
+"rFR" = (
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	dir = 1;
+	pixel_y = 3
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/floorgrime,
+/area/f13/wasteland)
 "rFT" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -25582,6 +25584,10 @@
 /turf/open/floor/f13{
 	icon_state = "yellowrustyfull"
 	},
+/area/f13/wasteland)
+"sbf" = (
+/obj/structure/nest/gecko,
+/turf/closed/mineral/random/low_chance,
 /area/f13/wasteland)
 "sbn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -26212,6 +26218,10 @@
 /obj/structure/lattice/catwalk,
 /turf/open/water,
 /area/f13/enclave)
+"suL" = (
+/obj/machinery/door/airlock/maintenance_hatch/abandoned,
+/turf/closed/wall/rust,
+/area/f13/wasteland)
 "suS" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2"
@@ -26327,8 +26337,8 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/wasteland)
 "szn" = (
-/obj/structure/nest/gecko,
-/turf/closed/mineral/random/high_chance,
+/mob/living/simple_animal/hostile/bear/yaoguai,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/wasteland)
 "sAn" = (
 /obj/machinery/light/small{
@@ -26568,8 +26578,8 @@
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/operations)
 "sJq" = (
-/obj/structure/nest/fireant,
-/turf/closed/mineral/random/low_chance,
+/obj/effect/decal/cleanable/blood/gibs/body,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/wasteland)
 "sJu" = (
 /obj/structure/chair/booth{
@@ -28245,10 +28255,6 @@
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/leisure)
-"tOI" = (
-/obj/machinery/door/airlock/maintenance_hatch/abandoned,
-/turf/closed/wall/rust,
-/area/f13/wasteland)
 "tPj" = (
 /turf/closed/indestructible/wood,
 /area/f13/ncr)
@@ -28681,8 +28687,9 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/wasteland)
 "ucK" = (
-/obj/effect/decal/cleanable/blood/gibs/body,
-/turf/open/indestructible/ground/inside/mountain,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/mineral/random/low_chance,
 /area/f13/wasteland)
 "udm" = (
 /obj/machinery/door/airlock/grunge{
@@ -30576,10 +30583,6 @@
 	name = "cobblestone floor"
 	},
 /area/f13/ncr)
-"vsq" = (
-/obj/structure/lattice/catwalk,
-/turf/closed/indestructible/rock,
-/area/f13/wasteland)
 "vtl" = (
 /obj/structure/barricade/bars,
 /turf/open/indestructible/ground/inside/subway,
@@ -31019,7 +31022,8 @@
 /turf/closed/mineral/random/low_chance/underground,
 /area/f13/wasteland)
 "vLx" = (
-/obj/structure/flora/grass/jungle/b,
+/obj/structure/flora/rock/jungle,
+/obj/structure/flora/rock/pile/largejungle,
 /turf/closed/indestructible/rock,
 /area/f13/wasteland)
 "vLA" = (
@@ -32460,10 +32464,6 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/wasteland)
-"wLx" = (
-/obj/structure/nest/deathclaw,
-/turf/closed/mineral/random/low_chance,
-/area/f13/wasteland)
 "wLH" = (
 /obj/structure/simple_door/metal/fence{
 	dir = 8
@@ -33282,8 +33282,8 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/wasteland)
 "xtd" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/mineral/random/low_chance,
+/obj/structure/flora/grass/jungle/b,
+/turf/closed/indestructible/rock,
 /area/f13/wasteland)
 "xtD" = (
 /obj/structure/table,
@@ -39319,7 +39319,7 @@ xOB
 xOB
 xOB
 xOB
-inE
+sbf
 xOB
 xOB
 xOB
@@ -39454,7 +39454,7 @@ xOB
 xOB
 xOB
 xOB
-szn
+qCo
 xOB
 xOB
 xOB
@@ -44076,8 +44076,8 @@ uZs
 xOB
 xOB
 vpN
+xtd
 vLx
-aYs
 nbb
 wAv
 nbv
@@ -44264,7 +44264,7 @@ xyT
 xyT
 xyT
 xyT
-vsq
+gFx
 vpN
 vpN
 xOB
@@ -44578,8 +44578,8 @@ uZs
 xOB
 xOB
 vpN
+xtd
 vLx
-aYs
 nlA
 xaN
 iBO
@@ -51025,7 +51025,7 @@ xOB
 xOB
 xOB
 xOB
-inE
+sbf
 xOB
 xOB
 xOB
@@ -53344,7 +53344,7 @@ xOB
 xOB
 xOB
 xOB
-inE
+sbf
 xOB
 xOB
 xOB
@@ -58028,7 +58028,7 @@ xOB
 xOB
 xOB
 uZs
-szn
+qCo
 xOB
 xOB
 xOB
@@ -67590,7 +67590,7 @@ xOB
 xOB
 xOB
 xOB
-inE
+sbf
 xOB
 xOB
 xOB
@@ -72411,7 +72411,7 @@ xOB
 xOB
 xOB
 xOB
-wLx
+ebP
 xOB
 xOB
 xOB
@@ -74537,7 +74537,7 @@ xOB
 xOB
 xOB
 xOB
-inE
+sbf
 uZs
 xOB
 xOB
@@ -76071,7 +76071,7 @@ xOB
 xOB
 xOB
 xOB
-inE
+sbf
 xOB
 xOB
 xOB
@@ -77097,7 +77097,7 @@ xOB
 xOB
 xOB
 xOB
-inE
+sbf
 xOB
 xOB
 xOB
@@ -77146,9 +77146,9 @@ xOB
 xOB
 xOB
 xOB
-xtd
-xtd
-xtd
+iKI
+iKI
+iKI
 xOB
 xOB
 xOB
@@ -77156,8 +77156,8 @@ xOB
 xOB
 xOB
 xOB
-xtd
-hMK
+iKI
+ucK
 xOB
 xOB
 xOB
@@ -86019,7 +86019,7 @@ xOB
 xOB
 xOB
 xOB
-inE
+sbf
 xOB
 xOB
 xOB
@@ -88484,7 +88484,7 @@ xOB
 xOB
 xOB
 xOB
-inE
+sbf
 xOB
 uZs
 xOB
@@ -88607,7 +88607,7 @@ xOB
 xOB
 xOB
 xOB
-ebP
+cmk
 xOB
 xOB
 xOB
@@ -91084,7 +91084,7 @@ xOB
 xOB
 xOB
 xOB
-fhH
+cUh
 xOB
 xOB
 xOB
@@ -92658,7 +92658,7 @@ xOB
 xOB
 uZs
 uZs
-wLx
+ebP
 xOB
 xOB
 xOB
@@ -99041,7 +99041,7 @@ xOB
 uZs
 uZs
 xOB
-inE
+sbf
 xOB
 xOB
 xOB
@@ -113087,7 +113087,7 @@ xOB
 xOB
 xOB
 xOB
-inE
+sbf
 xOB
 xOB
 xOB
@@ -114785,7 +114785,7 @@ xOB
 xOB
 uZs
 xOB
-ebP
+cmk
 xOB
 xOB
 xOB
@@ -124720,7 +124720,7 @@ xOB
 xOB
 xOB
 xOB
-fhH
+cUh
 xOB
 xOB
 xOB
@@ -129662,7 +129662,7 @@ xOB
 xOB
 xOB
 xOB
-ebP
+cmk
 xOB
 xOB
 xOB
@@ -134784,7 +134784,7 @@ xOB
 xOB
 xOB
 xOB
-ebP
+cmk
 xOB
 xOB
 xOB
@@ -135208,7 +135208,7 @@ xOB
 xOB
 xOB
 xOB
-sJq
+inE
 xOB
 xOB
 xOB
@@ -136165,7 +136165,7 @@ hSR
 hSR
 hSR
 hSR
-tOI
+suL
 hSR
 hSR
 xOB
@@ -137168,9 +137168,9 @@ mBC
 hwX
 lCL
 ept
-eJO
+fhH
 lCL
-iKI
+rFR
 hSR
 xOB
 xOB
@@ -137184,7 +137184,7 @@ xOB
 xOB
 xOB
 xOB
-sJq
+inE
 xOB
 xOB
 xOB
@@ -137242,7 +137242,7 @@ xOB
 xOB
 xOB
 xOB
-sJq
+inE
 xOB
 xOB
 xOB
@@ -139849,7 +139849,7 @@ xOB
 xOB
 xOB
 xOB
-ebP
+cmk
 xOB
 xOB
 xOB
@@ -140328,7 +140328,7 @@ vpN
 jOt
 jOt
 jOt
-rzK
+szn
 jOt
 jOt
 jOt
@@ -140833,8 +140833,8 @@ fDK
 jOt
 jOt
 jOt
-ucK
-rzK
+sJq
+szn
 jOt
 fDK
 jOt
@@ -141831,10 +141831,10 @@ xOB
 xOB
 vpN
 jOt
-ucK
+sJq
 jOt
 jOt
-cUh
+fkJ
 jOt
 fDK
 jOt
@@ -142843,7 +142843,7 @@ jOt
 jOt
 jOt
 jOt
-ucK
+sJq
 jOt
 jOt
 vpN
@@ -143842,10 +143842,10 @@ vpN
 vpN
 jOt
 jOt
-rzK
+szn
 jOt
 jOt
-rzK
+szn
 jOt
 jOt
 vpN
@@ -143917,13 +143917,13 @@ eIZ
 eIZ
 wAv
 wAv
+jOt
 wAv
 wAv
+jOt
 wAv
-wAv
-wAv
-wAv
-wAv
+jOt
+jOt
 eIZ
 eIZ
 eIZ
@@ -144388,7 +144388,7 @@ xOB
 xOB
 xOB
 xOB
-sJq
+inE
 xOB
 xOB
 xOB
@@ -144419,12 +144419,12 @@ woa
 woa
 woa
 woa
+jOt
+jOt
 woa
+jOt
 woa
-woa
-woa
-woa
-woa
+jOt
 woa
 woa
 woa
@@ -144848,7 +144848,7 @@ jOt
 jOt
 jOt
 jOt
-cUh
+fkJ
 jOt
 jOt
 jOt
@@ -144922,11 +144922,11 @@ hSR
 hSR
 hSR
 hSR
-hSR
-hSR
-hSR
-hSR
-hSR
+jOt
+jOt
+jOt
+jOt
+jOt
 hSR
 hSR
 hSR
@@ -145426,8 +145426,8 @@ xOB
 xOB
 xOB
 xOB
-xOB
-xOB
+jOt
+jOt
 xOB
 xOB
 xOB
@@ -145927,12 +145927,12 @@ xOB
 xOB
 xOB
 xOB
+jOt
+jOt
+jOt
 xOB
-xOB
-xOB
-xOB
-xOB
-xOB
+jOt
+jOt
 xOB
 xOB
 xOB
@@ -146432,8 +146432,8 @@ xOB
 jOt
 jOt
 jOt
-xOB
-xOB
+jOt
+jOt
 xOB
 xOB
 xOB
@@ -146709,7 +146709,7 @@ xOB
 xOB
 xOB
 xOB
-ebP
+cmk
 xOB
 xOB
 xOB
@@ -147342,7 +147342,7 @@ xOB
 vpN
 jOt
 jOt
-cUh
+fkJ
 jOt
 jOt
 jOt
@@ -150350,7 +150350,7 @@ xOB
 xOB
 xOB
 vpN
-ucK
+sJq
 jOt
 jOt
 jOt
@@ -150853,7 +150853,7 @@ xOB
 xOB
 vpN
 jOt
-rzK
+szn
 jOt
 jOt
 jOt
@@ -151358,10 +151358,10 @@ jOt
 jOt
 jOt
 jOt
-cUh
+fkJ
 jOt
 jOt
-ucK
+sJq
 vpN
 xOB
 xOB
@@ -151861,9 +151861,9 @@ fDK
 jOt
 jOt
 jOt
-rzK
+szn
 jOt
-ucK
+sJq
 vpN
 xOB
 xOB
@@ -152361,7 +152361,7 @@ jOt
 jOt
 jOt
 jOt
-ucK
+sJq
 jOt
 jOt
 fDK
@@ -152777,7 +152777,7 @@ xOB
 xOB
 xOB
 xOB
-ebP
+cmk
 xOB
 xOB
 xOB
@@ -152860,12 +152860,12 @@ xOB
 xOB
 vpN
 jOt
-ucK
+sJq
 jOt
 jOt
-ucK
+sJq
 jOt
-ucK
+sJq
 jOt
 jOt
 vpN
@@ -153863,13 +153863,13 @@ xOB
 xOB
 xOB
 vpN
-ucK
+sJq
 jOt
-rzK
+szn
 jOt
-ucK
+sJq
 jOt
-rzK
+szn
 vpN
 vpN
 vpN
@@ -154029,7 +154029,7 @@ xVI
 mtg
 xVI
 xVI
-gFx
+xVI
 ubL
 xVI
 xVI
@@ -154531,7 +154531,7 @@ xVI
 xVI
 xVI
 xVI
-gFx
+xVI
 ubL
 aNB
 rTX
@@ -154768,7 +154768,7 @@ xOB
 xOB
 xOB
 xOB
-ebP
+cmk
 xOB
 xOB
 xOB
@@ -154869,7 +154869,7 @@ xOB
 vpN
 vpN
 vpN
-ucK
+sJq
 jOt
 jOt
 jOt
@@ -155519,7 +155519,7 @@ ubL
 ubL
 ubL
 ubL
-xVI
+eBi
 ubL
 ubL
 ubL
@@ -155528,8 +155528,8 @@ ubL
 ubL
 ubL
 ubL
-xVI
-xVI
+ubL
+ubL
 ubL
 ubL
 ubL
@@ -156918,7 +156918,7 @@ xOB
 xOB
 xOB
 xOB
-sJq
+inE
 xOB
 xOB
 xOB
@@ -157875,7 +157875,7 @@ xOB
 xOB
 xOB
 xOB
-ebP
+cmk
 xOB
 xOB
 xOB
@@ -159755,7 +159755,7 @@ xOB
 xOB
 xOB
 xOB
-sJq
+inE
 xOB
 xOB
 xOB
