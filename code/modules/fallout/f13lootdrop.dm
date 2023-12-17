@@ -798,32 +798,33 @@
 	icon_state = "egunlow_loot"
 	name = "low tier energy gun"
 	loot = list(/obj/effect/spawner/bundle/f13/wattz = 40,
-				/obj/effect/spawner/bundle/f13/wattzm = 25
+				/obj/effect/spawner/bundle/f13/wattzm = 5,
+				/obj/effect/spawner/bundle/f13/laserpistol = 20,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/energy/mid
 	icon_state = "egunmid_loot"
 	name = "mid tier energy gun"
-	loot = list(/obj/effect/spawner/bundle/f13/aer9 = 26,
-				/obj/effect/spawner/bundle/f13/laserpistol = 15,
-				/obj/effect/spawner/bundle/f13/ionrifle = 5
+	loot = list(/obj/effect/spawner/bundle/f13/aer9 = 40,
+				/obj/effect/spawner/bundle/f13/plasmapistol = 20,
+				/obj/effect/spawner/bundle/f13/wattz2k = 5,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/energy/midhigh //overlaps with midtier
 	name = "mid-high tier energy gun"
 	icon_state = "egunmidhigh_loot"
-	loot = list(/obj/effect/spawner/bundle/f13/aer12,
-				/obj/effect/spawner/bundle/f13/ionrifle,
-				/obj/effect/spawner/bundle/f13/aer14
+	loot = list(/obj/effect/spawner/bundle/f13/aer9 = 40,
+				/obj/effect/spawner/bundle/f13/ionrifle = 5,
+				/obj/effect/spawner/bundle/f13/aer12 = 20,
 				)
 /obj/effect/spawner/lootdrop/f13/weapon/gun/energy/high
 	name = "high tier energy gun"
 	icon_state = "egunhigh_loot"
-	loot = list(/obj/effect/spawner/bundle/f13/tribeam = 10,
+	loot = list(/obj/effect/spawner/bundle/f13/tribeam = 20,
 				/obj/effect/spawner/bundle/f13/rcw = 20,
-				/obj/effect/spawner/bundle/f13/aer14 = 20,
-				/obj/effect/spawner/bundle/f13/wattz2k = 26,
-				/obj/effect/spawner/bundle/f13/wattz2kext = 15,
+				/obj/effect/spawner/bundle/f13/aer14 = 10,
+				/obj/effect/spawner/bundle/f13/plasmarifle = 20,
+				/obj/effect/spawner/bundle/f13/wattz2kext = 20,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/energy/superhigh
@@ -936,7 +937,7 @@
 	loot = list(/obj/effect/spawner/bundle/f13/amr = 10,
 				/obj/effect/spawner/bundle/f13/brushgun = 15,
 				/obj/effect/spawner/bundle/f13/rangemaster = 15,
-				/obj/item/gun/ballistic/rocketlauncher = 10,
+				///obj/item/gun/ballistic/rocketlauncher = 10,
 				/obj/item/gun/ballistic/shotgun/automatic/combat/citykiller = 10,
 				/obj/item/gun/ballistic/automatic/bozar = 10
 				)
@@ -1283,7 +1284,7 @@
 	name = "Neostead 2000 shotgun and ammo spawner"
 	items = list(
 				/obj/item/gun/ballistic/shotgun/automatic/combat/neostead_noalt,
-				/obj/item/ammo_box/shotgun/flechette
+				/obj/item/ammo_box/shotgun/buck
 	)
 
 /obj/effect/spawner/bundle/f13/auto5
@@ -1542,14 +1543,14 @@
 /obj/effect/spawner/bundle/f13/rocketlauncher
 	name = "rocket launcher and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/rocketlauncher,
+				///obj/item/gun/ballistic/rocketlauncher,
 				/obj/item/ammo_casing/caseless/rocket
 	)
 
 /obj/effect/spawner/bundle/f13/grenadelauncher
 	name = "grenade launcher and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/revolver/grenadelauncher,
+				///obj/item/gun/ballistic/revolver/grenadelauncher,
 				/obj/item/ammo_box/a40mmHE
 	)
 
@@ -1715,7 +1716,7 @@
 				/obj/item/grenade/empgrenade,
 				/obj/item/grenade/f13/radiation,
 				/obj/item/grenade/f13/frag,
-				/obj/effect/spawner/bundle/f13/grenadelauncher,
+				///obj/effect/spawner/bundle/f13/grenadelauncher,
 				)
 
 /obj/effect/spawner/lootdrop/f13/bomb/top_tier
@@ -1729,7 +1730,7 @@
 				/obj/item/grenade/f13/he_grenade,
 				/obj/item/grenade/plastic/x4,
 				/obj/item/grenade/stingbang/shred = 1,
-				/obj/effect/spawner/bundle/f13/rocketlauncher,
+				///obj/effect/spawner/bundle/f13/rocketlauncher,
 				)
 
 
