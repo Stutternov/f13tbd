@@ -509,12 +509,6 @@
 	icon_state = "greendirtyfull"
 	},
 /area/f13/wasteland)
-"bR" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/turf/open/floor/wood/wood_worn/wood_worn_dark,
-/area/f13/legion)
 "bT" = (
 /obj/structure/closet/crate/bin/trashbin,
 /obj/effect/decal/cleanable/dirt{
@@ -2103,7 +2097,6 @@
 /area/f13/wasteland)
 "if" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/trash,
 /obj/structure/sign/poster/prewar/poster62{
 	pixel_x = 32
 	},
@@ -2365,7 +2358,6 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
 	},
-/obj/effect/spawner/lootdrop/trash,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood4-broken"
 	},
@@ -4142,10 +4134,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
 "qu" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 8
-	},
-/turf/open/floor/wood/wood_worn/wood_worn_dark,
+/obj/structure/railing/wood,
+/obj/structure/railing/wood/post,
+/turf/open/floor/wood/wood_wide/wood_wide_dark,
 /area/f13/legion)
 "qv" = (
 /obj/effect/decal/cleanable/dirt{
@@ -5673,7 +5664,6 @@
 /area/f13/ncr)
 "wt" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/trash,
 /turf/open/floor/carpet/arcade,
 /area/f13/wasteland)
 "wu" = (
@@ -8482,15 +8472,6 @@
 /obj/item/crafting/duct_tape,
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/wasteland)
-"HR" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood1-broken"
-	},
-/area/f13/wasteland)
 "HS" = (
 /obj/structure/railing,
 /turf/open/transparent/openspace,
@@ -8701,13 +8682,6 @@
 "IL" = (
 /turf/open/floor/wood/wood_fancy,
 /area/f13/ncr)
-"IM" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/carpet,
-/area/f13/wasteland)
 "IO" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -10280,9 +10254,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/wasteland)
 "Pv" = (
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/carpet/black,
-/area/f13/wasteland)
+/turf/open/floor/wood/wood_worn/wood_worn_dark,
+/area/f13/legion)
 "Pw" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/f13/wood,
@@ -10522,12 +10495,12 @@
 /turf/open/floor/wood,
 /area/f13/ncr)
 "Qw" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
 	},
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/f13/wood,
-/area/f13/wasteland)
+/area/f13/caves)
 "Qz" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -12578,12 +12551,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/wasteland)
 "Yp" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
 	},
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/carpet/arcade,
-/area/f13/wasteland)
+/area/f13/caves)
 "Yq" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -99810,12 +99782,12 @@ ja
 ja
 ja
 Fb
-Fb
-kl
-mB
-mB
-kl
-kl
+Mn
+Mn
+Pv
+Pv
+Mn
+Mn
 Fb
 FS
 tD
@@ -100311,12 +100283,12 @@ ja
 ja
 ja
 ja
-ja
+dZ
 Mn
-Mn
-qu
-qu
-Mn
+nJ
+Cr
+Cr
+cY
 Mn
 Fb
 Fb
@@ -100813,13 +100785,13 @@ ja
 ja
 ja
 ja
-dZ
-Mn
-nJ
+ja
+Ks
 Cr
 Cr
-cY
-Mn
+Cr
+hX
+Ks
 Fb
 Fb
 CF
@@ -101316,12 +101288,12 @@ ja
 ja
 ja
 ja
-Ks
+qu
 Cr
 Cr
 Cr
-hX
-Ks
+Cr
+qu
 ja
 ja
 ja
@@ -101818,12 +101790,12 @@ ja
 ja
 ja
 ja
-Ks
+qu
 Cr
 Cr
 Cr
 Cr
-Ks
+qu
 ja
 ja
 ja
@@ -103825,13 +103797,13 @@ ja
 ja
 ja
 ja
-dZ
-Mn
-eY
+ja
+Ks
 Cr
 Cr
-zF
-Mn
+Cr
+Cr
+Ks
 eR
 ja
 ja
@@ -104327,13 +104299,13 @@ ja
 ja
 ja
 ja
-ja
-LI
+dZ
+Mn
+eY
 Cr
 Cr
-Cr
-Cr
-LI
+zF
+Mn
 ja
 ja
 ja
@@ -104829,13 +104801,13 @@ ja
 ja
 ja
 ja
-dZ
-Mn
-eY
+ja
+LI
 Cr
 Cr
-zF
-Mn
+Cr
+Cr
+LI
 eR
 ja
 ja
@@ -105331,13 +105303,13 @@ ja
 ja
 ja
 ja
-ja
-Ks
+dZ
+Mn
+eY
 Cr
 Cr
-Cr
-Cr
-Ks
+zF
+Mn
 ja
 ja
 ja
@@ -107344,7 +107316,7 @@ Ks
 Cr
 Cr
 Cr
-hX
+Cr
 Ks
 ja
 ja
@@ -107841,13 +107813,13 @@ ja
 ja
 ja
 ja
-dZ
-Mn
-ob
+ja
+qu
 Cr
 Cr
-RX
-Mn
+Cr
+Cr
+qu
 Fb
 Fb
 ja
@@ -108344,12 +108316,12 @@ ja
 ja
 ja
 ja
-Mn
-Mn
-bR
-bR
-Mn
-Mn
+qu
+Cr
+Cr
+Cr
+Cr
+qu
 Fb
 Fb
 Fb
@@ -108671,7 +108643,7 @@ rn
 rn
 rn
 rn
-IM
+rn
 rn
 GT
 bu
@@ -108846,12 +108818,12 @@ ja
 ja
 ja
 ja
-rO
-Fb
-Fb
-Fb
-Fb
-Fb
+Ks
+Cr
+Cr
+Cr
+hX
+Ks
 Fb
 Fb
 Fb
@@ -109346,14 +109318,14 @@ ja
 ja
 ja
 ja
-rO
-rO
-Fb
-Fb
-Fb
-Fb
-Fb
-Fb
+Yp
+Qw
+Mn
+ob
+Cr
+Cr
+RX
+Mn
 Fb
 Fb
 Fb
@@ -109672,7 +109644,7 @@ bu
 GT
 zZ
 rn
-IM
+rn
 rn
 Fq
 Lt
@@ -109848,14 +109820,14 @@ ja
 ja
 ja
 ja
-rO
-Fb
-Fb
-Fb
-Fb
-Fb
-Fb
-Fb
+Yp
+Yp
+Mn
+Mn
+Pv
+Pv
+Mn
+Mn
 Fb
 Fb
 Fb
@@ -110350,8 +110322,8 @@ ja
 DQ
 DQ
 DQ
-Fb
-Fb
+rO
+rO
 Fb
 Fb
 Fb
@@ -111533,7 +111505,7 @@ ja
 mX
 LP
 di
-Pv
+di
 di
 di
 yo
@@ -112184,7 +112156,7 @@ Yk
 HX
 rN
 ON
-Qw
+zs
 GT
 hu
 Ei
@@ -115697,7 +115669,7 @@ GT
 xm
 ON
 zO
-Qw
+zs
 zs
 GT
 GT
@@ -116202,7 +116174,7 @@ GT
 Mv
 PM
 zs
-Qw
+zs
 cD
 ON
 Ap
@@ -117704,7 +117676,7 @@ bu
 bu
 GT
 yJ
-HR
+ON
 zs
 Lv
 Lt
@@ -119568,7 +119540,7 @@ Yw
 mX
 De
 Dy
-Yp
+Dy
 TM
 HQ
 gm
