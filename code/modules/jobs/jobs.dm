@@ -222,7 +222,7 @@ GLOBAL_LIST_INIT(ncr_positions, list(
 	"NCR Medical Officer",
 	"NCR Quartermaster",
 	"NCR Logistics Officer",
-	"NCR Rear Echelon",
+	"NCR Off-Duty",
 ))
 
 GLOBAL_LIST_INIT(vault_positions, list(
@@ -257,6 +257,7 @@ GLOBAL_LIST_INIT(enclave_positions, list(
 	"Enclave Lieutenant",
 	"Enclave Gunnery Sergeant",
 	"Enclave Sergeant",
+	"Enclave Armored Infantry",
 	"Enclave Specialist",
 	"Enclave Scientist",
 	"Enclave Pilot Officer",

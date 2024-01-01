@@ -875,24 +875,23 @@
 				/obj/effect/spawner/bundle/f13/colt357,
 				/obj/effect/spawner/bundle/f13/huntingshotgun,
 				/obj/effect/spawner/bundle/f13/police_pistol,
-				/obj/effect/spawner/bundle/f13/guns/commando,
-				/obj/effect/spawner/bundle/f13/m1carbine,
 				/obj/effect/spawner/bundle/f13/beretta/select,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/lowmid
 	name = "low-mid tier ballistic gun"
 	icon_state = "gunlowmid_loot"
-	loot = list(/obj/effect/spawner/bundle/f13/n99,
+	loot = list(/obj/effect/spawner/bundle/f13/colt6520,
 				/obj/effect/spawner/bundle/f13/cowboy,
 				/obj/effect/spawner/bundle/f13/mk23,
 				/obj/effect/spawner/bundle/f13/hunting,
 				/obj/effect/spawner/lootdrop/f13/weapon/revolver44variants,
 				/obj/effect/spawner/bundle/f13/trenchshotgun,
-				/obj/effect/spawner/bundle/f13/m1carbine,
 				/obj/effect/spawner/bundle/f13/huntingshotgun,
 				/obj/effect/spawner/bundle/f13/revolver45,
-				/obj/item/gun/ballistic/automatic/smg/american180
+				/obj/effect/spawner/bundle/f13/uzi,
+				/obj/effect/spawner/bundle/f13/smg22,
+				/obj/effect/spawner/bundle/f13/greasegun
 		)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid
@@ -900,31 +899,33 @@
 	icon_state = "gunmid_loot"
 	loot = list(/obj/effect/spawner/bundle/f13/trail,
 				/obj/effect/spawner/bundle/f13/service,
-				/obj/effect/spawner/bundle/f13/miniuzi,
+				/obj/effect/spawner/bundle/f13/smg10mm,
 				/obj/effect/spawner/bundle/f13/auto5,
 				/obj/effect/spawner/bundle/f13/marksman,
 				/obj/effect/spawner/bundle/f13/m1garand,
 				/obj/effect/spawner/bundle/f13/deagle,
 				/obj/effect/spawner/bundle/f13/automag,
+				/obj/effect/spawner/bundle/f13/mp5,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/highmid
 	name = "high-mid tier ballistic gun"
 	icon_state = "gunhighmid_loot"
-	loot = list(/obj/effect/spawner/bundle/f13/mp5,
-				/obj/effect/spawner/bundle/f13/smg10mm,
+	loot = list(
+				/obj/effect/spawner/bundle/f13/deagle,
+				/obj/effect/spawner/bundle/f13/thompson,
 				/obj/effect/spawner/bundle/f13/needler,
 				/obj/effect/spawner/bundle/f13/marksman,
-				/obj/effect/spawner/bundle/f13/guns/tommygun,
 				/obj/effect/spawner/bundle/f13/shotgunlever,
-				/obj/effect/spawner/bundle/f13/infiltrator,
-				/obj/effect/spawner/bundle/f13/brushgun,
+				/obj/effect/spawner/bundle/f13/assault_rifle,
+				/obj/effect/spawner/bundle/f13/ak112,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/high
 	name = "high tier ballistic gun"
 	icon_state = "gunhigh_loot"
-	loot = list(/obj/effect/spawner/bundle/f13/assault_rifle = 20,
+	loot = list(/obj/effect/spawner/bundle/f13/brushgun = 20,
+				/obj/effect/spawner/bundle/f13/infiltrator = 15,
 				/obj/effect/spawner/bundle/f13/r84 = 10,
 				/obj/effect/spawner/bundle/f13/dkssniper = 15,
 				/obj/effect/spawner/bundle/f13/pistol14 = 15,
@@ -935,11 +936,14 @@
 	name = "superhigh tier ballistic gun"
 	icon_state = "gunsuperhigh_loot"
 	loot = list(/obj/effect/spawner/bundle/f13/amr = 10,
-				/obj/effect/spawner/bundle/f13/brushgun = 15,
+				/obj/effect/spawner/bundle/f13/assault_carbine = 10,
 				/obj/effect/spawner/bundle/f13/rangemaster = 15,
 				///obj/item/gun/ballistic/rocketlauncher = 10,
 				/obj/item/gun/ballistic/shotgun/automatic/combat/citykiller = 10,
-				/obj/item/gun/ballistic/automatic/bozar = 10
+				/obj/item/gun/ballistic/automatic/bozar = 10,
+				/obj/effect/spawner/bundle/f13/p90 = 10,
+				/obj/effect/spawner/bundle/f13/calico = 15,
+				/obj/effect/spawner/bundle/f13/smg14mm = 10,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/unique
@@ -1011,7 +1015,7 @@
 	name = "10mm pistol and ammo spawner"
 	items = list(
 				/obj/item/gun/ballistic/automatic/pistol/n99,
-				/obj/item/ammo_box/magazine/m10mm_adv/simple/
+				/obj/item/ammo_box/magazine/m10mm/
 				)
 
 /obj/effect/spawner/bundle/f13/m1911
@@ -1127,6 +1131,13 @@
 				/obj/item/ammo_box/a357
 				)
 
+/obj/effect/spawner/bundle/f13/colt6520
+	name = "colt 6250 and ammo spawner"
+	items = list(
+		/obj/item/gun/ballistic/revolver/colt6520,
+		/obj/item/ammo_box/l10mm
+	)
+
 /obj/effect/spawner/bundle/f13/service
 	name = "NCR service rifle and ammo spawner"
 	items = list(
@@ -1146,20 +1157,6 @@
 	items = list(
 				/obj/item/gun/energy/laser/pistol,
 				/obj/item/stock_parts/cell/ammo/ec
-	)
-
-/obj/effect/spawner/bundle/f13/m1carbine
-	name = "m1 carbine and ammo spawner"
-	items = list(
-				/obj/item/gun/ballistic/automatic/m1carbine,
-				/obj/item/ammo_box/magazine/m10mm_adv/simple
-	)
-
-/obj/effect/spawner/bundle/f13/guns/commando
-	name = "de lisle carbine and ammo spawner"
-	items = list(
-				/obj/item/gun/ballistic/automatic/delisle,
-				/obj/item/ammo_box/magazine/m9mmds
 	)
 
 /obj/effect/spawner/bundle/f13/mk23
@@ -1189,25 +1186,25 @@
 				/obj/item/ammo_box/magazine/autopipe
 				)
 
-/obj/effect/spawner/bundle/f13/miniuzi
-	name = "mini uzi and ammo spawner"
+/obj/effect/spawner/bundle/f13/uzi
+	name = "uzi and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/automatic/smg/mini_uzi,
-				/obj/item/ammo_box/magazine/uzim9mm/
+				/obj/item/gun/ballistic/automatic/smg/uzi,
+				/obj/item/ammo_box/magazine/msmg9mm
 				)
 
 /obj/effect/spawner/bundle/f13/smg10mm
 	name = "10mm SMG and ammo spawner"
 	items = list(
 				/obj/item/gun/ballistic/automatic/smg/smg10mm,
-				/obj/item/ammo_box/magazine/m10mm_adv/ext/
+				/obj/item/ammo_box/magazine/msmg10mm
 				)
 
 /obj/effect/spawner/bundle/f13/greasegun
-	name = "m3a1 grease gun and ammo spawner"
+	name = "grease gun and ammo spawner"
 	items = list(
 				/obj/item/gun/ballistic/automatic/smg/greasegun,
-				/obj/item/ammo_box/magazine/greasegun
+				/obj/item/ammo_box/magazine/mgreasegun
 				)
 
 /obj/effect/spawner/bundle/f13/guns/auto5
@@ -1295,11 +1292,11 @@
 				/obj/item/ammo_box/shotgun/slug
 	)
 
-// Obsolete
 /obj/effect/spawner/bundle/f13/smg22
-	name = "american 180 spawner"
+	name = ".22lr smg and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/automatic/smg/american180
+				/obj/item/gun/ballistic/automatic/smg/smg22,
+				/obj/item/ammo_box/magazine/msmg22
 				)
 
 /obj/effect/spawner/bundle/f13/assault_rifle
@@ -1316,6 +1313,13 @@
 				/obj/item/ammo_box/magazine/m5mm
 				)
 
+/obj/effect/spawner/bundle/f13/ak112
+	name = "ak112 and ammo spawner"
+	items = list(
+				/obj/item/gun/ballistic/automatic/assault_carbine/ak112,
+				/obj/item/ammo_box/magazine/m5mm
+				)
+
 /obj/effect/spawner/bundle/f13/marksman
 	name = "marksman rifle and ammo spawner"
 	items = list(
@@ -1327,7 +1331,7 @@
 	name = "combat carbine and ammo spawner"
 	items = list(
 				/obj/item/gun/ballistic/automatic/combatcarbine,
-				/obj/item/ammo_box/magazine/tommygunm45/stick
+				/obj/item/ammo_box/magazine/mthompson
 				)
 
 /obj/effect/spawner/bundle/f13/rcw
@@ -1425,7 +1429,7 @@
 	name = "mp5 and ammo spawner"
 	items = list(
 				/obj/item/gun/ballistic/automatic/smg/mp5,
-				/obj/item/ammo_box/magazine/uzim9mm/
+				/obj/item/ammo_box/magazine/msmg9mm
 	)
 
 /obj/effect/spawner/bundle/f13/citykiller
@@ -1435,11 +1439,25 @@
 		/obj/item/ammo_box/shotgun/buck
 	)
 
-/obj/effect/spawner/bundle/f13/guns/p90
-	name = "P90 SMG spawner"
+/obj/effect/spawner/bundle/f13/calico
+	name = "calico and ammo spawner"
+	items = list(
+				/obj/item/gun/ballistic/automatic/smg/calico,
+				/obj/item/ammo_box/magazine/mcalico
+	)
+
+/obj/effect/spawner/bundle/f13/p90
+	name = "P90 and ammo spawner"
 	items = list(
 				/obj/item/gun/ballistic/automatic/smg/p90,
-				/obj/item/ammo_box/magazine/m10mm_p90/
+				/obj/item/ammo_box/magazine/mp90
+	)
+
+/obj/effect/spawner/bundle/f13/smg14mm
+	name = "14mm smg and ammo spawner"
+	items = list(
+				/obj/item/gun/ballistic/automatic/smg/smg14mm,
+				/obj/item/ammo_box/magazine/msmg14mm
 	)
 
 /obj/effect/spawner/bundle/f13/hunting
@@ -1474,7 +1492,7 @@
 	name = "bozar and ammo spawner"
 	items = list(
 			/obj/item/gun/ballistic/automatic/bozar,
-			/obj/item/ammo_box/magazine/m556/rifle/extended/
+			/obj/item/ammo_box/magazine/m556/rifle/extended
 	)
 
 /obj/effect/spawner/bundle/f13/plasmarifle
@@ -1484,11 +1502,11 @@
 				/obj/item/stock_parts/cell/ammo/mfc
 	)
 
-/obj/effect/spawner/bundle/f13/guns/tommygun
-	name = "tommygun and ammo spawner"
+/obj/effect/spawner/bundle/f13/thompson
+	name = "thompson and ammo spawner"
 	items = list(
-				/obj/item/gun/ballistic/automatic/smg/tommygun,
-				/obj/item/ammo_box/magazine/tommygunm45/
+				/obj/item/gun/ballistic/automatic/smg/thompson,
+				/obj/item/ammo_box/magazine/mthompson
 	)
 
 /obj/effect/spawner/bundle/f13/aer14
@@ -1565,7 +1583,7 @@
 	name = "combat carbine and ammo spawner"
 	items = list(
 				/obj/item/gun/ballistic/automatic/combatcarbine,
-				/obj/item/ammo_box/magazine/tommygunm45/stick
+				/obj/item/ammo_box/magazine/mthompson
 	)
 
 /*	------------------------------------------------
@@ -1587,7 +1605,7 @@
 				/obj/item/ammo_box/shotgun/buck,
 				/obj/item/ammo_box/shotgun/slug,
 				/obj/item/ammo_box/c38,
-				/obj/item/ammo_box/magazine/m10mm_adv/simple,
+				/obj/item/ammo_box/magazine/m10mm,
 				/obj/item/ammo_box/magazine/m556/rifle/small
 				)
 
@@ -1600,14 +1618,15 @@
 				/obj/item/ammo_box/magazine/m45,
 				/obj/item/ammo_box/a762,
 				/obj/item/ammo_box/a308,
-				/obj/item/ammo_box/magazine/m10mm_adv/simple,
+				/obj/item/ammo_box/magazine/m10mm,
 				/obj/item/ammo_box/magazine/m556/rifle,
 				/obj/item/ammo_box/c38,
 				/obj/item/ammo_box/magazine/m9mm,
 				/obj/item/ammo_box/m44,
 				/obj/item/ammo_box/tube/a357,
 				/obj/item/ammo_box/a357,
-				/obj/item/ammo_box/magazine/m556/rifle/small
+				/obj/item/ammo_box/magazine/m556/rifle/small,
+				/obj/item/ammo_box/magazine/mgreasegun
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2/Initialize(mapload) //on mapload, pick how many shit to spawn
@@ -1621,13 +1640,12 @@
 
 	loot = list(
 				/obj/item/ammo_box/shotgun/buck,
-				/obj/item/ammo_box/magazine/uzim9mm,
-				/obj/item/ammo_box/magazine/m10mm_adv/simple,
-				/obj/item/ammo_box/magazine/greasegun,
+				/obj/item/ammo_box/magazine/msmg9mm,
+				/obj/item/ammo_box/magazine/m10mm,
 				/obj/item/ammo_box/needle,
-				/obj/item/ammo_box/magazine/tommygunm45,
+				/obj/item/ammo_box/magazine/mthompson,
 				/obj/item/ammo_box/tube/m44,
-				/obj/item/ammo_box/magazine/m10mm_adv/ext,
+				/obj/item/ammo_box/magazine/msmg10mm,
 				/obj/item/stock_parts/cell/ammo/ec
 				)
 
@@ -1641,6 +1659,8 @@
 	lootdoubles = TRUE
 
 	loot = list(
+				/obj/item/ammo_box/magazine/msmg9mm/drum,
+				/obj/item/ammo_box/magazine/mthompson/drum,
 				/obj/item/ammo_box/magazine/d12g,
 				/obj/item/ammo_box/magazine/m44,
 				/obj/item/ammo_box/magazine/m556/rifle,
@@ -2201,24 +2221,21 @@
 	icon_state = "blueprint_loot"
 	lootcount = 1
 	loot = list(
-		/obj/item/book/granter/crafting_recipe/blueprint/thatgun,
+		/obj/item/book/granter/crafting_recipe/blueprint/aep7,
 		/obj/item/book/granter/crafting_recipe/blueprint/uzi,
-		/obj/item/book/granter/crafting_recipe/blueprint/greasegun,
-		/obj/item/book/granter/crafting_recipe/blueprint/commando,
-		/obj/item/book/granter/crafting_recipe/blueprint/m1carbine,
+		/obj/item/book/granter/crafting_recipe/blueprint/wattz1k,
 	)
 /obj/effect/spawner/lootdrop/f13/blueprintMid
 	name = "blueprint-tier(Mid) item spawner"
 	icon_state = "blueprint_loot"
 	lootcount = 1
 	loot = list(
-		/obj/item/book/granter/crafting_recipe/blueprint/r82,
 		/obj/item/book/granter/crafting_recipe/blueprint/service,
 		/obj/item/book/granter/crafting_recipe/blueprint/trailcarbine,
 		/obj/item/book/granter/crafting_recipe/blueprint/smg10mm,
-		/obj/item/book/granter/crafting_recipe/blueprint/aep7,
 		/obj/item/book/granter/crafting_recipe/blueprint/scoutcarbine,
-		/obj/item/book/granter/crafting_recipe/blueprint/sniper,
+		/obj/item/book/granter/crafting_recipe/blueprint/combatrifle,
+		/obj/item/book/granter/crafting_recipe/blueprint/mp5,
 	)
 
 /obj/effect/spawner/lootdrop/f13/blueprintHigh
@@ -2228,12 +2245,10 @@
 	loot = list(
 		/obj/item/book/granter/crafting_recipe/blueprint/leveraction,
 		/obj/item/book/granter/crafting_recipe/blueprint/r91,
-		/obj/item/book/granter/crafting_recipe/blueprint/r84,
-		/obj/item/book/granter/crafting_recipe/blueprint/deagle,
 		/obj/item/book/granter/crafting_recipe/blueprint/marksman,
-		/obj/item/book/granter/crafting_recipe/blueprint/combatrifle,
+		/obj/item/book/granter/crafting_recipe/blueprint/thatgun,
 		/obj/item/book/granter/crafting_recipe/blueprint/plasmapistol,
-		/obj/item/book/granter/crafting_recipe/blueprint/brushgun,
+		/obj/item/book/granter/crafting_recipe/blueprint/aer9,
 	)
 
 /obj/effect/spawner/lootdrop/f13/blueprintVHigh
@@ -2243,7 +2258,11 @@
 	loot = list(
 		/obj/item/book/granter/crafting_recipe/blueprint/neostead,
 		/obj/item/book/granter/crafting_recipe/blueprint/riotshotgun,
-		/obj/item/book/granter/crafting_recipe/blueprint/aer9,
+		/obj/item/book/granter/crafting_recipe/blueprint/sniper,
+		/obj/item/book/granter/crafting_recipe/blueprint/brushgun,
+		/obj/item/book/granter/crafting_recipe/blueprint/thompson,
+		/obj/item/book/granter/crafting_recipe/blueprint/r84,
+		/obj/item/book/granter/crafting_recipe/blueprint/deagle,
 	)
 
 /obj/effect/spawner/lootdrop/f13/blueprintVHighBallistics
@@ -2255,7 +2274,7 @@
 //		/obj/item/book/granter/crafting_recipe/blueprint/am_rifle,
 		/obj/item/book/granter/crafting_recipe/blueprint/citykiller,
 		/obj/item/book/granter/crafting_recipe/blueprint/rangemaster,
-//		/obj/item/book/granter/crafting_recipe/blueprint/bozar
+		/obj/item/book/granter/crafting_recipe/blueprint/bozar
 	)
 
 /obj/effect/spawner/lootdrop/f13/blueprintVHighPartsWeighted
@@ -2288,7 +2307,7 @@
 		/obj/item/advanced_crafting_components/receiver,
 		/obj/item/advanced_crafting_components/assembly,
 		/obj/item/advanced_crafting_components/alloys,
-		/obj/item/ingot/adamantine, // Valuable for smithing
+		/obj/item/ingot/saturnite, // Valuable for smithing
 	)
 
 /obj/effect/spawner/lootdrop/f13/attachments

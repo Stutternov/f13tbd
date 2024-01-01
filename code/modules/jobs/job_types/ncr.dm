@@ -163,7 +163,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	exp_requirements = 1440
 
 	loadout_options = list(
-		/datum/outfit/loadout/ncrcptmelee,	// Lucky
+		/datum/outfit/loadout/ncrcptmelee,	// Peacekeeper
 		/datum/outfit/loadout/ncrcptshotgun, // Pancor
 		)
 
@@ -200,13 +200,15 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/reagent_containers/food/snacks/grown/tobacco/dried = 1,
 		/obj/item/clothing/suit/armor/f13/ncrarmor/captain = 1,
 		/obj/item/storage/box/ration/menu_eight = 1,
+		/obj/item/gun/ballistic/automatic/pistol/m1911/custom = 1,
+		/obj/item/ammo_box/magazine/m45 = 2,
 		)
 
 /datum/outfit/loadout/ncrcptmelee
 	name = "Backline Support"
 	backpack_contents = list(
-		/obj/item/gun/ballistic/revolver/colt357/lucky = 1,
-		/obj/item/ammo_box/a357box = 2,
+		/obj/item/gun/ballistic/revolver/m29/peacekeeper = 1,
+		/obj/item/ammo_box/m44box = 2,
 		)
 
 /datum/outfit/loadout/ncrcptshotgun
@@ -311,7 +313,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	exp_requirements = 780
 
 	loadout_options = list( // ALL: Bayonet, M1911 sidearm
-		/datum/outfit/loadout/sergeantrifleman,	// R82
+		/datum/outfit/loadout/sergeantrifleman,	// R91
 		/datum/outfit/loadout/sergeantrecon, // sniper
 		/datum/outfit/loadout/sergeantcqc, // Armor plus browning.
 		)
@@ -353,7 +355,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 
 /datum/outfit/loadout/sergeantrifleman
 	name = "Lead Rifleman"
-	suit_store = /obj/item/gun/ballistic/automatic/service/r82
+	suit_store = /obj/item/gun/ballistic/automatic/assault_rifle
 	head = /obj/item/clothing/head/f13/ncr
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle = 3,
@@ -581,11 +583,11 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	if(visualsOnly)
 		return
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/bladedsequoia)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/rangercape)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS,  REF(src))
 	ADD_TRAIT(H, TRAIT_LIFEGIVER,  REF(src))
 	ADD_TRAIT(H, TRAIT_IRONFIST,  REF(src))
 	ADD_TRAIT(H, TRAIT_SILENT_STEP,  REF(src))
-	ADD_TRAIT(H, TRAIT_INSANE_AIM,  REF(src))
 	ADD_TRAIT(H, TRAIT_GENERIC,  REF(src))
 	var/datum/martial_art/rangertakedown/RT = new
 	RT.teach(H)
@@ -618,6 +620,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	suit_store = /obj/item/gun/ballistic/rifle/mag/antimateriel
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/amr = 2,
+		/obj/item/gun/ballistic/automatic/pistol/deagle = 1,
+		/obj/item/ammo_box/magazine/m44 = 2,
 		)
 
 /datum/outfit/loadout/vrlite
@@ -625,6 +629,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	suit_store = /obj/item/gun/ballistic/rifle/repeater/brush/medistick
 	backpack_contents = list(
 		/obj/item/ammo_box/c4570box/ = 2,
+		/obj/item/book/granter/trait/insane_aim = 1,
 		)
 
 /datum/outfit/loadout/vrcqc
@@ -655,13 +660,14 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	/datum/outfit/loadout/rangerrecon, // compact sniper, .45 Revolver
 	/datum/outfit/loadout/rangertrail, // Trail Carbine, 2 x .357 Revolvers
 	/datum/outfit/loadout/rangerpatrol, // R91 Assault Rifle, .44 SA Revolver
-	/datum/outfit/loadout/rangerpatrolcqb, // 10mm SMG, .44 Snubnose revolver
+	/datum/outfit/loadout/rangerpatrolcqb, // MP5, .44 Snubnose revolver
 	)
 
 /datum/outfit/job/ncr/f13ranger/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()
 	if(visualsOnly)
 		return
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/rangercape)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS,  REF(src))
 	ADD_TRAIT(H, TRAIT_LIGHT_STEP,  REF(src))
 	ADD_TRAIT(H, TRAIT_GENERIC,  REF(src))
@@ -697,7 +703,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	belt = /obj/item/storage/belt/military/reconbandolier
 	head = /obj/item/clothing/head/beret/ncr_recon_ranger
 	neck = /obj/item/clothing/neck/mantle/ranger
-	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper/sniperranger
+	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/w308 = 3,
 		/obj/item/gun/ballistic/revolver/revolver45 = 1,
@@ -738,9 +744,9 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	head = /obj/item/clothing/head/f13/ranger
 	uniform	= /obj/item/clothing/under/f13/ranger/patrol
 	belt = /obj/item/storage/belt/military/assault/ncr
-	suit_store = /obj/item/gun/ballistic/automatic/smg/smg10mm
+	suit_store = /obj/item/gun/ballistic/automatic/smg/mp5
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m10mm_adv/ext = 2,
+		/obj/item/ammo_box/magazine/msmg9mm = 2,
 		/obj/item/clothing/head/helmet/f13/combat/ncr_patrol = 1,
 		/obj/item/gun/ballistic/revolver/m29/snub = 1,
 		/obj/item/ammo_box/m44box = 1,
@@ -841,7 +847,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 
 	loadout_options = list( // ALL: Trench tool, Limited blueprints
 		/datum/outfit/loadout/combatengineerbuilder, // Minelaying, Extra materials
-		/datum/outfit/loadout/combatengineersapper, //  Explosive Crafting
+		/datum/outfit/loadout/combatengineersapper, //  Advanced Explosive Crafting
 		)
 
 	matchmaking_allowed = list(
@@ -862,8 +868,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/m1911)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingrifle)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingshotgun)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/m1carbine)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK,  REF(src))
+	ADD_TRAIT(H, TRAIT_EXPLOSIVE_CRAFTING, REF(src))
 
 /datum/outfit/job/ncr/f13combatengineer
 	name = "NCR Combat Engineer"
@@ -886,20 +892,19 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "Combat Sapper"
 	belt = /obj/item/storage/belt/military/assault/ncr/engineer
 	glasses = /obj/item/clothing/glasses/welding
-	suit_store = /obj/item/gun/ballistic/automatic/smg/mini_uzi
+	suit_store = /obj/item/gun/ballistic/automatic/smg/smg10mm
 	backpack_contents = list(
 		/obj/item/grenade/plastic/c4 = 2,
-		/obj/item/book/granter/trait/explosives = 1,
 		/obj/item/book/granter/trait/explosives_advanced = 1,
-		/obj/item/ammo_box/magazine/uzim9mm = 3,
+		/obj/item/ammo_box/magazine/msmg10mm = 2,
 		)
 
 /datum/outfit/loadout/combatengineerbuilder
 	name = "Construction Specialist"
 	belt = /obj/item/storage/belt/military/assault/ncr/engineer
-	suit_store = /obj/item/gun/ballistic/automatic/smg/mini_uzi
+	suit_store = /obj/item/gun/ballistic/automatic/smg/smg10mm
 	backpack_contents = list(
-			/obj/item/ammo_box/magazine/uzim9mm = 3,
+		/obj/item/ammo_box/magazine/msmg10mm = 2,
 		/obj/item/book/granter/crafting_recipe/blueprint/trapper = 1,
 		/obj/item/stack/sheet/plasteel/fifty = 1,
 		/obj/item/stack/sheet/rglass = 50,
@@ -964,7 +969,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	exp_requirements = 420
 
 	loadout_options = list(
-		/datum/outfit/loadout/ncrdocsmg,	 // uzi+stims
+		/datum/outfit/loadout/ncrdocsmg,	 // 10mm SMG+stims
 		/datum/outfit/loadout/ncrdocrifle,	 // M1A1+seeds, REPLACE STIMS WITH SEEDS(2broc, 2xander)
 		)
 
@@ -996,17 +1001,17 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 
 /datum/outfit/loadout/ncrdocsmg
 	name = "Combat Medic"
-	suit_store = /obj/item/gun/ballistic/automatic/smg/mini_uzi
+	suit_store = /obj/item/gun/ballistic/automatic/smg/smg10mm
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/uzim9mm = 3,
+		/obj/item/ammo_box/magazine/msmg10mm = 2,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
 		)
 
 /datum/outfit/loadout/ncrdocrifle
 	name = "Support Medic"
-	suit_store = /obj/item/gun/ballistic/automatic/m1carbine/compact
+	suit_store = /obj/item/gun/ballistic/automatic/service/carbine
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
+		/obj/item/ammo_box/magazine/m556/rifle/ = 2,
 		/obj/item/seeds/poppy/broc = 2,
 		/obj/item/seeds/xander = 2
 		)
@@ -1075,7 +1080,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	head = /obj/item/clothing/head/f13/ncr/steelpot_bandolier
 	suit_store = /obj/item/gun/ballistic/automatic/smg/smg10mm
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m10mm_adv = 3
+		/obj/item/ammo_box/magazine/msmg10mm = 2,
 		)
 
 /datum/outfit/loadout/corporalrifleman
@@ -1311,17 +1316,16 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/incendiaryrocket)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/empgrenade)
 	//guns
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/a180)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/smg22)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/uzi)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/ninemil)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/rangemaster)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/m1911)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/n99)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/commando)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/servicerifle)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/marksmancarbine)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/m1garand)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/scoutcarbine)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingrifle)
 
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/receiver)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/assembly)
@@ -1340,12 +1344,12 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	glasses	= /obj/item/clothing/glasses/welding
 	belt = /obj/item/storage/belt/military/assault/ncr/engineer
 	gloves = /obj/item/clothing/gloves/color/yellow
-	suit_store = /obj/item/gun/ballistic/automatic/m1carbine/m1n
+	suit_store = /obj/item/gun/ballistic/automatic/service
 	gunsmith_one = TRUE
 	gunsmith_two = TRUE
 	gunsmith_three = TRUE
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m10mm_adv = 2,
+		/obj/item/ammo_box/magazine/m10mm = 2,
 		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
 		/obj/item/ammo_box/magazine/m9mmds = 2,
 		/obj/item/grenade/plastic/c4 = 1,
@@ -1358,19 +1362,19 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		)
 
 
-// REAR ECHELON
-
+//OFF-DUTY - Was Rear Echelon before but issues arose between on v off duty
+// This job is an off-duty job despite the path name. The reason the path name is unchanged is due to tracking play time. (This should still prob be changed if non-issue.)
 /datum/job/ncr/f13rearechelon
-	title = "NCR Rear Echelon"
-	flag = F13REARECHELON
+	title = "NCR Off-Duty"
+	flag = F13NCROFFDUTY
 	total_positions = 7
 	spawn_positions = 7
-	description = "You are the support element sent to assist the Forward Camp Grassden garrison. You are essential specialized support staff to help sustain the base via supply or specialized skills."
-	supervisors = "Logistics/Medical officer first, regular chain of command after that."
-	enforces = "You may leave the base, but you are not allowed to antagonize other factions or scavenge. You are a non-combatant. You cannot join any raids or battles on the surface. You cannot not run dungeons."
+	description = "You are off-duty NCR personnel in the Utah Region. Despite being out of uniform and off-duty you are still expected to follow NCR COMJ and represent the uniform properly. Failure to abide by this will result in disciplinary action."
+	supervisors = "All NCOs and COs"
+	enforces = "You may aid around the base with tasks such as clean up, fortification building, crop growing, or other non-combat related needs. You should not leave the base for any reason unless permitted by an on-duty Captain."
 	selection_color = "#fff5cc"
 	exp_type = EXP_TYPE_NCR
-	display_order = JOB_DISPLAY_ORDER_REAR_ECHELON
+	display_order = JOB_DISPLAY_ORDER_NCR_OFF_DUTY
 	outfit = /datum/outfit/job/ncr/f13rearechelon
 	exp_requirements = 0
 
@@ -1381,8 +1385,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	accessory =	/obj/item/clothing/accessory/ncr/TPR
 	head = /obj/item/clothing/head/f13/ncr/ncr_cap
 	suit = /obj/item/clothing/suit/armor/f13/utilityvest
-	belt = /obj/item/storage/belt/military/NCR_Bandolier
-	suit_store = /obj/item/gun/ballistic/automatic/pistol/m1911
 
 /datum/outfit/job/ncr/f13rearechelon/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
