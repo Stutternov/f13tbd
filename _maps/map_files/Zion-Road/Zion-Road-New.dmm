@@ -700,7 +700,7 @@
 /area/f13/wasteland)
 "aqU" = (
 /obj/machinery/button/door{
-	id = s;
+	id = "s";
 	name = "Garage button";
 	pixel_x = 32
 	},
@@ -9172,7 +9172,7 @@
 /area/f13/wasteland)
 "eiW" = (
 /obj/machinery/button/door{
-	id = hospitalgarage2;
+	id = "hospitalgarage2";
 	name = "Garage button";
 	pixel_x = 32
 	},
@@ -24324,7 +24324,7 @@
 /area/f13/bar/heaven)
 "kPx" = (
 /obj/machinery/door/poddoor/shutters{
-	id = s;
+	id = "s";
 	name = "Ambulance Bay 2"
 	},
 /turf/open/indestructible/ground/outside/road{
