@@ -162,7 +162,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "aL" = (
 /obj/structure/sign/poster/prewar/poster82{
 	pixel_y = 32
@@ -1115,7 +1115,7 @@
 	pixel_y = 14
 	},
 /turf/open/floor/wood,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "en" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
@@ -1641,7 +1641,7 @@
 	dir = 8;
 	icon_state = "rampdowntop"
 	},
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "gd" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -2321,7 +2321,7 @@
 "iD" = (
 /obj/structure/simple_door/bunker,
 /turf/open/floor/wood,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "iE" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 10
@@ -2408,7 +2408,7 @@
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "iW" = (
 /obj/effect/decal/cleanable/blood{
 	icon_state = "floor6"
@@ -2420,7 +2420,7 @@
 "iZ" = (
 /obj/structure/fans/tiny,
 /turf/closed/wall/r_wall,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "ja" = (
 /turf/open/transparent/openspace{
 	name = "air";
@@ -2638,7 +2638,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/wood/wood_fancy,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "jR" = (
 /obj/machinery/gear_painter,
 /turf/open/floor/plasteel/f13/stone/rugged,
@@ -3290,7 +3290,7 @@
 	icon_state = "book-4"
 	},
 /turf/open/floor/wood,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "mm" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -3606,7 +3606,7 @@
 "nx" = (
 /obj/structure/simple_door/bunker,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "nz" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "mallarmory";
@@ -3673,7 +3673,7 @@
 	icon_state = "storewindowhorizontal"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "nM" = (
 /obj/machinery/light{
 	dir = 1;
@@ -3995,7 +3995,7 @@
 	},
 /obj/structure/drain,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "oY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/photocopier,
@@ -4468,7 +4468,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/wood/wood_fancy,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "qM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
@@ -4529,7 +4529,7 @@
 	pixel_y = 10
 	},
 /turf/open/floor/wood,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "qZ" = (
 /obj/item/folder/yellow{
 	pixel_y = 3
@@ -4732,7 +4732,7 @@
 	icon_state = "storewindowbottom"
 	},
 /turf/open/floor/wood,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "rN" = (
 /obj/structure/railing{
 	dir = 8
@@ -6065,7 +6065,7 @@
 	pixel_x = -32
 	},
 /turf/open/floor/wood/wood_fancy,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "wN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -7174,7 +7174,7 @@
 /area/f13/building)
 "Bb" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "Bd" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "housewindowbrokenvertical"
@@ -7250,7 +7250,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/wood/wood_fancy,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "Bt" = (
 /turf/open/floor/wood/wood_common/wood_common_light,
 /area/f13/ncr)
@@ -7274,6 +7274,9 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"By" = (
+/turf/open/transparent/openspace,
+/area/f13/brotherhood/leisure)
 "Bz" = (
 /obj/machinery/door/unpowered/celldoor,
 /obj/effect/decal/cleanable/dirt,
@@ -7815,6 +7818,9 @@
 	icon_state = "purplerustycorner"
 	},
 /area/f13/wasteland)
+"DC" = (
+/turf/closed/wall/r_wall/rust,
+/area/f13/brotherhood/leisure)
 "DD" = (
 /obj/structure/sign/poster/contraband/atmosia_independence{
 	pixel_y = -32
@@ -8051,7 +8057,7 @@
 	dir = 8;
 	icon_state = "rampdowntop"
 	},
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "Ex" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -8416,6 +8422,12 @@
 	icon_state = "neutralrusty"
 	},
 /area/f13/wasteland)
+"FW" = (
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/brotherhood/leisure)
 "Gb" = (
 /obj/structure/anvil/obtainable/legion,
 /turf/open/floor/plasteel/f13/stone/rugged,
@@ -8454,7 +8466,7 @@
 	icon_state = "storewindowbottom"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "Gp" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid{
 	icon_state = "floorrustysolid"
@@ -9021,7 +9033,7 @@
 	},
 /obj/effect/decal/cleanable/vomit,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "Is" = (
 /obj/structure/closet/crate/large,
 /turf/open/floor/plasteel/f13/stone/rugged,
@@ -9031,7 +9043,7 @@
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "Iy" = (
 /obj/structure/table,
 /obj/structure/window/spawner/north,
@@ -9280,7 +9292,7 @@
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "JA" = (
 /obj/structure/junk/machinery,
 /obj/machinery/light{
@@ -9594,7 +9606,7 @@
 	},
 /obj/machinery/light/small,
 /turf/open/floor/wood,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "KN" = (
 /turf/open/floor/wood/wood_common,
 /area/f13/wasteland)
@@ -9894,7 +9906,7 @@
 	icon_state = "storewindowbottom"
 	},
 /turf/open/floor/wood/wood_fancy,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "LW" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
@@ -10528,7 +10540,7 @@
 /area/f13/building/mall)
 "OF" = (
 /turf/open/floor/wood/wood_fancy,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "OG" = (
 /obj/machinery/light/small{
 	brightness = 3;
@@ -11310,7 +11322,7 @@
 	name = "formal attire cabinet"
 	},
 /turf/open/floor/wood,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "RK" = (
 /obj/structure/window/fulltile/ruins,
 /turf/open/floor/f13/wood,
@@ -11637,6 +11649,9 @@
 	icon_state = "purplerusty"
 	},
 /area/f13/wasteland)
+"SW" = (
+/turf/closed/wall/r_wall,
+/area/f13/brotherhood/leisure)
 "SX" = (
 /obj/effect/overlay/junk/toilet{
 	dir = 8;
@@ -11924,7 +11939,7 @@
 	pixel_y = 10
 	},
 /turf/open/floor/wood,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "Ug" = (
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/plasteel/f13/vault_floor/floor{
@@ -11938,6 +11953,9 @@
 /mob/living/simple_animal/hostile/raider,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"Uj" = (
+/turf/open/floor/wood,
+/area/f13/brotherhood/leisure)
 "Uk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/tracks,
@@ -12720,7 +12738,7 @@
 "WS" = (
 /obj/structure/bed/pod,
 /turf/open/floor/wood/wood_fancy,
-/area/f13/wasteland)
+/area/f13/brotherhood/leisure)
 "WT" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -19455,7 +19473,7 @@ ja
 ja
 ja
 ja
-ja
+Fu
 ja
 ja
 ja
@@ -19957,7 +19975,7 @@ ja
 ja
 ja
 ja
-ja
+Fu
 ja
 ja
 ja
@@ -20459,7 +20477,7 @@ ja
 ja
 ja
 ja
-ja
+Fu
 ja
 ja
 ja
@@ -20961,7 +20979,7 @@ ja
 ja
 ja
 ja
-ja
+Fu
 ja
 ja
 ja
@@ -21463,7 +21481,7 @@ ja
 ja
 ja
 ja
-ja
+Fu
 ja
 ja
 ja
@@ -21965,7 +21983,7 @@ ja
 ja
 ja
 ja
-ja
+Fu
 ja
 ja
 ja
@@ -22467,7 +22485,7 @@ ja
 ja
 ja
 ja
-ja
+Fu
 ja
 ja
 ja
@@ -22969,7 +22987,7 @@ ja
 ja
 ja
 ja
-ja
+Fu
 ja
 ja
 ja
@@ -23466,12 +23484,12 @@ ja
 ja
 ja
 ja
-ja
-ja
-ja
-ja
-ja
-ja
+Fu
+Fu
+Fu
+Fu
+Fu
+Fu
 ja
 ja
 ja
@@ -31520,17 +31538,17 @@ ja
 Bb
 Bb
 Bb
-hQ
-hQ
+SW
+SW
 Bb
-hQ
+SW
 Gn
 Gn
-hQ
+SW
 Bb
-hQ
-hQ
-hQ
+SW
+SW
+SW
 ja
 ja
 ja
@@ -32022,7 +32040,7 @@ Bb
 Bb
 Bb
 Bb
-hQ
+SW
 Bb
 Bb
 Bb
@@ -32031,7 +32049,7 @@ Bb
 Bb
 Bb
 Bb
-hQ
+SW
 ja
 ja
 ja
@@ -32533,7 +32551,7 @@ Bb
 Bb
 Bb
 Bb
-hQ
+SW
 ja
 ja
 ja
@@ -33026,16 +33044,16 @@ Bb
 Bb
 Bb
 Bb
-hQ
+SW
 Bb
 Bb
 Bb
-ja
-ja
+FW
+FW
 Bb
 Bb
 Bb
-hQ
+SW
 ja
 ja
 ja
@@ -33532,12 +33550,12 @@ nK
 Bb
 Bb
 Bb
-ja
-Lt
+FW
+By
 Bb
 Bb
 Bb
-hQ
+SW
 ja
 ja
 ja
@@ -34039,7 +34057,7 @@ gb
 Bb
 Bb
 Bb
-hQ
+SW
 ja
 ja
 ja
@@ -34532,7 +34550,7 @@ ja
 Bb
 Bb
 Bb
-hQ
+SW
 Bb
 Bb
 Bb
@@ -34541,7 +34559,7 @@ Bb
 Bb
 Bb
 Bb
-hQ
+SW
 ja
 ja
 ja
@@ -35043,7 +35061,7 @@ Bb
 Bb
 Bb
 Bb
-hQ
+SW
 ja
 ja
 ja
@@ -35536,16 +35554,16 @@ ja
 Bb
 Bb
 Bb
-hQ
+SW
 Bb
 Bb
-hQ
+SW
 Bb
 Bb
-hQ
+SW
 Bb
 Bb
-hQ
+SW
 ja
 ja
 ja
@@ -36037,7 +36055,7 @@ ja
 ja
 Bb
 Bb
-hQ
+SW
 iZ
 Ew
 Ew
@@ -36048,7 +36066,7 @@ iZ
 Ew
 Ew
 iZ
-hQ
+SW
 ja
 ja
 ja
@@ -36537,20 +36555,20 @@ ja
 ja
 ja
 ja
-hQ
-hQ
-hQ
+SW
+SW
+SW
 ml
-st
-st
+Uj
+Uj
 qX
-st
-st
+Uj
+Uj
 em
-st
-st
+Uj
+Uj
 Uf
-Fu
+DC
 ja
 ja
 ja
@@ -37040,19 +37058,19 @@ ja
 ja
 ja
 ja
-Fu
+DC
 iU
-st
-st
-st
-st
-st
-st
-st
-st
-st
-st
-Fu
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+DC
 ja
 ja
 ja
@@ -37542,19 +37560,19 @@ ja
 ja
 ja
 ja
-Fu
+DC
 Jx
-st
-st
-st
-st
-st
-st
-st
-st
-st
-st
-Fu
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+DC
 ja
 ja
 ja
@@ -38044,19 +38062,19 @@ ja
 ja
 ja
 ja
-Fu
+DC
 Ix
-st
-st
-st
-st
-st
-st
-st
-st
-st
-st
-Fu
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+Uj
+DC
 ja
 ja
 ja
@@ -38534,32 +38552,32 @@ ja
 ja
 ja
 ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
+Fu
+hQ
+Fu
+hQ
+hQ
 Fu
 Fu
+Fu
+hQ
+Fu
+Fu
+Fu
+DC
+DC
 iD
 rM
-Fu
-Fu
-Fu
+DC
+DC
+DC
 iD
 rM
-Fu
-Fu
+DC
+DC
 nx
-Fu
-Fu
+DC
+DC
 ja
 ja
 ja
@@ -39032,36 +39050,36 @@ ja
 ja
 ja
 ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
 Fu
+Fu
+hQ
+hQ
+Fu
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+DC
 WS
 OF
 wL
 RI
-Fu
+DC
 WS
 OF
 wL
 RI
-Fu
+DC
 Bb
 oX
-Fu
+DC
 ja
 ja
 ja
@@ -39533,37 +39551,37 @@ ja
 ja
 ja
 ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
+wn
 Fu
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+DC
 WS
 OF
 OF
 KM
-Fu
+DC
 WS
 OF
 OF
 KM
-Fu
+DC
 aJ
 Ip
-Fu
+DC
 ja
 ja
 ja
@@ -40032,6 +40050,10 @@ ja
 ja
 ja
 ja
+wn
+wn
+wn
+wn
 ja
 ja
 ja
@@ -40048,24 +40070,20 @@ ja
 ja
 ja
 ja
-ja
-ja
-ja
-ja
-Fu
+DC
 WS
 OF
 OF
 RI
-Fu
+DC
 WS
 OF
 OF
 RI
-Fu
-Fu
-Fu
-Fu
+DC
+DC
+DC
+DC
 ja
 ja
 ja
@@ -40554,20 +40572,20 @@ ja
 ja
 ja
 ja
-Fu
+DC
 qL
 OF
 Bq
 jQ
-Fu
+DC
 qL
 Bq
 Bq
 jQ
-Fu
-Fu
-Fu
-Fu
+DC
+DC
+DC
+DC
 ja
 ja
 ja
@@ -41056,20 +41074,20 @@ ja
 ja
 ja
 ja
-Fu
+DC
 LV
 iD
 LV
 LV
-Fu
+DC
 LV
 LV
 LV
 LV
-Fu
-Fu
-Fu
-Fu
+DC
+DC
+DC
+DC
 ja
 ja
 ja
@@ -41571,7 +41589,7 @@ st
 st
 st
 st
-Fu
+DC
 ja
 ja
 ja
