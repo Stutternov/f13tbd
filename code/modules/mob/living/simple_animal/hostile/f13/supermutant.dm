@@ -61,7 +61,7 @@
 /mob/living/simple_animal/hostile/supermutant/bullet_act(obj/item/projectile/Proj)
 	if(!Proj)
 		return
-	if(prob(85) || Proj.damage > 26)
+	if(prob(85) || Proj.damage > 25)
 		return ..()
 	else
 		visible_message("<span class='danger'>\The [Proj] is deflected harmlessly by \the [src]'s thick skin!</span>")
@@ -133,8 +133,8 @@
 	health = 180
 	retreat_distance = 4
 	minimum_distance = 6
-	projectiletype = /obj/item/projectile/bullet/a762/sport/simple
-	projectilesound = 'sound/f13weapons/hunting_rifle.ogg'
+	projectiletype = /obj/item/projectile/bullet/a762mm/simple
+	projectilesound = 'sound/f13weapons/762rifle.ogg'
 	loot = list(/obj/item/ammo_box/a308)
 	footstep_type = FOOTSTEP_MOB_HEAVY
 
@@ -211,9 +211,9 @@
 	extra_projectiles = 1
 	retreat_distance = 4
 	minimum_distance = 6
-	projectiletype = /obj/item/projectile/bullet/a556/simple
-	projectilesound = 'sound/f13weapons/assaultrifle_fire.ogg'
-	loot = list(/obj/item/ammo_box/magazine/m556/rifle)
+	projectiletype = /obj/item/projectile/bullet/a556mm/simple
+	projectilesound = 'sound/f13weapons/assault_rifle.ogg'
+	loot = list(/obj/item/ammo_box/magazine/m556mm)
 	footstep_type = FOOTSTEP_MOB_HEAVY
 
 /mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant/Aggro()
@@ -487,7 +487,7 @@
 /mob/living/simple_animal/hostile/supermutant/rangedmutant/heavy/bullet_act(obj/item/projectile/Proj)
 	if(!Proj)
 		CRASH("[src] heavy supermutant invoked bullet_act() without a projectile")
-	if(prob(15) || Proj.damage > 30)
+	if(prob(15) || Proj.damage > 25)
 		return ..()
 	else
 		visible_message("<span class='danger'>\The [Proj] bounces off \the [src]'s armor plating!</span>")

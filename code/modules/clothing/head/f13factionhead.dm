@@ -228,7 +228,6 @@
 	item_state = "hat_enclave_intel"
 	armor = list("melee" = 50, "bullet" = 50, "laser" = 40, "energy" = 30, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 90)
 
-
 /obj/item/clothing/head/helmet/f13/envirosuit
 	name = "enclave envirosuit hood"
 	icon_state = "envirohead"
@@ -242,18 +241,11 @@
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
 
-/obj/item/clothing/head/helmet/f13/enclave/marine
+/obj/item/clothing/head/helmet/f13/combat/mk2/enclave
 	name = "old United States Marine Corp helmet"
 	desc = "An advanced model of combat helmet worn by marines aboard the USS Democracy, second only to power armor in protection used by the USCM For various tasks and operations, it's handled the nuclear wasteland somewhat better than the rest of the armors you've seen."
 	icon_state = "enclave_marine"
 	item_state = "enclave_marine"
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR|HIDEFACE|HIDESNOUT
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
-	armor = list("melee" = 50, "bullet" = 50, "laser" = 50, "energy" = 25, "bomb" = 55, "bio" = 60, "rad" = 30, "fire" = 60, "acid" = 20, "wound" = 50)
-
-/obj/item/clothing/head/helmet/f13/enclave/marine/Initialize(mapload)
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
 
 /obj/item/clothing/head/helmet/f13/enclave/usmcriot
 	name = "old United States Marine Corp riot helmet"
@@ -281,6 +273,8 @@
 	icon_state = "hat_enclave_officer"
 	item_state = "hat_enclave_officer"
 	armor = list("melee" = 55, "bullet" = 55, "laser" = 60, "energy" = 30, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 20) //equivalent to HK
+	obj_flags = UNIQUE_RENAME
+	unique_reskin = list("M1" = "hosberetblack")
 
 
 
@@ -685,11 +679,18 @@
 
 /obj/item/clothing/head/f13/trailranger
 	name = "NCR trail ranger hat"
-	desc = "a rustic, homely style cowboy hat worn by NCR trail rangers. Yeehaw!"
+	desc = "one of the many hats worn by NCR trail rangers."
 	icon_state = "cowboyrang"
 	item_state = "cowboyrang"
 	armor = list("melee" = 35, "bullet" = 45, "laser" = 25, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 2)
+	unique_reskin = list("M1" = "vaquerohat",
+						"M2" = "marlowhat",
+						"M3" = "ncr_slouch",
+						"M4" = "bigcowboyhat",
+						"M5" = "gamblerrang",
+						"M6" = "scoutberet",
+						"M7" = "cowboyrang")
 
 /obj/item/clothing/head/f13/trailranger/Initialize(mapload)
 	. = ..()
@@ -702,6 +703,10 @@
 	item_state = "rangerhat"
 	armor = list("melee" = 35, "bullet" = 45, "laser" = 25, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 2)
+	unique_reskin = list("M1" = "drillhat_old",
+						"M2" = "marlowhat",
+						"M3" = "mosshelmet",
+						"M4" = "rangerhat")
 
 /obj/item/clothing/head/f13/ranger/Initialize(mapload)
 	. = ..()
@@ -712,10 +717,13 @@
 	desc = "A combat helmet hand-manufactured in the NCR and issued to patrol rangers."
 	icon_state = "ncr_patrol_helmet"
 	item_state = "ncr_patrol_helmet"
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR|HIDEFACE|HIDESNOUT
+	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACE|HIDESNOUT
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	armor = list("melee" = 35, "bullet" = 45, "laser" = 25, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 2)
+	unique_reskin = list("M1" = "ncr_patrol_helmet_old",
+						"M2" = "ncr_helmet_mk2",
+						"M3" = "ncr_patrol_helmet")
 
 /obj/item/clothing/head/helmet/f13/combat/ncr_patrol/Initialize(mapload)
 	. = ..()
@@ -737,7 +745,8 @@
 	unique_reskin = list("M1" = "ranger_old",
 						"M2" = "foxranger",
 						"M3" = "price_ranger",
-						"M4" = "desert_ranger")
+						"M4" = "desert_ranger",
+						"M5" = "elite_riot")
 	flash_protect = 1
 	glass_colour_type = /datum/client_colour/glass_colour/red
 	lighting_alpha = LIGHTING_PLANE_ALPHA_NV_TRAIT
@@ -1386,7 +1395,6 @@
 	desc = "An intimidating helmet that is issued with it's corresponding suit."
 	icon_state = "remnant_helmet"
 	item_state = "remnant_helmet"
-	armor = list("melee" = 45, "bullet" = 45, "laser" = 55, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 30, "fire" = 60, "acid" = 20, "wound" = 20)
 
 /obj/item/clothing/head/helmet/f13/combat/enclave/ComponentInitialize()
 	. = ..()

@@ -14,6 +14,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 	//non-preference stuff
 	var/muted = 0
+	var/age_verified = 0
 	var/last_ip
 	var/last_id
 	var/log_clicks = FALSE
@@ -313,6 +314,10 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			else
 				dat += "<b>Loading matchmaking preferences...</b><br>"
 				dat += "<b>Refresh once the game has finished setting up...</b><br>"
+			dat += "</td>"
+
+			dat += "<b>Profile Picture:</b><BR>"
+			dat += "<b>Picture:</b> <a href='?_src_=prefs;preference=ProfilePicture;task=input'>[profilePicture ? "<img src=[DiscordLink(profilePicture)] width='125' height='auto' max-height='300'>" : "Upload a picture!"]</a><BR>"
 			dat += "</td>"
 
 /*
@@ -1655,7 +1660,7 @@ Records disabled until a use for them is found
 								var/mob/dead/new_player/player_mob = parent.mob
 								player_mob.new_player_panel()
 						else
-							to_chat(user, "<font color='red'>Invalid name. Your name should be at least 2 and at most [MAX_NAME_LEN] characters long. It may only contain the characters A-Z, a-z, -, ' and .</font>")
+							to_chat(user, "<font color='red'>Invalid name. Your name should be at least 2 and at most [MAX_NAME_LEN] characters long. It may only contain the characters A-Z, a-z, 0-9, and certain symbols.</font>")
 
 				if("age")
 					var/new_age = input(user, "Choose your character's age:\n([AGE_MIN]-[AGE_MAX])", "Character Preference") as num|null
@@ -3086,7 +3091,7 @@ Records disabled until a use for them is found
 	else
 		var/sanitized_name = reject_bad_name(raw_name,namedata["allow_numbers"])
 		if(!sanitized_name)
-			to_chat(user, "<font color='red'>Invalid name. Your name should be at least 2 and at most [MAX_NAME_LEN] characters long. It may only contain the characters A-Z, a-z,[namedata["allow_numbers"] ? ",0-9," : ""] -, ' and .</font>")
+			to_chat(user, "<font color='red'>Invalid name. Your name should be at least 2 and at most [MAX_NAME_LEN] characters long. It may only contain the characters A-Z, a-z, 0-9, and certain symbols.</font>")
 			return
 		else
 			custom_names[name_id] = sanitized_name

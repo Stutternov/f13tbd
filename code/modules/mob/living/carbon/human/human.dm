@@ -205,7 +205,7 @@
 	<A href='?src=[REF(user)];mach_close=mob[REF(src)]'>Close</A>
 	"}
 
-	var/datum/browser/popup = new(user, "mob[REF(src)]", "[src]", 440, 510)
+	var/datum/browser/popup = new(user, "mob[REF(src)]", "[src]", 440, 550)
 	popup.set_content(dat.Join())
 	popup.open()
 
@@ -319,6 +319,12 @@
 
 	..()	//CITADEL CHANGE - removes a tab from behind this ..() so that flavortext can actually be examined
 
+	// Gremling is just gonna do gremlin things and add this here > w> Cant be assed trying to fit this in somewhere else for now.
+	if(href_list["enlargeImage"])
+		var/dat = {"<img src='[DiscordLink(profilePicture)]'>"}
+		var/datum/browser/popup = new(usr, "enlargeImage", "Full Sized Picture!",500,500)
+		popup.set_content(dat)
+		popup.open()
 
 ///////HUDs///////
 	if(href_list["hud"])
