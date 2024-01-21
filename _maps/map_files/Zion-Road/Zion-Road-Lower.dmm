@@ -1244,13 +1244,6 @@
 /obj/machinery/suit_storage_unit/radsuit,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/medical)
-"aVt" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/item/ammo_box/a556,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/wasteland)
 "aVB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -4296,9 +4289,7 @@
 	},
 /area/f13/brotherhood/offices1st)
 "cLC" = (
-/mob/living/simple_animal/hostile/raider/sulphite{
-	faction = list("raider")
-	},
+/mob/living/simple_animal/hostile/raider/sulphite,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
 	icon_state = "bar"
@@ -4924,7 +4915,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "diD" = (
 /obj/effect/decal/cleanable/dirt{
@@ -5377,7 +5367,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "dAV" = (
 /obj/structure/destructible/tribal_torch/lit,
@@ -5446,7 +5435,6 @@
 /obj/structure/falsewall/reinforced{
 	layer = 3
 	},
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "dDh" = (
 /obj/machinery/shower{
@@ -5566,7 +5554,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "dHm" = (
 /obj/structure/table,
@@ -5734,8 +5721,7 @@
 "dPA" = (
 /obj/structure/lattice,
 /obj/structure/railing{
-	dir = 6;
-	layer = 4.1
+	dir = 6
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/operations)
@@ -6021,7 +6007,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "ece" = (
 /obj/machinery/disposal/bin,
@@ -7333,7 +7318,6 @@
 /area/f13/wasteland)
 "eSY" = (
 /obj/structure/railing{
-	color = null;
 	dir = 9
 	},
 /obj/structure/table,
@@ -7444,7 +7428,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/mining)
 "eXl" = (
 /obj/effect/decal/waste{
@@ -8612,7 +8595,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "fMI" = (
 /obj/machinery/light/small{
@@ -8718,7 +8700,6 @@
 "fPS" = (
 /obj/structure/table/reinforced,
 /obj/structure/railing{
-	color = null;
 	dir = 9
 	},
 /turf/open/floor/f13/wood,
@@ -9291,11 +9272,6 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
 /turf/open/floor/plasteel/floorgrime,
 /area/f13/wasteland)
-"gij" = (
-/obj/item/ammo_box/a556,
-/obj/structure/table,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/wasteland)
 "gim" = (
 /obj/machinery/power/port_gen/pacman{
 	anchored = 1;
@@ -9481,7 +9457,6 @@
 	density = 1
 	},
 /obj/structure/railing{
-	color = null;
 	dir = 9
 	},
 /turf/open/floor/plating/tunnel,
@@ -11745,7 +11720,6 @@
 /area/f13/brotherhood/operations)
 "hMl" = (
 /obj/machinery/door/airlock/hatch{
-	req_access = null;
 	req_access_txt = "134"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
@@ -12519,7 +12493,6 @@
 /area/f13/brotherhood/leisure)
 "iiN" = (
 /obj/machinery/door/airlock/grunge{
-	id_tag = null;
 	req_access_txt = "120"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -14772,7 +14745,6 @@
 	pixel_x = -32;
 	start_charge = 500
 	},
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "jUO" = (
 /obj/structure/table,
@@ -14820,7 +14792,6 @@
 	start_charge = 500
 	},
 /obj/structure/cable,
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/mining)
 "jVC" = (
 /obj/structure/reagent_dispensers/barrel/explosive{
@@ -16436,8 +16407,7 @@
 /area/f13/wasteland)
 "kXW" = (
 /obj/structure/chair/f13foldupchair{
-	dir = 4;
-	icon_state = "f13foldupchair"
+	dir = 4
 	},
 /obj/effect/decal/cleanable/shreds{
 	pixel_x = 9;
@@ -19923,7 +19893,6 @@
 "ngU" = (
 /obj/structure/rack,
 /obj/item/trash/f13/electronic/toaster/atomics,
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/mining)
 "ngY" = (
 /obj/structure/bed/mattress{
@@ -20086,7 +20055,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "nlp" = (
 /obj/item/wrench,
@@ -21085,9 +21053,7 @@
 	},
 /area/f13/wasteland)
 "nZO" = (
-/mob/living/simple_animal/hostile/raider/sulphite{
-	faction = list("raider")
-	},
+/mob/living/simple_animal/hostile/raider/sulphite,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
 	icon_state = "yellowrustyfull"
@@ -23723,7 +23689,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "pLd" = (
 /obj/structure/closet/fridge/standard,
@@ -24160,7 +24125,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "qaZ" = (
 /obj/item/radio/intercom{
@@ -25858,8 +25822,7 @@
 	density = 1
 	},
 /obj/structure/railing{
-	dir = 6;
-	layer = 4.1
+	dir = 6
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/operations)
@@ -25973,8 +25936,7 @@
 	density = 1
 	},
 /obj/structure/railing{
-	dir = 6;
-	layer = 4.1
+	dir = 6
 	},
 /obj/item/flag/bos,
 /turf/open/floor/plating/tunnel,
@@ -27103,7 +27065,6 @@
 "rUi" = (
 /obj/structure/decoration/rag{
 	icon_state = "skin";
-	pixel_y = 0;
 	pixel_x = -5
 	},
 /turf/closed/indestructible/f13vaultrusted,
@@ -30419,7 +30380,6 @@
 /area/f13/brotherhood)
 "tTt" = (
 /obj/structure/table,
-/obj/item/ammo_box/a556,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -31385,7 +31345,6 @@
 "uyT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/grunge{
-	id_tag = null;
 	req_access_txt = "120"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -31429,7 +31388,6 @@
 /area/f13/wasteland)
 "uAq" = (
 /obj/machinery/door/airlock/hatch{
-	req_access = null;
 	req_access_txt = "134";
 	name = "Gunnery Sergeant's Quarters"
 	},
@@ -33010,8 +32968,7 @@
 	density = 1
 	},
 /obj/structure/railing{
-	dir = 6;
-	layer = 4.1
+	dir = 6
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/operations)
@@ -34128,7 +34085,6 @@
 	icon_state = "1-2"
 	},
 /obj/structure/simple_door/metal/ventilation,
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/mining)
 "wpZ" = (
 /obj/structure/table,
@@ -34723,7 +34679,6 @@
 	icon_state = "1-2"
 	},
 /obj/item/toy/xmas_cracker,
-/turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/leisure)
 "wIO" = (
 /obj/structure/rack,
@@ -120873,7 +120828,7 @@ xxE
 bOv
 bOv
 hSR
-aVt
+iil
 bOv
 bFj
 kit
@@ -129915,7 +129870,7 @@ qWk
 bOv
 bOv
 qWk
-gij
+ezW
 wqQ
 xYs
 xOB
