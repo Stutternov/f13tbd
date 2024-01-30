@@ -24,7 +24,6 @@ Within this file is the material to turn the previous odd-inclusion into a prope
 	ADD_TRAIT(H, TRAIT_HERBAL_AFFINITY,  REF(src))
 	ADD_TRAIT(H, TRAIT_TRAPPER,  REF(src))
 	ADD_TRAIT(H, TRAIT_MACHINE_SPIRITS,  REF(src))
-	ADD_TRAIT(H, TRAIT_AUTO_DRAW,  REF(src))
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, REF(src))
 	H.grant_language(/datum/language/tribal)
 	var/list/recipes = list(
@@ -80,7 +79,7 @@ Within this file is the material to turn the previous odd-inclusion into a prope
 	ears = null
 	belt = /obj/item/melee/onehanded/knife/bone
 	uniform =     /obj/item/clothing/under/f13/settler
-	box =         /obj/item/storage/survivalkit_tribal
+	box =         /obj/item/storage/survivalkit/primitive
 	shoes =     /obj/item/clothing/shoes/sandal
 	gloves =    /obj/item/clothing/gloves/f13/handwraps
 	r_hand = /obj/item/book/granter/trait/selection/tribal
@@ -113,7 +112,7 @@ Within this file is the material to turn the previous odd-inclusion into a prope
 	ears = null
 	belt = /obj/item/melee/onehanded/knife/bone
 	uniform =     /obj/item/clothing/under/f13/settler
-	box =         /obj/item/storage/survivalkit_tribal
+	box =         /obj/item/storage/survivalkit/primitive
 	shoes =     /obj/item/clothing/shoes/sandal
 	gloves =    /obj/item/clothing/gloves/f13/handwraps
 	r_hand = /obj/item/book/granter/trait/selection/tribal
@@ -146,7 +145,7 @@ Within this file is the material to turn the previous odd-inclusion into a prope
 	ears = null
 	belt = /obj/item/melee/onehanded/knife/bone
 	uniform =     /obj/item/clothing/under/f13/settler
-	box =         /obj/item/storage/survivalkit_tribal
+	box =         /obj/item/storage/survivalkit/primitive
 	shoes =     /obj/item/clothing/shoes/sandal
 	gloves =    /obj/item/clothing/gloves/f13/handwraps
 	r_hand = /obj/item/book/granter/trait/selection/tribal
@@ -245,7 +244,7 @@ Below are the original loadouts and the temporarily used Tribal. Pending rework 
 	ears = null
 	belt = /obj/item/melee/onehanded/knife/bone
 	uniform =     /obj/item/clothing/under/f13/settler
-	box =         /obj/item/storage/survivalkit_tribal
+	box =         /obj/item/storage/survivalkit/primitive
 	shoes =     /obj/item/clothing/shoes/sandal
 	gloves =    /obj/item/clothing/gloves/f13/handwraps
 	r_hand = /obj/item/book/granter/trait/selection/tribal

@@ -10,7 +10,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 40
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 
 /datum/crafting_recipe/belt
 	name = "Belt"
@@ -20,7 +20,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 15
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 
 /datum/crafting_recipe/chestrig
 	name = "Chest Rig"
@@ -30,7 +30,7 @@
 				/obj/item/stack/sheet/leather = 3)
 	time = 30
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 
 /datum/crafting_recipe/webbing
 	name = "Webbing"
@@ -40,7 +40,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 15
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 
 /datum/crafting_recipe/shoulderholster
 	name = "Shoulder Holster"
@@ -50,7 +50,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 15
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 
 /datum/crafting_recipe/legholster
 	name = "Leg Holster"
@@ -60,27 +60,27 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 15
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 
 /datum/crafting_recipe/rangercape
 	name = "NCR Ranger Cape"
-	result = /obj/item/clothing/neck/mantle/ranger
+	result = /obj/item/clothing/neck/mantle/holster/ranger
 	reqs = list(/obj/item/storage/belt/holster = 1,
 				/obj/item/stack/sheet/cloth = 3,
 				/obj/item/toy/crayon/spraycan)
 	time = 15
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 	always_available = FALSE
 
 /datum/crafting_recipe/legionrangercape
 	name = "Ranger-Hunter Cape"
-	result = /obj/item/clothing/neck/mantle/legion/rangercent
-	reqs = list(/obj/item/clothing/neck/mantle/ranger = 1,
+	result = /obj/item/clothing/neck/mantle/holster/legion/rangercent
+	reqs = list(/obj/item/clothing/neck/mantle/holster/ranger = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 15
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 	always_available = FALSE
 
 /datum/crafting_recipe/medolier
@@ -91,7 +91,7 @@
 	/obj/item/stack/sheet/plastic = 4)
 	time = 30
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 
 /datum/crafting_recipe/durathread_toolbelt
 	name = "Durathread Toolbelt"
@@ -100,7 +100,7 @@
 				/obj/item/stack/sheet/leather = 2)
 	time = 30
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 
 /datum/crafting_recipe/durathread_bandolier
 	name = "Durathread Bandolier"
@@ -109,7 +109,7 @@
 				/obj/item/stack/sheet/leather = 2)
 	time = 50
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 
 /datum/crafting_recipe/durathread_wintercoat
 	name = "Durathread Winter Coat"
@@ -129,7 +129,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 15
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 
 /datum/crafting_recipe/twinsheath
 	name = "Twin Sheath"
@@ -140,7 +140,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 15
 	category = CAT_CLOTHING
-	subcategory = CAT_BELTS
+	subcategory = CAT_ACCESSORIES
 
 /////////
 //SHOES//
@@ -153,7 +153,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 10
 	category = CAT_CLOTHING
-	subcategory = CAT_SHOES
+	subcategory = CAT_GENCLOTHES
 
 /datum/crafting_recipe/sneakers
 	name = "Sneakers"
@@ -162,7 +162,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 10
 	category = CAT_CLOTHING
-	subcategory = CAT_SHOES
+	subcategory = CAT_GENCLOTHES
 
 /datum/crafting_recipe/footcloths
 	name = "Footcloths"
@@ -171,7 +171,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 5
 	category = CAT_CLOTHING
-	subcategory = CAT_SHOES
+	subcategory = CAT_GENCLOTHES
 
 /datum/crafting_recipe/cowboy
 	name = "Cowboy boots"
@@ -180,7 +180,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 10
 	category = CAT_CLOTHING
-	subcategory = CAT_SHOES
+	subcategory = CAT_GENCLOTHES
 
 /datum/crafting_recipe/explorer
 	name = "Work boots"
@@ -189,7 +189,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 10
 	category = CAT_CLOTHING
-	subcategory = CAT_SHOES
+	subcategory = CAT_GENCLOTHES
 
 /datum/crafting_recipe/fancy
 	name = "Leather shoes, black"
@@ -198,7 +198,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 15
 	category = CAT_CLOTHING
-	subcategory = CAT_SHOES
+	subcategory = CAT_GENCLOTHES
 
 /datum/crafting_recipe/brownie
 	name = "Leather shoes, brown"
@@ -207,7 +207,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 10
 	category = CAT_CLOTHING
-	subcategory = CAT_SHOES
+	subcategory = CAT_GENCLOTHES
 
 /datum/crafting_recipe/tan
 	name = "Leather shoes, tan"
@@ -216,7 +216,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 10
 	category = CAT_CLOTHING
-	subcategory = CAT_SHOES
+	subcategory = CAT_GENCLOTHES
 
 /*
 /datum/crafting_recipe/armwraps
@@ -306,7 +306,7 @@
 	tools = list(TOOL_WORKBENCH)
 	time = 10
 	category = CAT_CLOTHING
-	subcategory = CAT_MISCCLOTHING	//F13 category
+	subcategory = CAT_GENCLOTHES	//F13 category
 
 /*
 /datum/crafting_recipe/hudsunsec

@@ -4,7 +4,7 @@
 
 /datum/component/personal_crafting/proc/create_mob_button(mob/user)
 	var/datum/hud/H = user.hud_used
-	var/obj/screen/craft/C = new()
+	var/atom/movable/screen/craft/C = new()
 	C.icon = H.ui_style
 	H.static_inventory += C
 	user.client.screen += C
@@ -24,13 +24,13 @@
 					CAT_SCAVENGING,
 					CAT_FORGING,
 					CAT_TOOL,
-					CAT_ROBOT,
+					//CAT_ROBOT,
 				),
 				CAT_MISC = list(
 					CAT_FARMING,
 					CAT_MISCELLANEOUS,
-					CAT_FURNITURE,
-					CAT_BOTTLE,
+					//CAT_FURNITURE,
+					//CAT_BOTTLE,
 				),
 				CAT_PRIMAL = CAT_NONE,
 				CAT_FOOD = list(
@@ -45,15 +45,16 @@
 				),
 				CAT_CLOTHING = list(
 					CAT_GENCLOTHES,
-					CAT_SHOES,
-					CAT_MISCCLOTHING,
+					//CAT_SHOES,
+					//CAT_MISCCLOTHING,
 					CAT_ARMOR,
-					CAT_WASTELAND,
-					CAT_BELTS
+					CAT_ACCESSORIES,
+					//CAT_WASTELAND,
+					//CAT_BELTS
 				),
 				CAT_MEDICAL = CAT_NONE,
 				CAT_DRINK = CAT_NONE,
-				CAT_EXPLOSIVE = CAT_NONE,
+				//CAT_EXPLOSIVE = CAT_NONE,
 			)
 
 	var/cur_category = CAT_NONE
@@ -346,7 +347,7 @@
 		Deletion.Cut(Deletion.len)
 		qdel(DL)
 
-/datum/component/personal_crafting/proc/component_ui_interact(obj/screen/craft/image, location, control, params, user)
+/datum/component/personal_crafting/proc/component_ui_interact(atom/movable/screen/craft/image, location, control, params, user)
 	if(user == parent)
 		ui_interact(user)
 
