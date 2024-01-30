@@ -33573,6 +33573,9 @@
 	icon_state = "redrusty"
 	},
 /area/f13/wasteland)
+"oHT" = (
+/turf/closed/wall/f13/ruins,
+/area/f13/tunnel)
 "oHV" = (
 /obj/structure/railing/corner{
 	color = "#A47449";
@@ -43081,6 +43084,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/wasteland)
+"sPR" = (
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/f13/tunnel)
 "sQa" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood,
@@ -50239,6 +50247,12 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
+"vXy" = (
+/obj/structure/ladder,
+/turf/open/floor/plasteel/f13{
+	icon_state = "darkrustysolid"
+	},
+/area/f13/tunnel)
 "vXA" = (
 /obj/structure/closet/locker,
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
@@ -56984,10 +56998,10 @@ oIy
 dQZ
 jqZ
 jqZ
-jqZ
-jqZ
-jqZ
-jqZ
+dQZ
+oHT
+oHT
+dQZ
 jqZ
 jqZ
 jqZ
@@ -57486,10 +57500,10 @@ giy
 xXn
 jqZ
 jqZ
-jqZ
-jqZ
-jqZ
-jqZ
+oHT
+vXy
+sPR
+oHT
 jqZ
 jqZ
 jqZ
@@ -57988,10 +58002,10 @@ nCE
 xXn
 jqZ
 jqZ
-jqZ
-jqZ
-jqZ
-jqZ
+oHT
+sPR
+sPR
+oHT
 jqZ
 jqZ
 jqZ
@@ -58490,10 +58504,10 @@ giy
 dQZ
 jqZ
 jqZ
-jqZ
-ulA
-ulA
-ulA
+dQZ
+oHT
+sPR
+dQZ
 jqZ
 jqZ
 jqZ
@@ -58990,8 +59004,8 @@ dHw
 ppJ
 dHw
 tAG
-jqZ
-jqZ
+ram
+vqW
 ulA
 ulA
 ulA
