@@ -379,23 +379,6 @@
 				/obj/item/clothing/head/helmet/f13/sulphitehelm
 				)
 
-/obj/effect/spawner/lootdrop/f13/armor/tier4 //TIER 4 ARMOR
-	name = "tier 4 armor"
-	icon_state = "armort4_loot"
-	loot = list(
-				/obj/effect/spawner/bundle/f13/armor/t45b_salvaged,
-				/obj/effect/spawner/bundle/f13/armor/riot,
-				/obj/effect/spawner/bundle/f13/armor/combat/mk2,
-				/obj/effect/spawner/bundle/f13/armor/combat/mk2/dark
-				)
-
-/obj/effect/spawner/bundle/f13/armor/t45b_salvaged
-	name = "salvaged t45b power armor spawner"
-	items = list(
-				/obj/item/clothing/suit/armored/heavy/salvaged_pa/t45b,
-				/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45b
-				)
-
 /obj/effect/spawner/bundle/f13/armor/riot
 	name = "riot armor spawner"
 	items = list(
@@ -427,55 +410,70 @@
 /obj/effect/spawner/bundle/f13/armor/raiderpa
 	name = "raider power armor spawner"
 	items = list(
-				/obj/item/clothing/suit/armored/heavy/salvaged_pa/t45b/raider,
-				/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45b/raider
-				)
+		/obj/item/clothing/suit/armored/heavy/salvaged_pa/t45d/raider,
+		/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45d/raider
+	)
 
 /obj/effect/spawner/bundle/f13/armor/hotrodpa
 	name = "hotrod power armor spawner"
 	items = list(
-				/obj/item/clothing/suit/armored/heavy/salvaged_pa/t45b/hotrod,
-				/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45b/hotrod
-				)
+		/obj/item/clothing/suit/armored/heavy/salvaged_pa/t45d/hotrod,
+		/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45d/hotrod
+	)
 
+/obj/effect/spawner/bundle/f13/armor/t45d_salvaged
+	name = "salvaged t45d power armor spawner"
+	items = list(
+		/obj/item/clothing/suit/armored/heavy/salvaged_pa/t45d,
+		/obj/item/clothing/head/helmet/f13/heavy/salvaged_pa/t45d
+	)
 
-/obj/effect/spawner/lootdrop/f13/armor/tier5 //TIER 5 ARMOR
-	name = "tier 5 armor"
-	icon_state = "armort5_loot"
+/obj/effect/spawner/lootdrop/f13/armor/tier4 //TIER 4 ARMOR
+	name = "tier 4 armor"
+	icon_state = "armort4_loot"
 	loot = list(
-				/obj/effect/spawner/bundle/f13/armor/t45d,
-				/obj/effect/spawner/bundle/f13/armor/t51b,
-				/obj/effect/spawner/bundle/f13/armor/t45b_salvaged = 2,
-				)
+		/obj/effect/spawner/bundle/f13/armor/t45d_salvaged,
+		/obj/effect/spawner/bundle/f13/armor/riot,
+		/obj/effect/spawner/bundle/f13/armor/combat/mk2,
+		/obj/effect/spawner/bundle/f13/armor/combat/mk2/dark
+	)
 
 /obj/effect/spawner/bundle/f13/armor/t45d
 	name = "t45d power armor spawner"
 	items = list(
-				/obj/item/clothing/suit/armor/f13/power_armor/t45d,
-				/obj/item/clothing/head/helmet/f13/power_armor/t45d,
-				)
+		/obj/item/clothing/suit/armor/f13/power_armor/t45d,
+		/obj/item/clothing/head/helmet/f13/power_armor/t45d,
+	)
 
 /obj/effect/spawner/bundle/f13/armor/t51b
 	name = "t51b power armor spawner"
 	items = list(
-				/obj/item/clothing/suit/armor/f13/power_armor/t51b,
-				/obj/item/clothing/head/helmet/f13/power_armor/t51b,
-				)
+		/obj/item/clothing/suit/armor/f13/power_armor/t51b,
+		/obj/item/clothing/head/helmet/f13/power_armor/t51b,
+	)
 
 
 /obj/effect/spawner/bundle/f13/armor/t51b_midwest
 	name = "t51b midwest power armor spawner"
 	items = list(
-			/obj/item/clothing/suit/armor/f13/power_armor/midwest,
-			/obj/item/clothing/head/helmet/f13/power_armor/midwest,
-			)
+		/obj/item/clothing/suit/armor/f13/power_armor/midwest,
+		/obj/item/clothing/head/helmet/f13/power_armor/midwest,
+	)
 
 /obj/effect/spawner/bundle/f13/armor/excavator
-	name = "t51b excavator power armor spawner"
+	name = "excavator power armor spawner"
 	items = list(
 		/obj/item/clothing/head/helmet/f13/power_armor/excavator,
 		/obj/item/clothing/suit/armor/f13/power_armor/excavator,
-		)
+	)
+
+/obj/effect/spawner/lootdrop/f13/armor/tier5 //TIER 5 ARMOR
+	name = "tier 5 armor"
+	icon_state = "armort5_loot"
+	loot = list(
+		/obj/effect/spawner/bundle/f13/armor/t45d,
+		/obj/effect/spawner/bundle/f13/armor/t51b,
+	)
 
 /obj/effect/spawner/lootdrop/f13/armor/random
 	name = "random armor loot"
@@ -939,7 +937,7 @@
 	icon_state = "gunsuperhigh_loot"
 	loot = list(
 				/obj/effect/spawner/bundle/f13/amr,
-				///obj/item/gun/ballistic/rocketlauncher,
+				/obj/item/gun/ballistic/rocketlauncher,
 				/obj/item/gun/ballistic/shotgun/automatic/combat/citykiller,
 				/obj/effect/spawner/bundle/f13/p90,
 				/obj/effect/spawner/bundle/f13/calico,
@@ -1609,14 +1607,14 @@
 /obj/effect/spawner/bundle/f13/rocketlauncher
 	name = "rocket launcher and ammo spawner"
 	items = list(
-				///obj/item/gun/ballistic/rocketlauncher,
+				/obj/item/gun/ballistic/rocketlauncher,
 				/obj/item/ammo_casing/caseless/rocket
 	)
 
 /obj/effect/spawner/bundle/f13/grenadelauncher
 	name = "grenade launcher and ammo spawner"
 	items = list(
-				///obj/item/gun/ballistic/revolver/grenadelauncher,
+				/obj/item/gun/ballistic/revolver/grenadelauncher,
 				/obj/item/ammo_box/a40mmHE
 	)
 
@@ -1735,10 +1733,9 @@
 				/obj/item/ammo_box/magazine/lmg = 2,
 				/obj/item/ammo_box/magazine/type88 = 2,
 				/obj/item/stock_parts/cell/ammo/mfc,
-				// /obj/item/ammo_casing/caseless/rocket,
-				// /obj/item/ammo_box/a40mmHE,
-				// /obj/item/ammo_casing/a40mmS,
-				// /obj/item/ammo_casing/a40mmF,
+				/obj/item/ammo_casing/caseless/rocket,
+				/obj/item/ammo_box/a40mmHE,
+				/obj/item/ammo_casing/a40mmF,
 	)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4/Initialize(mapload) //on mapload, pick how many shit to spawn
@@ -1752,13 +1749,12 @@
 	loot = list(
 				/obj/item/ammo_box/a50MG/incendiary,
 				/obj/item/ammo_box/a50MG/penetrator,
-				// /obj/item/ammo_casing/caseless/rocket/big,
-				// /obj/item/ammo_casing/caseless/rocket/incendiary = 10,
-				// /obj/item/ammo_casing/caseless/rocket/chem = 3,
-				// /obj/item/ammo_box/a40mmHEDP,
-				// /obj/item/ammo_box/a40mmM,
-				// /obj/item/ammo_casing/a40mmCS = 3,
-				// /obj/item/ammo_box/a40mmI = 10,
+				/obj/item/ammo_casing/caseless/rocket/big,
+				/obj/item/ammo_casing/caseless/rocket/incendiary = 10,
+				/obj/item/ammo_casing/caseless/rocket/chem = 3,
+				/obj/item/ammo_box/a40mmHEDP,
+				/obj/item/ammo_box/a40mmM,
+				/obj/item/ammo_box/a40mmI = 10,
 	)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5/Initialize(mapload) //on mapload, pick how many shit to spawn
@@ -1802,7 +1798,7 @@
 				/obj/item/grenade/empgrenade,
 				/obj/item/grenade/f13/radiation,
 				/obj/item/grenade/f13/frag,
-				///obj/effect/spawner/bundle/f13/grenadelauncher,
+				/obj/effect/spawner/bundle/f13/grenadelauncher,
 				)
 
 /obj/effect/spawner/lootdrop/f13/bomb/top_tier
@@ -1816,7 +1812,7 @@
 				/obj/item/grenade/f13/he_grenade,
 				/obj/item/grenade/plastic/x4,
 				/obj/item/grenade/stingbang/shred = 1,
-				///obj/effect/spawner/bundle/f13/rocketlauncher,
+				/obj/effect/spawner/bundle/f13/rocketlauncher,
 				)
 
 
@@ -1958,8 +1954,7 @@
 					/obj/item/seeds/plump,
 					/obj/item/seeds/reishi,
 					/obj/item/seeds/cannabis,
-					/obj/item/seeds/starthistle,
-					/obj/item/seeds/random)
+					/obj/item/seeds/starthistle)
 	. = ..()
 
 /obj/effect/spawner/lootdrop/f13/foodspawner
@@ -2468,3 +2463,18 @@
 				/obj/effect/spawner/bundle/f13/wattz2k = 10,
 				/obj/effect/spawner/bundle/f13/ionrifle = 2
 				)
+
+/obj/effect/spawner/lootdrop/f13/gasmask_goner
+	name = "full gas mask working chance"
+	loot = list(
+		/obj/item/clothing/mask/gas/goner/aesthetic = 8,
+		/obj/item/clothing/mask/gas/goner = 2
+	)
+
+/obj/effect/spawner/bundle/f13/armor/goner/green
+	name = "green trencher outfit spawner"
+	items = list(
+		/obj/item/clothing/suit/f13/goner/green,
+		/obj/effect/spawner/lootdrop/f13/gasmask_goner,
+		/obj/item/clothing/head/helmet/f13/goner/green
+	)

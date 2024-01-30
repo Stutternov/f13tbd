@@ -15,7 +15,7 @@
 	id = null
 	ears = /obj/item/radio/headset/headset_enclave
 	glasses = /obj/item/clothing/glasses/night/f13/enclave
-	box = /obj/item/storage/survivalkit_adv
+	box = /obj/item/storage/survivalkit/advanced
 
 /datum/outfit/job/enclave/peacekeeper
 	id = /obj/item/card/id/dogtag/enclave/trooper
@@ -25,7 +25,6 @@
 	satchel = /obj/item/storage/backpack/satchel/enclave
 	belt = /obj/item/storage/belt/military/assault/enclave
 	uniform = /obj/item/clothing/under/f13/enclave/peacekeeper
-	r_pocket = /obj/item/flashlight/seclite
 	shoes = /obj/item/clothing/shoes/f13/enclave/serviceboots
 	gloves = /obj/item/clothing/gloves/f13/military
 
@@ -35,7 +34,6 @@
 	satchel = /obj/item/storage/backpack/satchel/enclave
 	belt = /obj/item/storage/belt/military/assault/enclave
 	uniform = /obj/item/clothing/under/f13/enclave/science
-	r_pocket = /obj/item/flashlight/seclite
 	shoes = /obj/item/clothing/shoes/f13/enclave/serviceboots
 
 /datum/outfit/job/enclave/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -194,10 +192,10 @@
 
 /datum/outfit/loadout/lt_frontline
 	name = "Frontline Commanding Officer"
-	suit_store = /obj/item/gun/ballistic/automatic/pistol/deagle/elcapitan
+	suit_store = /obj/item/gun/ballistic/revolver/m29/peacekeeper
 	suit = /obj/item/clothing/suit/armor/f13/usmcriot
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m14mm  = 3
+		/obj/item/ammo_box/m44box = 2,
 	)
 
 // Gunnery Sergeant
@@ -262,6 +260,7 @@
 /datum/outfit/loadout/gysgt_spear
 	name = "Spearhead Assaultman"
 	backpack_contents = list(
+		/obj/item/book/granter/trait/bigleagues = 1,
 		/obj/item/gun/ballistic/revolver/ballisticfist = 1,
 		/obj/item/ammo_box/shotgun/slug = 1,
 		/obj/item/gun/energy/laser/plasma/glock = 1,
@@ -277,6 +276,7 @@
 	ADD_TRAIT(H, TRAIT_LIFEGIVER,  REF(src))
 	ADD_TRAIT(H, TRAIT_RESEARCHER,  REF(src))
 	ADD_TRAIT(H, TRAIT_ENCLAVE_CODES,  REF(src))
+	ADD_TRAIT(H, TRAIT_HARD_YARDS,  REF(src))
 	H.AddSpell(new /obj/effect/proc_holder/spell/terrifying_presence)
 	H.grant_language(/datum/language/codespeak, TRUE, TRUE, LANGUAGE_MIND)
 
@@ -352,8 +352,8 @@
 		/obj/item/suppressor = 1, //they get a flashlight in their bag
 		/obj/item/gun/energy/laser/plasma/pistol = 1,
 		/obj/item/stock_parts/cell/ammo/ec = 2,
-		/obj/item/grenade/f13/plasma = 2,
-		/obj/item/grenade/smokebomb = 2
+		/obj/item/grenade/f13/plasma = 1,
+		/obj/item/grenade/smokebomb = 1
 		)
 
 /datum/outfit/job/enclave/peacekeeper/enclavesgt/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -361,7 +361,6 @@
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_HARD_YARDS,  REF(src))
-	ADD_TRAIT(H, TRAIT_PA_WEAR,  REF(src))
 	ADD_TRAIT(H, TRAIT_RESEARCHER,  REF(src))
 	ADD_TRAIT(H, TRAIT_ENCLAVE_CODES,  REF(src))
 	H.grant_language(/datum/language/codespeak, TRUE, TRUE, LANGUAGE_MIND)
@@ -419,7 +418,6 @@
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_HARD_YARDS,  REF(src))
 	ADD_TRAIT(H, TRAIT_PA_WEAR,  REF(src))
 	ADD_TRAIT(H, TRAIT_RESEARCHER,  REF(src))
 	ADD_TRAIT(H, TRAIT_ENCLAVE_CODES,  REF(src))
@@ -512,6 +510,7 @@
 	loadout_options = list(
 		/datum/outfit/loadout/reconmarine, // Infantry Rifle
 		/datum/outfit/loadout/mobileartillery, // Trench Shotgun
+		/datum/outfit/loadout/jarhead,	//Melee + Pistols role
 		)
 
 /datum/outfit/job/enclave/peacekeeper/enclavespy
@@ -523,7 +522,6 @@
 
 	backpack_contents = list(
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
-		/obj/item/grenade/smokebomb = 1,
 		/obj/item/pda = 1,
 		/obj/item/melee/onehanded/knife/bowie = 1,
 		/obj/item/clothing/mask/chameleon = 1,
@@ -536,8 +534,8 @@
 	suit_store = /obj/item/gun/ballistic/automatic/infantry_rifle
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m5mm = 2,
-		/obj/item/gun/energy/laser/plasma/pistol/light = 1,
-		/obj/item/stock_parts/cell/ammo/ec = 2
+		/obj/item/gun/ballistic/automatic/pistol/mk23 = 1,
+		/obj/item/ammo_box/magazine/m45exp = 2
 		)
 
 /datum/outfit/loadout/mobileartillery
@@ -548,6 +546,16 @@
 		/obj/item/gun/ballistic/automatic/pistol/mk23 = 1,
 		/obj/item/ammo_box/magazine/m45exp = 2
 		)
+
+/datum/outfit/loadout/jarhead
+	name = "Quick-Response Marine"
+	backpack_contents = list(
+		/obj/item/gun/energy/laser/plasma/pistol/light = 1,
+		/obj/item/stock_parts/cell/ammo/ec = 2,
+		/obj/item/melee/powered/ripper = 1,
+		/obj/item/grenade/smokebomb = 1
+	)
+
 
 /datum/outfit/job/enclave/peacekeeper/enclavespy/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -580,9 +588,9 @@
 	suit = /obj/item/clothing/suit/armor/f13/environmentalsuit
 	belt = /obj/item/storage/belt/medical
 	suit_store =  /obj/item/tank/internals/oxygen
+	box = /obj/item/storage/survivalkit/firstaid/advanced
 
 	backpack_contents = list(
-		/obj/item/storage/survivalkit_aid_adv = 1,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
 		/obj/item/pda = 1,
 		/obj/item/gun/ballistic/automatic/pistol/mk23 = 1,
@@ -644,7 +652,7 @@
 	ears = /obj/item/radio/headset/headset_enclave/command
 
 	backpack_contents = list(
-		/obj/item/storage/survivalkit_aid_adv = 1,
+		/obj/item/storage/survivalkit/firstaid/advanced = 1,
 		/obj/item/pda = 1,
 		/obj/item/storage/bag/money/small/wastelander = 1,
 		/obj/item/melee/onehanded/knife/survival = 1,
@@ -691,10 +699,9 @@
 	id = /obj/item/card/id/dogtag/enclave/trooper
 	glasses = /obj/item/clothing/glasses/sunglasses/big
 	uniform = /obj/item/clothing/under/f13/enclave/peacekeeper
-
+	box = null
 	backpack_contents = list(
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
-		/obj/item/storage/survivalkit_aid_adv = 1,
 		/obj/item/storage/bag/money/small/wastelander = 1,
 		)
 
@@ -703,6 +710,7 @@
 	mask = /obj/item/clothing/mask/surgical
 	suit = /obj/item/clothing/suit/hooded/surgical
 	gloves = /obj/item/clothing/gloves/color/latex/nitrile
+	box = /obj/item/storage/survivalkit/firstaid
 	backpack_contents = list(
 		/obj/item/book/granter/trait/chemistry = 1,
 		/obj/item/healthanalyzer = 1,
@@ -713,6 +721,7 @@
 	head = /obj/item/clothing/head/hardhat
 	suit = /obj/item/clothing/suit/hazardvest
 	gloves = /obj/item/clothing/gloves/color/yellow
+	box = /obj/item/storage/survivalkit/advanced
 	backpack_contents = list(
 		/obj/item/storage/belt/utility = 1,
 		/obj/item/stack/sheet/metal/twenty = 1,
@@ -725,6 +734,7 @@
 	gloves = /obj/item/clothing/gloves/color/black
 	head = /obj/item/clothing/head/soft/purple
 	shoes = /obj/item/clothing/shoes/galoshes
+	box = /obj/item/storage/survivalkit/advanced
 	backpack_contents = list(
 		/obj/item/reagent_containers/spray/cleaner = 1,
 		/obj/item/mop/advanced = 1,
@@ -735,6 +745,7 @@
 	name = "Spiritual Technician"
 	mask = /obj/item/clothing/mask/surgical
 	suit = /obj/item/clothing/suit/f13/autumn
+	box = /obj/item/storage/survivalkit/advanced
 	backpack_contents = list(
 		/obj/item/storage/book/bible = 2,
 		/obj/item/pen = 1,
@@ -745,6 +756,7 @@
 	name = "Culinary Technician"
 	head = /obj/item/clothing/head/chefhat
 	suit = /obj/item/clothing/neck/apron/housewife
+	box = /obj/item/storage/survivalkit/advanced
 	backpack_contents = list(
 		/obj/item/storage/box/ingredients/wildcard = 4,
 		/obj/item/kitchen/knife/butcher = 1,
@@ -785,7 +797,7 @@
 		/obj/item/gun/energy/laser/plasma/pistol = 1,
 		/obj/item/storage/belt/holster = 1,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
-		/obj/item/storage/survivalkit_aid_adv = 1,
+		/obj/item/storage/survivalkit/firstaid/advanced = 1,
 		)
 
 /datum/outfit/job/enclave/noncombat/enc_maj/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
