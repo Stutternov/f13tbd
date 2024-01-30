@@ -132,14 +132,13 @@
 	ammo_type = list(/obj/item/ammo_casing/energy/plasma/caster)
 	cell_type = /obj/item/stock_parts/cell/ammo/mfc
 	w_class = WEIGHT_CLASS_BULKY
+	weapon_weight = WEAPON_HEAVY
 	slot_flags = ITEM_SLOT_BACK
-	weapon_weight = WEAPON_LIGHT
 	slowdown = 0.4
 	automatic = TRUE
 	fire_delay = 3 //yes, it is a fast weapon
 	autofire_shot_delay = 3
 	fire_delay = 3
-	var/twohands = FALSE
 
 /obj/item/gun/energy/laser/plasma/caster/ComponentInitialize()
 	. = ..()
@@ -147,13 +146,6 @@
 	AddElement(/datum/element/update_icon_updates_onmob)
 	RegisterSignal(src, COMSIG_TWOHANDED_WIELD, .proc/allow_fire)
 	RegisterSignal(src, COMSIG_TWOHANDED_UNWIELD, .proc/deny_fire)
-
-
-/obj/item/gun/energy/laser/plasma/caster/proc/allow_fire()
-	twohands = TRUE
-
-/obj/item/gun/energy/laser/plasma/caster/proc/deny_fire()
-	twohands = FALSE
 
 
 /obj/item/gun/energy/laser/plasma/caster/Destroy()
