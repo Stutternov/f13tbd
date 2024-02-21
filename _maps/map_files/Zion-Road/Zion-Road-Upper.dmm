@@ -514,8 +514,8 @@
 /obj/structure/table,
 /obj/machinery/computer/terminal{
 	dir = 8;
-	termtag = "Business";
-	pixel_y = 3
+	pixel_y = 3;
+	termtag = "Business"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
@@ -720,9 +720,9 @@
 	desc = "A refurbished military action figure made to look like a member of the Brotherhood of Steel.";
 	layer = 2;
 	name = "Head Scribe Action Figure";
-	toysay = "Ad astra per aspera.";
 	pixel_x = 6;
-	pixel_y = 8
+	pixel_y = 8;
+	toysay = "Ad astra per aspera."
 	},
 /obj/item/pda/heads/cmo{
 	name = "Head Scribe PipBoy"
@@ -1224,8 +1224,8 @@
 	layer = 3.01
 	},
 /obj/structure/curtain{
-	color = "#363636";
-	alpha = 245
+	alpha = 245;
+	color = "#363636"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
@@ -1331,10 +1331,10 @@
 	},
 /obj/structure/curtain{
 	color = "#4e638a";
-	open = 0;
 	icon_state = "closed";
+	layer = 4.01;
 	opacity = 1;
-	layer = 4.01
+	open = 0
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -1559,7 +1559,7 @@
 /obj/machinery/door/unpowered/securedoor{
 	damage_deflection = 28;
 	max_integrity = 600;
-	name = "Vertan Decanus' Quarters";
+	name = "Veteran Decanus' Quarters";
 	obj_integrity = 600;
 	req_access_txt = "123"
 	},
@@ -1655,19 +1655,19 @@
 "fP" = (
 /obj/structure/decoration/hatch{
 	dir = 1;
-	pixel_y = -12;
 	layer = 3.0;
-	pixel_x = -1
+	pixel_x = -1;
+	pixel_y = -12
 	},
 /obj/effect/decal/cleanable/generic,
 /obj/structure/reagent_dispensers/rainwater_tank{
+	density = 0;
 	pixel_x = 1;
-	pixel_y = 22;
-	density = 0
+	pixel_y = 22
 	},
 /obj/machinery/shower{
-	pixel_y = 9;
-	pixel_x = 9
+	pixel_x = 9;
+	pixel_y = 9
 	},
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
@@ -1712,9 +1712,9 @@
 "fW" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green{
-	pixel_y = 13;
+	light_range = 6;
 	pixel_x = -5;
-	light_range = 6
+	pixel_y = 13
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/wood_fancy/wood_fancy_light,
@@ -2157,15 +2157,15 @@
 /area/f13/wasteland)
 "hC" = (
 /obj/machinery/computer/security/bos{
+	dir = 8;
 	name = "Head Scribe's Camera Terminal";
 	pixel_x = -4;
-	dir = 8;
 	pixel_y = 6
 	},
 /obj/machinery/computer/terminal{
-	pixel_y = -8;
+	dir = 8;
 	pixel_x = -4;
-	dir = 8
+	pixel_y = -8
 	},
 /obj/structure/table/reinforced,
 /obj/structure/railing{
@@ -2413,8 +2413,8 @@
 "it" = (
 /obj/structure/table,
 /obj/structure/sign/poster/random{
-	pixel_y = 32;
-	pixel_x = -17
+	pixel_x = -17;
+	pixel_y = 32
 	},
 /obj/item/trash/f13/dog{
 	pixel_y = 17
@@ -2752,8 +2752,8 @@
 /area/f13/wasteland)
 "jD" = (
 /obj/structure/campfire/stove{
-	pixel_y = 9;
-	pixel_x = 6
+	pixel_x = 6;
+	pixel_y = 9
 	},
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/wood/wood_fancy/wood_fancy_light,
@@ -3004,10 +3004,10 @@
 	},
 /obj/structure/curtain{
 	color = "#4e638a";
-	open = 0;
 	icon_state = "closed";
+	layer = 4.01;
 	opacity = 1;
-	layer = 4.01
+	open = 0
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -3375,8 +3375,8 @@
 "lI" = (
 /obj/machinery/door/airlock/grunge{
 	id_tag = "sentdorm";
-	req_access_txt = "120";
-	name = "Senior Paladin Office"
+	name = "Senior Paladin Office";
+	req_access_txt = "120"
 	},
 /turf/open/floor/wood/wood_wide,
 /area/f13/brotherhood/offices1st)
@@ -3706,8 +3706,8 @@
 "mU" = (
 /obj/structure/table,
 /obj/item/toy/cards/deck{
-	pixel_y = 5;
-	pixel_x = 1
+	pixel_x = 1;
+	pixel_y = 5
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -4420,8 +4420,8 @@
 	pixel_y = 4
 	},
 /obj/item/reagent_containers/food/snacks/meatball{
-	pixel_y = -9;
-	pixel_x = 4
+	pixel_x = 4;
+	pixel_y = -9
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
@@ -4674,8 +4674,8 @@
 	pixel_y = 5
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_y = 9;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 9
 	},
 /obj/item/reagent_containers/food/drinks/bottle/whiskey{
 	pixel_y = 16
@@ -5028,12 +5028,12 @@
 	pixel_y = 8
 	},
 /obj/structure/sign/poster/prewar/poster73{
-	pixel_y = -2;
-	pixel_x = 31
+	pixel_x = 31;
+	pixel_y = -2
 	},
 /obj/item/bedsheet/captain{
-	pixel_y = 9;
-	pixel_x = -1
+	pixel_x = -1;
+	pixel_y = 9
 	},
 /turf/open/floor/wood/wood_fancy/wood_fancy_dark,
 /area/f13/wasteland)
@@ -5099,8 +5099,8 @@
 	pixel_x = 13
 	},
 /obj/structure/mirror{
-	pixel_y = 1;
-	pixel_x = 27
+	pixel_x = 27;
+	pixel_y = 1
 	},
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
@@ -5161,16 +5161,16 @@
 "se" = (
 /obj/structure/table,
 /obj/item/cigbutt{
-	pixel_y = 3;
-	pixel_x = 1
+	pixel_x = 1;
+	pixel_y = 3
 	},
 /obj/item/cigbutt{
-	pixel_y = 7;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 7
 	},
 /obj/item/cigbutt{
-	pixel_y = 10;
-	pixel_x = 1
+	pixel_x = 1;
+	pixel_y = 10
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -6281,13 +6281,13 @@
 	icon_state = "book-4"
 	},
 /obj/item/toy/figure/chaplain{
-	pixel_y = 14;
-	pixel_x = -10
+	pixel_x = -10;
+	pixel_y = 14
 	},
 /obj/item/toy/figure/ninja{
-	pixel_y = 13;
+	name = "Knight Falchion";
 	pixel_x = 8;
-	name = "Knight Falchion"
+	pixel_y = 13
 	},
 /turf/open/floor/wood,
 /area/f13/brotherhood/offices1st)
@@ -6539,10 +6539,10 @@
 "xn" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lantern{
-	pixel_y = 9;
-	light_on = 1;
 	icon_state = "lantern-on";
-	on = 1
+	light_on = 1;
+	on = 1;
+	pixel_y = 9
 	},
 /turf/open/floor/wood/wood_fancy/wood_fancy_dark,
 /area/f13/wasteland)
@@ -6865,8 +6865,8 @@
 	color = "#363636"
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_y = 9;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 9
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
 	pixel_x = -1;
@@ -6989,12 +6989,12 @@
 "yQ" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green{
-	pixel_y = 5;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 5
 	},
 /obj/item/book/granter/trait/chemistry{
-	pixel_y = 3;
-	pixel_x = 3
+	pixel_x = 3;
+	pixel_y = 3
 	},
 /turf/open/floor/wood,
 /area/f13/brotherhood/offices1st)
@@ -7371,8 +7371,8 @@
 "Ao" = (
 /obj/structure/dresser,
 /obj/item/reagent_containers/food/drinks/bottle/rum{
-	pixel_y = 18;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = 18
 	},
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/wood/wood_fancy/wood_fancy_dark,
@@ -7814,10 +7814,9 @@
 /turf/closed/wall/mineral/concrete,
 /area/f13/building/mall)
 "BN" = (
-/obj/structure/sink/well/clean{
-	pixel_x = -21
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/f13/decan,
+/turf/open/floor/wood/wood_common,
 /area/f13/legion)
 "BO" = (
 /turf/open/indestructible/ground/outside/ruins,
@@ -8811,6 +8810,16 @@
 	icon_state = "purplerusty"
 	},
 /area/f13/wasteland)
+"FA" = (
+/obj/machinery/door/unpowered/securedoor{
+	damage_deflection = 28;
+	max_integrity = 600;
+	name = "Vexillarius' Quarters";
+	obj_integrity = 600;
+	req_access_txt = "123"
+	},
+/turf/open/floor/wood/wood_mosaic,
+/area/f13/legion)
 "FB" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal,
@@ -9217,6 +9226,10 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"Hk" = (
+/obj/effect/landmark/start/f13/decanrec,
+/turf/open/floor/wood/wood_common,
+/area/f13/legion)
 "Hl" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4
@@ -9789,12 +9802,12 @@
 /area/f13/wasteland)
 "Ju" = (
 /obj/structure/curtain{
+	alpha = 245;
 	color = "#363636";
 	icon_state = "closed";
-	open = 0;
-	alpha = 245;
-	opacity = 1;
 	layer = 4.01;
+	opacity = 1;
+	open = 0;
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -10131,9 +10144,8 @@
 	},
 /area/f13/wasteland)
 "KL" = (
-/obj/structure/table/wood,
-/obj/effect/spawner/lootdrop/f13/traitbooks/low,
-/turf/open/floor/wood/wood_mosaic,
+/obj/effect/landmark/start/f13/decan,
+/turf/open/floor/wood/wood_common,
 /area/f13/legion)
 "KM" = (
 /obj/item/clothing/shoes/laceup,
@@ -11863,9 +11875,9 @@
 "Rx" = (
 /obj/structure/table/wood/settler,
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	layer = 3.01;
 	pixel_x = 4;
-	pixel_y = 2;
-	layer = 3.01
+	pixel_y = 2
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
 	pixel_x = -10;
@@ -12201,10 +12213,10 @@
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/f13/legion)
 "SP" = (
-/obj/effect/landmark/start/f13/decanrec,
 /obj/structure/chair/comfy/brown{
 	dir = 4
 	},
+/obj/effect/landmark/start/f13/vexillarius,
 /turf/open/floor/carpet/red,
 /area/f13/legion)
 "SQ" = (
@@ -12900,8 +12912,8 @@
 	pixel_y = 11
 	},
 /obj/item/camera_film{
-	pixel_y = 11;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 11
 	},
 /obj/item/camera,
 /turf/open/floor/f13/wood,
@@ -13330,8 +13342,8 @@
 	pixel_y = 5
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_y = 9;
-	pixel_x = -8
+	pixel_x = -8;
+	pixel_y = 9
 	},
 /obj/item/reagent_containers/food/drinks/bottle/applejack{
 	pixel_y = 22
@@ -78020,11 +78032,11 @@ TA
 Bm
 qT
 xH
-KL
+fe
 fe
 qT
 xH
-KL
+fe
 fe
 qT
 Fb
@@ -80543,7 +80555,7 @@ pC
 MY
 EM
 qT
-KL
+fe
 fe
 EM
 uV
@@ -81514,7 +81526,7 @@ Fb
 Fb
 Fb
 qT
-BN
+TA
 TA
 TA
 TA
@@ -83542,7 +83554,7 @@ TA
 qT
 qT
 qT
-HG
+FA
 qT
 qT
 qT
@@ -85052,7 +85064,7 @@ fe
 fe
 qT
 xH
-KL
+fe
 fe
 qT
 Fb
@@ -91560,32 +91572,32 @@ Lx
 TA
 TA
 Mn
+BN
+wG
+wG
+Mn
+KL
+wG
+wG
+Mn
+Fb
+Fb
+Fb
+Fb
+Fb
+Fb
+Fb
+Mn
 Xo
-wG
-wG
-Mn
-wG
-wG
-wG
-Mn
-Fb
-Fb
-Fb
-Fb
-Fb
-Fb
-Fb
-Mn
-Xo
-wG
+Hk
 wG
 Mn
 wG
-wG
+Hk
 wG
 Mn
 wG
-wG
+Hk
 Xo
 Mn
 TA
@@ -98097,6 +98109,7 @@ ja
 ja
 ja
 ja
+ja
 kl
 kl
 kl
@@ -98108,8 +98121,7 @@ kl
 kl
 kl
 kl
-kl
-kl
+ja
 ja
 ja
 ja
@@ -98599,6 +98611,7 @@ ja
 ja
 ja
 ja
+ja
 kl
 PU
 PU
@@ -98609,9 +98622,8 @@ PU
 PU
 PU
 PU
-PU
-PU
 kl
+ja
 ja
 ja
 ja
@@ -99101,6 +99113,7 @@ ja
 ja
 ja
 ja
+ja
 kl
 PU
 PU
@@ -99111,9 +99124,8 @@ PU
 PU
 PU
 PU
-PU
-PU
 kl
+ja
 ja
 ja
 ja
@@ -99603,6 +99615,7 @@ ja
 ja
 ja
 ja
+ja
 kl
 PU
 PU
@@ -99613,9 +99626,8 @@ PU
 PU
 PU
 PU
-PU
-PU
 kl
+ja
 ja
 ja
 ja
@@ -100105,6 +100117,7 @@ ja
 ja
 ja
 ja
+ja
 kl
 PU
 PU
@@ -100115,9 +100128,8 @@ PU
 PU
 PU
 PU
-PU
-PU
 kl
+ja
 ja
 ja
 ja
@@ -100607,6 +100619,7 @@ ja
 ja
 ja
 ja
+ja
 kl
 PU
 PU
@@ -100617,9 +100630,8 @@ PU
 PU
 PU
 PU
-PU
-PU
 kl
+ja
 ja
 ja
 ja
@@ -101109,6 +101121,7 @@ ja
 ja
 ja
 ja
+ja
 kl
 PU
 PU
@@ -101119,9 +101132,8 @@ PU
 PU
 PU
 PU
-PU
-PU
 kl
+ja
 ja
 ja
 ja
@@ -101611,6 +101623,7 @@ ja
 ja
 ja
 ja
+ja
 kl
 PU
 PU
@@ -101621,9 +101634,8 @@ PU
 PU
 PU
 PU
-PU
-PU
 kl
+ja
 ja
 ja
 ja
@@ -102113,19 +102125,19 @@ ja
 ja
 ja
 ja
+ja
 kl
+PU
+PU
+PU
+PU
+PU
+PU
+PU
+PU
+PU
 kl
-kl
-kl
-kl
-kl
-kl
-kl
-kl
-kl
-kl
-kl
-kl
+ja
 ja
 ja
 ja
@@ -102616,17 +102628,17 @@ ja
 ja
 ja
 ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
-ja
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
 ja
 ja
 ja
