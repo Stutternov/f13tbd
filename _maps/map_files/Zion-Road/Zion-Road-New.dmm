@@ -16359,6 +16359,16 @@
 /obj/structure/destructible/tribal_torch/lit,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"hcb" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 10
+	},
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
+	},
+/area/f13/wasteland)
 "hcd" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -21202,8 +21212,13 @@
 /area/f13/city)
 "jhL" = (
 /obj/effect/turf_decal/arrows/red,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright0"
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
 	},
 /area/f13/wasteland)
 "jhP" = (
@@ -21411,8 +21426,13 @@
 /area/f13/ncr)
 "jkd" = (
 /obj/effect/turf_decal/arrows/red,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalleftborderleft0"
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
 	},
 /area/f13/wasteland)
 "jkl" = (
@@ -22426,8 +22446,13 @@
 /obj/effect/turf_decal/arrows/red{
 	dir = 1
 	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright0"
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
 	},
 /area/f13/wasteland)
 "jJm" = (
@@ -22732,8 +22757,13 @@
 /obj/effect/turf_decal/arrows/red{
 	dir = 1
 	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalleftborderleft0"
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
 	},
 /area/f13/wasteland)
 "jPF" = (
@@ -51251,8 +51281,13 @@
 /area/f13/bar/heaven)
 "wnd" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
 	},
 /area/f13/wasteland)
 "wnR" = (
@@ -51636,6 +51671,17 @@
 /turf/open/floor/plasteel/stairs{
 	color = "#4b3a26";
 	dir = 8
+	},
+/area/f13/wasteland)
+"wvK" = (
+/obj/effect/turf_decal/weather/dirt,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 6
+	},
+/turf/open/indestructible/ground/outside/gravel{
+	color = "#B7ABAB";
+	footstep = "dirt";
+	name = "rocky dirt"
 	},
 /area/f13/wasteland)
 "wwc" = (
@@ -146426,15 +146472,15 @@ lZr
 qJY
 lZr
 lZr
-asO
-wJM
+wtE
+esK
 jhL
-wJM
-wJM
-wJM
-wJM
-wJM
-eTa
+esK
+esK
+esK
+esK
+esK
+hcb
 lZr
 lZr
 xDC
@@ -146928,15 +146974,15 @@ lZr
 jkG
 lZr
 lZr
-gwn
-ejG
+nWq
+rRB
 jkd
-gNl
-gNl
-gNl
-gNl
-cCO
-wkg
+ngx
+ngx
+ngx
+ngx
+rRB
+jdz
 lZr
 lZr
 xDC
@@ -147430,15 +147476,15 @@ lZr
 jkG
 lZr
 lZr
-vHk
-wkg
+nWq
+jdz
 lZr
 lZr
 lZr
 hHN
 lZr
-tAG
-wkg
+nWq
+jdz
 lZr
 lZr
 xDC
@@ -147932,15 +147978,15 @@ lZr
 qJY
 lZr
 lZr
-avf
-wkg
+nWq
+jdz
 lZr
 lZr
 lZr
 lZr
 lZr
-tAG
-wkg
+nWq
+jdz
 lZr
 lZr
 xDC
@@ -148434,15 +148480,15 @@ lZr
 qJY
 lZr
 lZr
-fDM
-wkg
+nWq
+jdz
 lZr
 lZr
 lZr
 lZr
 lZr
-gwn
-wkg
+nWq
+jdz
 lZr
 lZr
 xDC
@@ -148937,14 +148983,14 @@ qJY
 lZr
 lZr
 wnd
-wkg
+jdz
 lZr
 lZr
 lZr
 lZr
 lZr
-vHk
-wkg
+nWq
+jdz
 lZr
 lZr
 gmo
@@ -149438,15 +149484,15 @@ lZr
 huz
 lZr
 lZr
-tAG
-wkg
+nWq
+jdz
 lZr
 lZr
 lZr
 lZr
 lZr
-avf
-wkg
+nWq
+jdz
 lZr
 lZr
 xDC
@@ -149940,15 +149986,15 @@ lZr
 huz
 lZr
 lZr
-tAG
-oIh
-wJM
-wJM
-wJM
-wJM
+nWq
+rRB
+esK
+esK
+esK
+esK
 jJk
-uzo
-wkg
+rRB
+jdz
 lZr
 lZr
 xDC
@@ -150442,15 +150488,15 @@ lZr
 qJY
 lZr
 lZr
-dBb
-gNl
-gNl
-gNl
-gNl
-gNl
+jHf
+ngx
+ngx
+ngx
+ngx
+ngx
 jPE
-gNl
-kRC
+ngx
+wvK
 lZr
 lZr
 nAp
